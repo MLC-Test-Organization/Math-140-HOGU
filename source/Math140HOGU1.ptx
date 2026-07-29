@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week1" label="0001"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 140 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #1 (Sections 1.1 &amp; 1.2)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+      The Math 140 textbook is free, and can be viewed at <url href="https://oaktrust.library.tamu.edu/items/7d9f5efe-b63b-4c57-8db3-91790deed00d" visual="oaktrust.library.tamu.edu/items/7d9f5efe-b63b-4c57-8db3-91790deed00d">Texas A&amp;M OAKTrust Digital Repository</url>.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <introduction>
+          <p>
+            Use the matrices, given below, to complete the following tasks.
+            <md>A=\begin{bmatrix} 3 \amp -1 \amp 0 \amp 7\\ z \amp 4 \amp -3 \amp 10 \end{bmatrix},\ B=\begin{bmatrix} 1 \amp -1 \\ 0 \amp 3 \\ 2 \amp 8 \\ -4 \amp 5 \end{bmatrix},\ C=\begin{bmatrix} 1 \amp 2 \\ -1 \amp 0 \\ t \amp s \end{bmatrix}</md>
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Matrix <m>C</m> has dimensions <m>3\times 2</m> because it has ____ rows and ____ columns.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Matrix <m>C</m> has dimensions <m>3\times 2</m> because it has <m>3</m> rows and <m>2</m> columns.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The dimensions of matrix <m>B</m> are ____ <m>\times</m> ____ because it has ____ rows and ____ columns.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              The dimensions of matrix <m>B</m> are <m>4\times 2</m> because it has <m>4</m> rows and <m>2</m> columns.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Because the dimensions of matrix <m>A</m> are ____ <m>\times</m> ____, the dimensions of <m>A^T</m> are ____ <m>\times</m> ____.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Because the dimensions of matrix <m>A</m> are <m>2\times 4</m>, the dimensions of <m>A^T</m> are <m>4\times 2</m>.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Answer True of False for each of the following.
+              <ol>
+                <li>
+                  <p>
+                    <m>A+B</m> is a defined matrix.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>AB</m> is a defined matrix.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The dimensions of <m>BA</m> are <m>2\times 2</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>AB=BA</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>A+B^T=B^T+A</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              False, True, False, False, True
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              State the value of each entry:
+              <ol>
+                <li>
+                  <p>
+                    <m>a_{23}=</m> ____
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>c_{12}=</m> ____
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>a_{23}=-3</m>, <m>c_{12}=2</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            Given the matrices below, determine if the following computations are possible. 
+            <md>
+              A=\begin{bmatrix} 2 \amp -1 \amp 4 \\ 0 \amp 3 \amp 5 \end{bmatrix},\ B=\begin{bmatrix} 1 \amp 2 \amp -3 \\ 4 \amp -1 \amp 0 \end{bmatrix},\ E=\begin{bmatrix} 1 \amp 2 \amp -3 \\ 6 \amp 0 \amp -4 \\ 7 \amp 18 \amp 12 \end{bmatrix},\ H=\begin{bmatrix} 1 \amp -2 \\ 0 \amp 4 \\ -2 \amp 3 \end{bmatrix}
+            </md>
+            If the computations are possible, find the resulting matrix by hand (i.e., do the math without a calculator), then check your answer using a calculator. If the computation is not possible, then state why.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>A+2B</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>A+2B=\begin{bmatrix} 4 \amp 3 \amp 2 \\ 8 \amp 1 \amp 5 \end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>3A-H</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Since <m>A</m> is a <m>2\times 3</m> matrix, and <m>H</m> is a <m>3\times 2</m> matrix, <m>A</m> and <m>H</m> have different dimensions so matrix subtraction is not defined and the given operation is not possible.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>4B-H^T</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>4B-H^T=\begin{bmatrix} 3 \amp 8 \amp -10 \\ 18 \amp -8 \amp -3 \end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>2BH</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>2BH=\begin{bmatrix} 14 \amp -6 \\ 8 \amp -24 \end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+          <statement>
+            <p>
+              Find a matrix <m>F</m> such that the following matrix equation is true.
+              <md>
+                \begin{bmatrix} 1 \amp 2 \amp -3 \\ 6 \amp 0 \amp -4 \\ 7 \amp 18 \amp 12 \end{bmatrix} - F = \begin{bmatrix} 0 \amp -10 \amp 30 \\ 2 \amp 5 \amp -6 \\ 12 \amp -3 \amp 9 \end{bmatrix}
+              </md>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>F=\begin{bmatrix} 1 \amp 12 \amp -33 \\ 4 \amp -5 \amp 2 \\ -5 \amp 21 \amp 3 \end{bmatrix}</m>
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+          <statement>
+            <p>
+              Find the values of <m>x</m> and <m>y</m> that make the matrix equation true.
+              <md>
+                \begin{bmatrix} x \amp 2 \\ 3 \amp y \\ 5 \amp -1 \end{bmatrix} + \begin{bmatrix} 1 \amp -2 \\ 0 \amp 4 \\ -2 \amp 3 \end{bmatrix} = \begin{bmatrix} 4 \amp 0 \\ 3 \amp 10 \\ 3 \amp 2 \end{bmatrix}
+              </md>              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x=3</m>, <m>y=6</m>
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            Given matrices <m>K = \begin{bmatrix} 1 \amp 2 \amp 3 \\ 4 \amp x \amp 6 \end{bmatrix}</m> and <m>L= \begin{bmatrix} y \amp 8 \amp 9 \\ 0 \amp 1 \amp 2 \end{bmatrix}</m>...
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              ...find <m>(K+L)^T</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>(K+L)^T=\begin{bmatrix} 1+y \amp 4 \\ 10 \amp x+1 \\ 12 \amp 8 \end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              ...find <m>K^T+L^T</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>K^T+L^T=\begin{bmatrix} 1+y \amp 4 \\ 10 \amp x+1 \\ 12 \amp 8 \end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              ...is <m>(K+L)^T=K^T+L^T</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Yes, from parts (a) and (b). (In general, <m>(A+B)^T=A^T+B^T</m> for all matrices <m>A</m> and <m>B</m>.)
+            </p>
+          </answer>
+        </task>
+      </exercise>
+        <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            Laura is planning to buy sugar, flour, milk, and eggs for her bakery business. The prices of these items in three neighborhood supermarkets are shown in the table below.
+            <table>
+                <title>Supermarket Item Prices</title>
+                <tabular halign="center">
+                    <row bottom="major" header="yes">
+                        <cell>Supermarkets</cell>
+                        <cell>Sugar (<m>5</m>-lb bag)</cell>
+                        <cell>Flour (<m>5</m>-lb bag)</cell>
+                        <cell>Milk (<m>1</m>-gal carton)</cell>
+                        <cell>Eggs (<m>1</m>-dozen carton)</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Supermarket 1</cell>
+                        <cell><m>\$3.29</m></cell>
+                        <cell><m>\$3.99</m></cell>
+                        <cell><m>\$2.79</m></cell>
+                        <cell><m>\$2.99</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Supermarket 2</cell>
+                        <cell><m>\$2.89</m></cell>
+                        <cell><m>\$2.99</m></cell>
+                        <cell><m>\$2.99</m></cell>
+                        <cell><m>\$3.49</m></cell>
+                    </row>
+                    <row bottom="major">
+                        <cell>Supermarket 3</cell>
+                        <cell><m>\$3.49</m></cell>
+                        <cell><m>\$2.74</m></cell>
+                        <cell><m>\$3.09</m></cell>
+                        <cell><m>\$2.89</m></cell>
+                    </row>
+                </tabular>
+            </table>
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Write a <m>3\times 4</m> matrix <m>A</m> to represent the prices of the four items in the three supermarkets.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>A=\begin{bmatrix} 3.29 \amp 3.99 \amp 2.79 \amp 2.99 \\ 2.89 \amp 2.99 \amp 2.99 \amp 3.49 \\ 3.49 \amp 2.74 \amp 3.09 \amp 2.89 \end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              For the first week, Laura plans to buy three <m>5</m>-lb bags of sugar, six <m>5</m>-lb bags of flour, four <m>1</m>-gal cartons of milk, and four <m>1</m>-dozen carton of eggs. Write a <m>4\times 1</m> matrix <m>B</m> to represent the quantities of each items that Laura plans to purchase for the first week.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>B=\begin{bmatrix} 3 \\ 6 \\ 4 \\ 4\end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              For the second week, Laura plans to buy two <m>5</m>-lb bags of sugar, three <m>5</m>-lb bags of flour, five <m>1</m>-gal cartons of milk, and two <m>1</m>-dozen carton of eggs. Write a <m>4\times 1</m> matrix <m>C</m> to represent the quantities of each items that Laura plans to purchase for the second week.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>B=\begin{bmatrix} 2 \\ 3 \\ 5 \\ 2\end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find <m>B+C</m> and interpret the meaning of the matrix.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>B+C=\begin{bmatrix} 5 \\ 9 \\ 9 \\ 6 \end{bmatrix}</m> represents the quantity of each item that Laura plans to buy for the first and second weeks combined.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              If <m>T=A(B+C)</m>, what does matrix <m>T</m> mean?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>T</m> represents the matrix of total cost Laura would spend on the items purchased for the first and second weeks in each supermarket.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Use your calculator to find matrix <m>T</m> and then determine which supermarket Laura should buy the items from to minimize the cost? (Assuming she only shops at one supermarket)
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>T=A(B+C)=\begin{bmatrix} 95.41 \\ 89.21 \\ 87.26 \end{bmatrix}</m>, so Laura should purchase items from Supermarket 3 to minimize her total cost.
+            </p>
+          </answer>
+        </task>
+        </exercise>
+      <exercise number="6"><!-- #6 -->
+          <statement>
+            <p>
+              Consider the matrices <m>G=\begin{bmatrix} x \amp 2 \\ 3 \amp y \end{bmatrix}</m> and <m>H=\begin{bmatrix} 1 \amp 0 \\ -1 \amp 4 \end{bmatrix}</m>.
+              Find the values of <m>x</m> and <m>y</m> so that <m>GH=\begin{bmatrix} 1 \amp 8 \\ 0 \amp 12 \end{bmatrix}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x=3</m>, <m>y=3</m>
+            </p>
+          </answer>
+      </exercise>
+        <exercise number="7"><!-- #7 -->
+        <introduction>
+          <p>
+            A company tracks sales of three products (<m>A</m>, <m>B</m> and <m>D</m>) across four regions (<m>R1</m>, <m>R2</m>, <m>R3</m>, and <m>R4</m>). Matrix <m>S</m> below represents the amount of each product sold in each region.
+            <md>
+              \begin{array}{r c}
+              \amp \begin{matrix} R1 \amp R2 \amp R3 \amp R4 \end{matrix} \\
+              \begin{matrix} \text{Product}\ A \\ \text{Product}\ B \\ \text{Product}\ D \end{matrix} \amp
+              \begin{bmatrix}
+                100 \amp 200 \amp 150 \amp 175 \\
+                80 \amp 120 \amp 90 \amp 110 \\
+                60 \amp 70 \amp 65 \amp 85
+              \end{bmatrix}
+              \end{array}
+            </md>
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              If the prices of Product <m>A</m>, <m>B</m>, and <m>D</m> are <m>\$5</m>, <m>\$10</m>, and <m>\$8</m> respectively, create a <m>1\times 3</m> matrix <m>C</m> that represents the cost of each product.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>C=\begin{bmatrix} 5 \amp 10 \amp 8 \end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Write an equation using matrices <m>S</m> and <m>C</m> that represents the revenue matrix <m>R</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>R=CS=\begin{bmatrix} 5 \amp 10 \amp 8 \end{bmatrix}\begin{bmatrix} 100 \amp 200 \amp 150 \amp 175 \\ 80 \amp 120 \amp 90 \amp 110 \\ 60 \amp 70 \amp 65 \amp 85\end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the revenue matrix <m>R</m> and interpret the meaning of <m>R_{13}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>R=\begin{bmatrix} 1780 \amp 2760 \amp 2170 \amp 2655\end{bmatrix}</m>, <m>r_{13}=2170</m> is the revenue from the sales of products <m>A</m>, <m>B</m>, and <m>D</m> in region <m>R3</m>.
+            </p>
+          </answer>
+        </task>
+        </exercise>
+      <exercise number="8"><!-- #8 -->
+          <statement>
+            <p>
+              Matrix 
+              <md>P = \begin{array}{ccc}
+                        \text{Game } 1 \amp \text{Game } 2 \amp \text{Game } 3 \\[3pt]
+                        \left[ \$20 \right. \amp \$35 \amp \left. \$50 \right]
+                      \end{array}</md> 
+              represents the prices for one faculty ticket to three different Aggie football games. Matrix 
+              <md>F = \begin{array}{r c}
+                        \amp \text{Attendees} \\[3pt]
+                        \begin{matrix}
+                          \text{Game } 1 \\
+                          \text{Game } 2 \\
+                          \text{Game } 3
+                        \end{matrix}
+                        \amp
+                        \begin{bmatrix}
+                          256 \\
+                          312 \\
+                          542
+                        \end{bmatrix}
+                      \end{array}</md> 
+              represents the number of faculty members who attended each of the three games. Compute the product <m>PF</m> and interpret the result.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>PF=\begin{bmatrix} 43 \amp 140\end{bmatrix}</m>, so, in total, faculty members spend <m>\$43140</m> on tickets to attend Aggie football games <m>1</m>, <m>2</m>, and <m>3</m>.
+            </p>
+          </answer>
+      </exercise>
+        <exercise number="9"><!-- #9 -->
+        <introduction>
+          <p>
+            Let <m>A</m>, <m>B</m>, and <m>C</m> be matrices such that <m>A</m> has dimensions <m>3\times 4</m> and <m>C</m> has dimensions <m>1\times 2</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find the dimensions of the matrix <m>B</m> so that the product matrix <m>ABC</m> exists.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>4 \times 1</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What are the dimensions of the matrix <m>ABC</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>3 \times 2</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            If <m>A</m> is a <m>2\times 3</m> matrix and <m>B</m> is a <m>3\times 2</m> matrix, what are the dimensions of <m>(AB)^T</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>2 \times 2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3 \times 3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3 \times 2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2 \times 3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Not defined
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Let <m>A=\begin{bmatrix} x \amp 2 \\ 3 \amp y \end{bmatrix}</m> and <m>B=\begin{bmatrix} 1 \amp 1 \\ 1 \amp 1 \end{bmatrix}</m>. Find the value of <m>x+y</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>8</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>9</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>10</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>11</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>12</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            If <m>A</m> is a <m>2\times 3</m> matrix, <m>B</m> is a <m>3\times 4</m> matrix, and <m>C</m> is a <m>2\times 4</m> matrix, which one of the following matrix operations is defined?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>A+B</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>AB+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>BC+A</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A^T+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>AC</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            An auto parts store has reduced the price of three items (wiper blades, brake fluid, and floor mats) in their stores by <m>20\%</m>. The original price at Store <m>A</m> for wiper blades was <m>\$15</m>, cans of brake fluid were <m>\$7</m>, and floor mats were <m>\$25</m>. Which answer below is the correct <m>3\times 2</m> matrix that represents this information?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\begin{array}{r c}
+                      \amp \begin{matrix} \text{Original} \amp \text{Discounted} \end{matrix} \\
+                      \begin{matrix} \text{Wiper blades} \\ \text{Brake fluid} \\ \text{Floor mats} \end{matrix} \amp
+                      \begin{bmatrix}
+                        15 \amp 12 \\
+                        7 \amp 5.60 \\
+                        25 \amp 20
+                      \end{bmatrix}
+                      \end{array}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\begin{array}{r c}
+                      \amp \begin{matrix} \text{Original} \amp \text{Discounted} \end{matrix} \\
+                      \begin{matrix} \text{Wiper blades} \\ \text{Brake fluid} \\ \text{Floor mats} \end{matrix} \amp
+                      \begin{bmatrix}
+                        15 \amp 3 \\
+                        7 \amp 1.40 \\
+                        25 \amp 5
+                      \end{bmatrix}
+                      \end{array}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\begin{array}{r c}
+                      \amp \begin{matrix} \text{Wiper Blades} \amp \text{Brake fluid} \amp \text{Floor mats} \end{matrix} \\
+                      \begin{matrix} \text{Original} \\ \text{Discounted}\end{matrix} \amp
+                      \begin{bmatrix}
+                        15 \amp 7 \amp 25 \\
+                        12 \amp 5.60 \amp 20 
+                      \end{bmatrix}
+                      \end{array}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\begin{array}{r c}
+                      \amp \begin{matrix} \text{Wiper Blades} \amp \text{Brake fluid} \amp \text{Floor mats} \end{matrix} \\
+                      \begin{matrix} \text{Original} \\ \text{Discounted}\end{matrix} \amp
+                      \begin{bmatrix}
+                        15 \amp 7 \amp 25 \\
+                        3 \amp 1.40 \amp 5 
+                      \end{bmatrix}
+                      \end{array}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  None of these
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Given <m>A=\begin{bmatrix} -3 \amp 0 \\ x \amp 1 \\ 2 \amp 4 \end{bmatrix}</m>, <m>B=\begin{bmatrix} 5 \amp y \\ -2 \amp 0 \\ 3 \amp 1 \end{bmatrix}</m>, and <m>C=AB^T</m>, find the value of <m>c_{23}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>c_{23}=-4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c_{23}=3x+1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c_{23}=x+3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c_{23}=5x+y+3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>C</m> is not a defined matrix
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>
