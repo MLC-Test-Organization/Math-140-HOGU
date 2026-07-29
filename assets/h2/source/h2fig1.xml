@@ -1,0 +1,23 @@
+<diagram xmlns="https://prefigure.org" dimensions="(600,600)" margins="5">
+  <definition>l1(x)=1/2*x+2</definition>
+  <definition>l2(x)=5</definition>
+  <definition>l3(x)=-x-1</definition>
+  <coordinates bbox="(-8,-8,8,8)">
+    <grid-axes spacings="((-7,1,7),(-7,1,7))" xlabel="x" ylabel="y" hlabels="(-7,1,7)" vlabels="(-7,1,7)" hticks="(-7,1,7)" vticks="(-7,1,7)" arrows="2"/>
+    <graph function="l1" domain="(-8,8)" stroke="green"/>
+    <graph function="l2" domain="(-8,8)" stroke="red"/>
+    <graph function="l3" domain="(-8,8)" stroke="blue"/>
+    <line endpoints="((-4,-8),(-4,8))" stroke="purple" thickness="2"/>
+    <label anchor="(-7,-2)" alignment="ne" color="green"><m>l_1</m></label>
+    <label anchor="(-8,5)" alignment="ne" color="red"><m>l_2</m></label>
+    <label anchor="(-7,6)" alignment="ne" color="blue"><m>l_3</m></label>
+    <label anchor="(-4,7)" alignment="ne" color="purple"><m>l_4</m></label>
+    <point at="point" p="(0,-1)" alignment="ne" size="6" fill="black" stroke="black"><m>\textbf{A}</m></point>
+    <point at="point" p="(0,2)" alignment="se" size="6" fill="black" stroke="black"><m>\textbf{B}</m></point>
+    <point at="point" p="(2,-3)" alignment="ne" size="6" fill="black" stroke="black"><m>\textbf{C}</m></point>
+    <point at="point" p="(-4,0)" alignment="nw" size="6" fill="black" stroke="black"><m>\textbf{D}</m></point>
+    <point at="point" p="(-4,3)" alignment="ne" size="6" fill="black" stroke="black"><m>\textbf{E}</m></point>
+    <point at="point" p="(0,5)" alignment="ne" size="6" fill="black" stroke="black"><m>\textbf{F}</m></point>
+    <point at="point" p="(6,5)" alignment="se" size="6" fill="black" stroke="black"><m>\textbf{G}</m></point>
+  </coordinates>
+</diagram>

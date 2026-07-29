@@ -25,203 +25,116 @@
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
       <exercise><!-- #1 -->
-        <statement>
-          <p>
-            
-          </p>
-          <sidebyside widths="82% 18%" valign="middle">
-            <p>
-              <ol marker="a)">
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-              </ol>
-            </p>
-
-            <p>
-              <ol marker="I)">
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </sidebyside>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-      <exercise><!-- #2 -->
         <introduction>
           <p>
-            
+          Use the graph below to complete the following tasks.
+            <image source="h2/images/h2fig1" width="80%">
+              <shortdescription>Graph of four lines with several points labeled. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of four lines with several points labeled, all on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-8</m> to <m>8</m>.
+                  The line labeled <m>l_1</m> passes through the points <m>(-4,0)</m> and <m>(0,2)</m>.
+                  The line labeled <m>l_2</m> passes through the points <m>(0,5)</m> and <m>(6,5)</m>.
+                  The line labeled <m>l_3</m> passes through the points <m>(-1,0)</m> and <m>(0,-1)</m>.
+                  The line labeled <m>l_4</m> passes through the points <m>(-4,0)</m> and <m>(-4,1)</m>.
+                  The point labeled <m>\textbf{A}</m> is at <m>(0,-1)</m>.
+                  The point labeled <m>\textbf{B}</m> is at <m>(0,2)</m>.
+                  The point labeled <m>\textbf{C}</m> is at <m>(2,-3)</m>.
+                  The point labeled <m>\textbf{D}</m> is at <m>(-4,0)</m>.
+                  The point labeled <m>\textbf{E}</m> is at <m>(-4,3)</m>.
+                  The point labeled <m>\textbf{F}</m> is at <m>(0,5)</m>.
+                  The point labeled <m>\textbf{G}</m> is at <m>(6,5)</m>.
+                </p>
+              </description>
+            </image>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Describe the slopes of each of the lines as positive, negative, zero, or undefined.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>l_1</m> has a positive slope, <m>l_2</m> has a zero slope, <m>l_3</m> has a negative slope, <m>l_4</m> has an undefined slope
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              What is the slope of <m>l_1</m>?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\dfrac{\text{rise}}{\text{run}}=\dfrac{1}{2}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Classify each of the following statements as "true" or "false".
+              <ol>
+                <li>
+                  <p>
+                    The equation of <m>l_4</m> is <m>y=-4</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The equation of <m>l_2</m> is <m>y=5</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The equation of <m>l_1</m>, in point-slope form, is <m>y-5=\dfrac{1}{2}(x-6)</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The equation of <m>l_3</m>, in slope-intercept form, is <m>y+3=-(x-2)</m>.
+                  </p>
+                </li>
+              </ol>
             </p>
           </statement>
           <answer>
             <p>
-              
+              False, True, True, False
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise><!-- #2 -->
+        <introduction>
+          <p>
+            Fill in the blanks to make the following statements true.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              If a refrigerator is currently priced at it's scrap value of <m>\$500</m> in 2023, then the value of the refrigerator in 2070 is ____.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\$500</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              If a company's cost equation, in dollars, is <m>C(x)=40x+2100</m>, where <m>x</m> is the number of items produced (and sold), the company's fixed costs are ____ and the cost to produce each item is ____.
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              <m>\$2100</m>, <m>\$40</m>
             </p>
           </answer>
         </task>
@@ -230,12 +143,6 @@
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Let Us Get Our Hands On</title>
       <exercise number="1"><!-- #1 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -246,75 +153,8 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
       <exercise number="2"><!-- #2 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -325,63 +165,8 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
       <exercise number="3"><!-- #3 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -392,63 +177,8 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
       <exercise number="4"><!-- #4 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -459,67 +189,6 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
         <exercise number="5"><!-- #5 -->
         <introduction>
@@ -527,6 +196,18 @@
             
           </p>
         </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
         <task>
           <statement>
             <p>
@@ -606,14 +287,20 @@
             </p>
           </answer>
         </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
         </exercise>
         <exercise number="7"><!-- #7 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -624,31 +311,6 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
         </exercise>
         <exercise number="8"><!-- #8 -->
         <introduction>
@@ -682,6 +344,116 @@
         </task>
         </exercise>
         <exercise number="9"><!-- #9 -->
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </exercise>
+        <exercise number="10"><!-- #10 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="11"><!-- #11 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="12"><!-- #12 -->
         <introduction>
           <p>
             
@@ -918,86 +690,6 @@
       </exercise>
 
       <exercise number="6"><!-- #6 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="7"><!-- #7 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="8"><!-- #8 -->
         <statement>
           <p>
             
