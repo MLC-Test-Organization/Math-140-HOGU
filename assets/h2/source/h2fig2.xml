@@ -1,0 +1,19 @@
+<diagram xmlns="https://prefigure.org" dimensions="(1000,700)" margins="5">
+  <definition>l1(x)=30*x+9000</definition>
+  <definition>l2(x)=90*x</definition>
+  <definition>l3(x)=60*x-9000</definition>
+  <coordinates bbox="(-30,-3000,300,19000)">
+    <grid-axes spacings="((-20,20,280),(-2000,1000,18000))" xlabel="x" ylabel="y" hlabels="(-20,20,280)" vlabels="(-2000,1000,18000)" hticks="(-20,20,280)" vticks="(-2000,1000,18000)" arrows="2"/>
+    <graph function="l1" domain="(-30,300)" stroke="blue"/>
+    <graph function="l2" domain="(-30,300)" stroke="orange"/>
+    <graph function="l3" domain="(-30,300)" stroke="lime"/>
+    <label anchor="(20,10000)" alignment="ne" color="blue"><m>\LARGE l_1</m></label>
+    <label anchor="(20,1000)" alignment="ne" color="orange"><m>\LARGE l_2</m></label>
+    <label anchor="(180,2000)" alignment="n" color="lime"><m>\LARGE l_3</m></label>
+    <point at="point" p="(0,9000)" alignment="se" size="6" fill="black" stroke="black"><m>(0,9000)</m></point>
+    <point at="point" p="(0,0)" alignment="se" size="6" fill="black" stroke="black"><m>(0,0)</m></point>
+    <point at="point" p="(150,13500)" alignment="se" size="6" fill="black" stroke="black"><m>(150,13500)</m></point>
+    <point at="point" p="(150,0)" alignment="nw" size="6" fill="black" stroke="black"><m>(150,0)</m></point>
+    <point at="point" p="(170,1200)" alignment="se" size="6" fill="black" stroke="black"><m>(170,1200)</m></point>
+  </coordinates>
+</diagram>

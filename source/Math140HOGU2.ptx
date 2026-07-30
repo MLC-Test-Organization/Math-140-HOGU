@@ -117,7 +117,7 @@
         <task>
           <statement>
             <p>
-              If a refrigerator is currently priced at it's scrap value of <m>\$500</m> in 2023, then the value of the refrigerator in 2070 is ____.
+              If a refrigerator is currently priced at its scrap value of <m>\$500</m> in 2023, then the value of the refrigerator in 2070 is ____.
             </p>
           </statement>
           <answer>
@@ -145,102 +145,102 @@
       <exercise number="1"><!-- #1 -->
           <statement>
             <p>
-              
+              Write the equation of the line, in slope-intercept form, that passes through the point <m>(-5,8)</m> and has a slope of <m>-2</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>y=-2x-2</m>
             </p>
           </answer>
       </exercise>
       <exercise number="2"><!-- #2 -->
           <statement>
             <p>
-              
+              Determine the slope of the line passing through the points <m>(b,4)</m> and <m>(3,2b)</m> (<m>b</m> should appear in your answer). For what value(s) of <m>b</m> is the slope undefined?
             </p>
           </statement>
           <answer>
             <p>
-              
+              slope: <m>\dfrac{2b-4}{3-b}</m>, slope is undefined at <m>b=3</m>
             </p>
           </answer>
       </exercise>
       <exercise number="3"><!-- #3 -->
           <statement>
             <p>
-              
+              Find the slope, <m>x</m>-intercept, and <m>y</m>-intercept of the line given by the equation <m>4x-3y=21</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              slope: <m>\dfrac{4}{3}</m>, <m>x</m>-intercept: <m>\left(\dfrac{21}{4},0\right)</m>, <m>y</m>-intercept: <m>\left(0,-7\right)</m>
             </p>
           </answer>
       </exercise>
       <exercise number="4"><!-- #4 -->
           <statement>
             <p>
-              
+              Write the equation of the line that intersects the <m>x</m>-axis at <m>x=-6</m> and the <m>y</m>-axis at <m>y=\dfrac{5}{9}</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>y=\dfrac{5}{54}x+\dfrac{5}{9}</m>
             </p>
           </answer>
       </exercise>
         <exercise number="5"><!-- #5 -->
         <introduction>
           <p>
-            
+            Given the line <m>7x+9y=63</m>, answer the following.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              If <m>x</m> increases by <m>2</m> units, what is the corresponding change in <m>y</m>?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>y</m> decreases by <m>\dfrac{14}{9}</m> units
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              If <m>y</m> increases by <m>3</m> units, what is the corresponding change in <m>x</m>?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>x</m> decreases by <m>\dfrac{27}{7}</m> units
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              If <m>x</m> decreases by <m>5</m> units, what is the corresponding change in <m>y</m>?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>y</m> increases by <m>\dfrac{35}{9}</m> units
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              If <m>y</m> decreases by <m>9</m> units, what is the corresponding change in <m>x</m>?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>x</m> increases by <m>\dfrac{81}{7}</m> units
             </p>
           </answer>
         </task>
@@ -248,54 +248,56 @@
         <exercise number="6"><!-- #6 -->
         <introduction>
           <p>
-            
+            Five years after the purchase of a kitchen appliance, its value is <m>\$3700</m>. The appliance reaches its scrap value of <m>\$950</m> thirteen years after purchase. Let <m>t</m> represent the number of years since the appliance was purchased.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              For <m>0 \leq t \leq 13</m>, determine the value, <m>V</m> (in dollars), of the appliance as a function of the number of years, <m>t</m>, since its purchase.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>V(t)=-343.75t+5418.75</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              For <m>t\gt 13</m>, determine the value, <m>V</m> (in dollars), of the appliance as a function of the number of years, <m>t</m>, since its purchase.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>V(t)=\$950</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Determine and interpret the rate of depreciation.
             </p>
           </statement>
           <answer>
             <p>
-              
+              The rate of depreciation is <m>-343.75\frac{\$}{\text{year}}</m>, which is the rate of change of our kitchen appliance over time <m>t</m> years.
+              The kitchen appliance loses <m>\$343.75</m> of value for each year for the first <m>13</m> years until it reaches its scrap value of <m>\$950</m>.
+              After <m>13</m> years, it remains at this value.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Determine and interpret <m>V(15)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>V(15)=\$950</m>, which is the scrap value for the kitchen appliance.
             </p>
           </answer>
         </task>
@@ -303,42 +305,47 @@
         <exercise number="7"><!-- #7 -->
           <statement>
             <p>
-              
+              An item purchased for <m>\$750</m> has a value of <m>\$590</m> after <m>48</m> months. Assuming linear depreciation, how long will it take an item to reach its scrap value for the first time?
             </p>
           </statement>
+          <hint>
+            <p>
+              The scrap value, when not given, is <m>\$0</m>.
+            </p>
+          </hint>
           <answer>
             <p>
-              
+              <m>t=225</m> months or <m>18.75</m> years
             </p>
           </answer>
         </exercise>
         <exercise number="8"><!-- #8 -->
         <introduction>
           <p>
-            
+            A company finds that producing <m>40</m> items costs <m>\$9800</m>, while producing <m>70</m> items costs <m>\$11900</m>. Each item is sold for <m>\$85</m>.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Determine the production cost per item.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\$70</m> per item
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Write the company's linear profit function.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>P(x)=15x-7000</m>
             </p>
           </answer>
         </task>
@@ -346,54 +353,66 @@
         <exercise number="9"><!-- #9 -->
           <statement>
             <p>
-              
+              A manufacturer has fixed costs of <m>\$300</m> and a production cost of <m>\$40</m> per item. If the company earns a profit of <m>\$5600</m> by selling <m>200</m> items, what is the company's revenue function? Assume linear cost and profit functions.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>R(x)=69.50x</m>
             </p>
           </answer>
         </exercise>
         <exercise number="10"><!-- #10 -->
         <introduction>
           <p>
-            
+            A company's cost, revenue, and profit functions are graphed below.
+            <image source="h2/images/h2fig2" width="80%">
+              <shortdescription>Graph of three lines with several points labeled. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of three lines with several points labeled, all on coordinate axes with <m>x</m>-values from <m>-30</m> to <m>300</m> and <m>y</m>-values from <m>-3000</m> to <m>19000</m>.
+                  The line labeled <m>l_1</m> passes through the points <m>(0,9000)</m> and <m>(150,13500)</m>.
+                  The line labeled <m>l_2</m> passes through the points <m>(0,0)</m> and <m>(150,13500)</m>.
+                  The line labeled <m>l_3</m> passes through the points <m>(150,0)</m> and <m>(170,1200)</m>.
+                  Each point mentioned above is labeled with a solid dot, indicating its position.
+                </p>
+              </description>
+            </image>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Identify which of the three lines (<m>l_1</m>, <m>l_2</m>, and <m>l_3</m>) are the cost function, <m>C(x)</m>, the revenue function, <m>R(x)</m>, and the profit function, <m>P(x)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>l_1=C(x)</m>, <m>l_2=R(x)</m>, <m>l_3=P(x)</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Find the equations that represent each function.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>l_1=30x+9000</m>, <m>l_2=90x</m>, <m>l_3=60x-9000</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              How many items will the company have to sell to reach a monthly profit of <m>\$21720</m>?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>512</m>
             </p>
           </answer>
         </task>
@@ -401,54 +420,58 @@
         <exercise number="11"><!-- #11 -->
         <introduction>
           <p>
-            
+            Given <m>x</m> represents the number of items supplied or demanded each month, <m>p</m> represents the unit price of the item (in dollars), and the two equations below, answer the following questions.
+            <md>
+              \text{Equation A: }4p-19x=450\\
+              \text{Equation B: }7p+45x=3150
+            </md>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Which equation is the demand function? Why?
             </p>
           </statement>
           <answer>
             <p>
-              
+              Equation B is the demand function as it has a negative slope.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              How many items will consumers purchase if the items are free?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>70</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Above what price will consumers not buy the item?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\$450</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Producers will only provide items if the price is above what value?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\$112.50</m>
             </p>
           </answer>
         </task>
@@ -456,30 +479,30 @@
         <exercise number="12"><!-- #12 -->
         <introduction>
           <p>
-            
+            Consumers will buy 200 items at a price of <m>\$420</m> per item. If the price decreases to <m>\$396</m> per item, the consumers will buy <m>600</m> items. Manufacturers will not market (or sell) this item below <m>\$4</m>, but if the price increases by <m>\$3</m> per item, they will be willing to sell <m>25</m> more items. 
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Find the linear demand function that represents this scenario.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>p(x)=-0.06x+432</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Find the linear supply function that represents this scenario.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>p(x)=0.12x+4</m>
             </p>
           </answer>
         </task>
@@ -492,39 +515,39 @@
       <exercise number="1"><!-- #1 -->
         <statement>
           <p>
-            
+            Write the equation of the line that intersects the <m>x</m>-axis at <m>x=-15</m>, and intersects the <m>y</m>-axis at <m>y=3</m>.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>y=5x+3</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>y=-5x+3</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>y=-\dfrac{1}{5}x-15</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>y=-\dfrac{1}{5}x+3</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>y=\dfrac{1}{5}x+3</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (E)
           </p>
         </answer>
       </exercise>
@@ -532,39 +555,39 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            
+            Write the equation of a line that has an undefined slope and passes through the point <m>(4,-3)</m>.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>y=-3</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>x=4</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>y=4</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>x=-3</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>y=4x-3</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (B)
           </p>
         </answer>
       </exercise>
@@ -572,39 +595,39 @@
       <exercise number="3"><!-- #3 -->
         <statement>
           <p>
-            
+            Given <m>y-2=-\dfrac{2}{3}(x+5)</m>, if the <m>y</m>-value decreases by <m>5</m> units, what is the corresponding change in the <m>x</m>-value?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>x</m> decreases by <m>10.5</m> units
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>x</m> increases by <m>10.5</m> units
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>x</m> increases by <m>7.5</m> units
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>x</m> decreases by <m>7.5</m> units
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  None of these answer choices are correct.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (C)
           </p>
         </answer>
       </exercise>
@@ -612,39 +635,39 @@
       <exercise number="4"><!-- #4 -->
         <statement>
           <p>
-            
+            Suppose that a shoe company has figured it costs them <m>\$65</m> to produce a pair of shoes. The company can produce <m>125</m> pairs of shoes for a total cost of <m>\$17300</m>. The company sells each pair of shoes for <m>\$150</m>. Which of the following represents the company's cost function (in dollars) where <m>x</m> is the number of pairs of shoes produced and sold?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>C(x)=65x+17300</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>C(x)=150x</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>C(x)=150x+17300</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>C(x)=65x+9175</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>C(x)=150x+9175</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (D)
           </p>
         </answer>
       </exercise>
@@ -652,39 +675,39 @@
       <exercise number="5"><!-- #5 -->
         <statement>
           <p>
-            
+            A t-shirt company has determined that consumers want <m>7500</m> of their most popular t-shirt when the price for each t-shirt is <m>\$25</m>. When they increase the price to <m>\$35</m>, consumers demand <m>250</m> fewer t-shirts. The company is willing to produce (and sell) <m>500</m> shirts at a price of <m>\$15</m>, but they will not produce (or sell) any shirt for less than <m>\$5</m>. Which of the following represents the company's demand equation (in dollars) when <m>x</m> t-shirts are demanded?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>p(x)=-0.04x+325</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>p(x)=0.02x+5</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>p(x)=-10x+250</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>p(x)=-25x+8125</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>p(x)=50x-250</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (A)
           </p>
         </answer>
       </exercise>
@@ -692,39 +715,39 @@
       <exercise number="6"><!-- #6 -->
         <statement>
           <p>
-            
+            The value, in dollars, of a machine is <m>V(t)=-1525.5t+15712</m>, where <m>t</m> is the number of years since its purchase. The estimated scrap (or salvage) value of the machine is <m>\$1982.50</m>. How long will it take for the machine to reach its scrap (or salvage) value for the first time?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>10.3</m> years
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>7</m> years
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>9</m> years
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>8.9</m> years
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>9.5</m> years
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (C)
           </p>
         </answer>
       </exercise>

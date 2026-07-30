@@ -70,7 +70,7 @@
         <task>
           <statement>
             <p>
-              Answer True of False for each of the following.
+              Answer True or False for each of the following.
               <ol>
                 <li>
                   <p>
@@ -152,7 +152,7 @@
           </statement>
           <answer>
             <p>
-              <m>A+2B=\begin{bmatrix} 4 \amp 3 \amp 2 \\ 8 \amp 1 \amp 5 \end{bmatrix}</m>
+              <m>A+2B=\begin{bmatrix} 4 \amp 3 \amp -2 \\ 8 \amp 1 \amp 5 \end{bmatrix}</m>
             </p>
           </answer>
         </task>
@@ -279,7 +279,7 @@
                         <cell>Sugar (<m>5</m>-lb bag)</cell>
                         <cell>Flour (<m>5</m>-lb bag)</cell>
                         <cell>Milk (<m>1</m>-gal carton)</cell>
-                        <cell>Eggs (<m>1</m>-dozen carton)</cell>
+                        <cell>Eggs (<m>1</m>-dozen count carton)</cell>
                     </row>
                     <row bottom="minor">
                         <cell>Supermarket 1</cell>
@@ -321,7 +321,7 @@
         <task>
           <statement>
             <p>
-              For the first week, Laura plans to buy three <m>5</m>-lb bags of sugar, six <m>5</m>-lb bags of flour, four <m>1</m>-gal cartons of milk, and four <m>1</m>-dozen carton of eggs. Write a <m>4\times 1</m> matrix <m>B</m> to represent the quantities of each items that Laura plans to purchase for the first week.
+              For the first week, Laura plans to buy three <m>5</m>-lb bags of sugar, six <m>5</m>-lb bags of flour, four <m>1</m>-gal cartons of milk, and four <m>1</m>-dozen count cartons of eggs. Write a <m>4\times 1</m> matrix <m>B</m> to represent the quantities of each item that Laura plans to purchase for the first week.
             </p>
           </statement>
           <answer>
@@ -333,12 +333,12 @@
         <task>
           <statement>
             <p>
-              For the second week, Laura plans to buy two <m>5</m>-lb bags of sugar, three <m>5</m>-lb bags of flour, five <m>1</m>-gal cartons of milk, and two <m>1</m>-dozen carton of eggs. Write a <m>4\times 1</m> matrix <m>C</m> to represent the quantities of each items that Laura plans to purchase for the second week.
+              For the second week, Laura plans to buy two <m>5</m>-lb bags of sugar, three <m>5</m>-lb bags of flour, five <m>1</m>-gal cartons of milk, and two <m>1</m>-dozen count cartons of eggs. Write a <m>4\times 1</m> matrix <m>C</m> to represent the quantities of each item that Laura plans to purchase for the second week.
             </p>
           </statement>
           <answer>
             <p>
-              <m>B=\begin{bmatrix} 2 \\ 3 \\ 5 \\ 2\end{bmatrix}</m>
+              <m>C=\begin{bmatrix} 2 \\ 3 \\ 5 \\ 2\end{bmatrix}</m>
             </p>
           </answer>
         </task>
@@ -369,7 +369,7 @@
         <task>
           <statement>
             <p>
-              Use your calculator to find matrix <m>T</m> and then determine which supermarket Laura should buy the items from to minimize the cost? (Assuming she only shops at one supermarket)
+              Use your calculator to find matrix <m>T</m> and then determine which supermarket Laura should buy the items from to minimize the cost. (Assuming she only shops at one supermarket)
             </p>
           </statement>
           <answer>
@@ -395,7 +395,7 @@
         <exercise number="7"><!-- #7 -->
         <introduction>
           <p>
-            A company tracks sales of three products (<m>A</m>, <m>B</m> and <m>D</m>) across four regions (<m>R1</m>, <m>R2</m>, <m>R3</m>, and <m>R4</m>). Matrix <m>S</m> below represents the amount of each product sold in each region.
+            A company tracks sales of three products (<m>A</m>, <m>B</m>, and <m>D</m>) across four regions (<m>R1</m>, <m>R2</m>, <m>R3</m>, and <m>R4</m>). Matrix <m>S</m> below represents the amount of each product sold in each region.
             <md>
               \begin{array}{r c}
               \amp \begin{matrix} R1 \amp R2 \amp R3 \amp R4 \end{matrix} \\
@@ -412,7 +412,7 @@
         <task>
           <statement>
             <p>
-              If the prices of Product <m>A</m>, <m>B</m>, and <m>D</m> are <m>\$5</m>, <m>\$10</m>, and <m>\$8</m> respectively, create a <m>1\times 3</m> matrix <m>C</m> that represents the cost of each product.
+              If the prices of Products <m>A</m>, <m>B</m>, and <m>D</m> are <m>\$5</m>, <m>\$10</m>, and <m>\$8</m> respectively, create a <m>1\times 3</m> matrix <m>C</m> that represents the price of each product.
             </p>
           </statement>
           <answer>
@@ -436,7 +436,7 @@
         <task>
           <statement>
             <p>
-              Find the revenue matrix <m>R</m> and interpret the meaning of <m>R_{13}</m>.
+              Find the revenue matrix <m>R</m> and interpret the meaning of <m>r_{13}</m>.
             </p>
           </statement>
           <answer>
@@ -450,10 +450,13 @@
           <statement>
             <p>
               Matrix 
-              <md>P = \begin{array}{ccc}
-                        \text{Game } 1 \amp \text{Game } 2 \amp \text{Game } 3 \\[3pt]
-                        \left[ \$20 \right. \amp \$35 \amp \left. \$50 \right]
-                      \end{array}</md> 
+              <md>P = \begin{array}{r c}
+                        \amp \begin{matrix} \text{Game } 1 \amp \text{Game } 2 \amp \text{Game } 3 \end{matrix} \\[3pt]
+                        \text{Price} \amp
+                        \begin{bmatrix}
+                          \$20 \amp \$35 \amp \$50
+                        \end{bmatrix}
+                      \end{array}</md>
               represents the prices for one faculty ticket to three different Aggie football games. Matrix 
               <md>F = \begin{array}{r c}
                         \amp \text{Attendees} \\[3pt]
@@ -474,7 +477,7 @@
           </statement>
           <answer>
             <p>
-              <m>PF=\begin{bmatrix} 43 \amp 140\end{bmatrix}</m>, so, in total, faculty members spend <m>\$43140</m> on tickets to attend Aggie football games <m>1</m>, <m>2</m>, and <m>3</m>.
+              <m>PF=\begin{bmatrix} 43140\end{bmatrix}</m>, so, in total, faculty members spend <m>\$43140</m> on tickets to attend Aggie football games <m>1</m>, <m>2</m>, and <m>3</m>.
             </p>
           </answer>
       </exercise>
@@ -557,7 +560,7 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            Let <m>A=\begin{bmatrix} x \amp 2 \\ 3 \amp y \end{bmatrix}</m> and <m>B=\begin{bmatrix} 1 \amp 1 \\ 1 \amp 1 \end{bmatrix}</m>. Find the value of <m>x+y</m>.
+            Let <m>A=\begin{bmatrix} x \amp 2 \\ 3 \amp y \end{bmatrix}</m> and <m>B=\begin{bmatrix} 1 \amp 1 \\ 1 \amp 1 \end{bmatrix}</m>. If <m>A+B=\begin{bmatrix} 4 \amp 3 \\ 4 \amp 8 \end{bmatrix}</m>, find the value of <m>x+y</m>.
           </p>
             <ol marker="(A)">
               <li>
@@ -637,7 +640,7 @@
       <exercise number="4"><!-- #4 -->
         <statement>
           <p>
-            An auto parts store has reduced the price of three items (wiper blades, brake fluid, and floor mats) in their stores by <m>20\%</m>. The original price at Store <m>A</m> for wiper blades was <m>\$15</m>, cans of brake fluid were <m>\$7</m>, and floor mats were <m>\$25</m>. Which answer below is the correct <m>3\times 2</m> matrix that represents this information?
+            An auto parts store has reduced the price of three items (wiper blades, brake fluid, and floor mats) in their stores by <m>20\%</m>. The original price at Store <m>A</m> for wiper blades was <m>\$15</m>, a can of brake fluid was <m>\$7</m>, and floor mats were <m>\$25</m>. Which answer below is the correct <m>3\times 2</m> matrix that represents this information?
           </p>
             <ol marker="(A)">
               <li>
