@@ -25,61 +25,74 @@
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
       <exercise><!-- #1 -->
+          <statement>
+            <p>
+              Given <m>\begin{cases}3x+7y=126 \\ -8x+7y=-28 \end{cases}</m>, determine if the points below are solutions to the linear system.
+              <ol>
+                <li>
+                  <p>
+                    <m>(14,12)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>(7,15)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>(-7,-12)</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              (a) Yes, (b) No, (c) No
+            </p>
+          </answer>
+      </exercise>
+      <exercise><!-- #2 -->
+          <statement>
+            <p>
+              Write the system of equations that represents the augmented matrix below. Assume that the variables are <m>x</m>, <m>y</m>, and <m>z</m>.
+                <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    -3 \amp 1 \amp 4 \amp -9 \\
+                    2 \amp 0 \amp 1 \amp 10
+                    \end{array}\right]
+                    \end{array}</md>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\begin{cases}-3x+y+4z=-9 \\ 2x+z=10 \end{cases}</m>
+            </p>
+          </answer>
+      </exercise>
+      <exercise><!-- #3 -->
         <statement>
           <p>
-            
+            Match each item in the column on the left to the correct graph in the column on the right. Please note that each graph contains exactly two lines.
           </p>
-          <sidebyside widths="82% 18%" valign="middle">
+          <sidebyside widths="50% 50%" valign="middle">
             <p>
               <ol marker="a)">
                 <li>
                   <p>
-                    <m></m>
+                    Independent System
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    Inconsistent System
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
+                    Dependent System
                   </p>
                 </li>
               </ol>
@@ -89,52 +102,38 @@
               <ol marker="I)">
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h3/images/h3fig1" width="40%">
+                      <shortdescription>Graph of two lines which intersect. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                          A graph of two lines which intersect exactly once, on coordinate axes.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h3/images/h3fig2" width="40%">
+                      <shortdescription>Graph of two lines which lie on top of each other. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                          A graph of two lines which lie on top of each other, on coordinate axes.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
+                    <image source="h3/images/h3fig3" width="40%">
+                      <shortdescription>Graph of two lines which don't intersect. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                          A graph of two lines which don't intersect, on coordinate axes.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
               </ol>
@@ -143,88 +142,9 @@
         </statement>
         <answer>
           <p>
-            
+            (a)--I, (b)--III, (c)--II
           </p>
         </answer>
-      </exercise>
-      <exercise><!-- #2 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
     </paragraphs>
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
@@ -232,78 +152,57 @@
       <exercise number="1"><!-- #1 -->
         <introduction>
           <p>
-            
+            Use the system of equations below to answer the questions that follow.
+            <m>\begin{cases} 17x-11z=3+13y \\ 12y+11x=14x+4 \\ 6=-4y+x \end{cases}</m>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Write the augmented matrix that represents the given system of equations.
             </p>
           </statement>
           <answer>
             <p>
-              
+                <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    17 \amp -13 \amp -11 \amp 3 \\
+                    -3 \amp 12 \amp 0 \amp 4 \\
+                    1 \amp -4 \amp 0 \amp 6
+                    \end{array}\right]
+                    \end{array}</md>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Use the RREF feature in your calculator to find the row reduced echelon form of the augmented matrix in part (a).
             </p>
           </statement>
           <answer>
             <p>
-              
+                <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    1 \amp 0 \amp -\dfrac{4}{5} \amp 0 \\
+                    0 \amp 1 \amp -\dfrac{1}{5} \amp 0 \\
+                    0 \amp 0 \amp 0 \amp 1
+                    \end{array}\right]
+                    \end{array}</md>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Use the matrix in part (b) to write the solution to the given system of equations, if one exists. Write any solutions as ordered pairs with exact values. For parametric solutions, use <m>t</m> as your parameter.
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              No solution
             </p>
           </answer>
         </task>
@@ -311,341 +210,187 @@
       <exercise number="2"><!-- #2 -->
         <introduction>
           <p>
-            
+            Determine if each of the following matrices is in RREF. If it is in RREF, state the solution. If it is not in RREF, state why.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+                <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    1 \amp 0 \amp 4 \amp 2 \\
+                    0 \amp 1 \amp 0 \amp 3 \\
+                    0 \amp 0 \amp 1 \amp 5
+                    \end{array}\right]
+                    \end{array}</md>
             </p>
           </statement>
           <answer>
             <p>
-              
+              No, <m>c_{13}=4</m> needs to be a <m>0</m> value so that leading <m>1</m> in <m>c_{33}</m> is the only non-zero entry in the column. 
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+                <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    1 \amp 0 \amp 4 \amp 0 \\
+                    0 \amp 1 \amp 2 \amp 0 \\
+                    0 \amp 0 \amp 0 \amp 1
+                    \end{array}\right]
+                    \end{array}</md>
             </p>
           </statement>
           <answer>
             <p>
-              
+              It is in RREF, but there is no solution since <m>0x+0y+0z\neq 1</m> from the third row and <m>0 \neq 1</m>.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+                <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    1 \amp 0 \amp 4 \amp 2 \\
+                    0 \amp 0 \amp 1 \amp 0 \\
+                    0 \amp 1 \amp 2 \amp 3
+                    \end{array}\right]
+                    \end{array}</md>
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              No, pivot positions (leading <m>1</m>'s) must move from left to right.
             </p>
           </answer>
         </task>
       </exercise>
       <exercise number="3"><!-- #3 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
-              
+              Perform the indicated row operation and write down the resulting matrix from that one row operation.
+                <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    2 \amp 5 \amp -3 \amp 8 \\
+                    3 \amp -1 \amp 6 \amp 10 \\
+                    1 \amp 4 \amp -1 \amp 12
+                    \end{array}\right]
+                    \end{array} \overset{R_1 \leftrightarrow R_3}{\rightarrow}</md>
             </p>
           </statement>
           <answer>
             <p>
-              
+                <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    1 \amp 4 \amp -1 \amp 12 \\
+                    3 \amp -1 \amp 6 \amp 10 \\
+                    2 \amp 5 \amp -3 \amp 8
+                    \end{array}\right]
+                    \end{array}</md>
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
       <exercise number="4"><!-- #4 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
-              
+              Determine the next row operation used in the Gauss-Jordan Elimination Method, perform that row operation, and write the resulting matrix.
+                <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    1 \amp 0 \amp 0 \amp -3 \\
+                    0 \amp 1 \amp 6 \amp 10 \\
+                    0 \amp 4 \amp -1 \amp 12
+                    \end{array}\right]
+                    \end{array} \rightarrow</md>
             </p>
           </statement>
           <answer>
             <p>
-              
+                <md>\overset{-4R_2+R_3\rightarrow R_3}{\rightarrow}\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    1 \amp 0 \amp 0 \amp -3 \\
+                    0 \amp 1 \amp 6 \amp 10 \\
+                    0 \amp 0 \amp -25 \amp -28
+                    \end{array}\right]
+                    \end{array}</md>
             </p>
           </answer>
-        </task>
-        <task>
+        </exercise>
+      <exercise number="5"><!-- #5 -->
           <statement>
             <p>
-              
+              Determine the value(s) of <m>k</m> such that the system of equations below has infinitely many solutions.
+              <md>
+                \begin{cases} 2x-3y=6 \\ kx+9y=-18 \end{cases}
+              </md>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>k=-6</m>
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
-        <exercise number="5"><!-- #5 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
+      <exercise number="6"><!-- #6 -->
           <statement>
             <p>
-              
+              Write the equation of the line that intersects the <m>x</m>-axis at <m>x=-6</m> and the <m>y</m>-axis at <m>y=\dfrac{2}{3}</m>. Write your answer in slope-intercept form.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>y=\dfrac{1}{9}x+\dfrac{2}{3}</m>
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="6"><!-- #6 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
+      </exercise>
         <exercise number="7"><!-- #7 -->
         <introduction>
           <p>
-            
+            A clothing company has determined <m>100</m> t-shirts are demanded when they sell each shirt for <m>\$23.75</m>. When they drop the price to <m>\$20.00</m> per shirt, <m>300</m> more t-shirts are demanded.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Find the clothing company's demand equation, <m>p_d(x)</m>, in dollars, where <m>x</m> is the number of t-shirts produced. Write your answer in slope-intercept form.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>p_d(x)=-0.0125x+25</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Given the company's supply equation is <m>p_s(x)=0.01325x+4.4</m>, where <m>p_s(x)</m> is the price (in dollars) per t-shirt when <m>x</m> t-shirts are sold, find the company's equilibrium point in the context of the problem.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>(800,15)</m> means that at a price of <m>\$15</m>, <m>800</m> t-shirts will be supplied and, at the same price, all <m>800</m> t-shirts will be bought.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              If the t-shirts are sold for <m>\$18.00</m> each, describe how this affects the supply and demand. Another way to think about this is, if the price is <m>\$18.00</m>, then will the market be at equilibrium, or will there be a surplus or shortage? How do you know this? Be sure you fully explain/justify/defend your answer.
             </p>
           </statement>
           <answer>
             <p>
-              
+              The equilibrium price is <m>\$15</m>. As the price increases to <m>\$18</m> then demand (<m>x_d</m>) for t-shirts will decrease while supply (<m>x_s</m>) for t-shirts will increase. If the price is <m>\$18</m>, then the market is not at equilibrium as there will be a surplus of t-shirts (i.e. <m>x_s-x_d \gt 0</m>).
             </p>
           </answer>
         </task>
@@ -653,30 +398,118 @@
         <exercise number="8"><!-- #8 -->
         <introduction>
           <p>
-            
+            Five companies sell tickets for a concert by Lainey Wilson at the Houston Rodeo. There are four different ways that customers can purchase the tickets. Matrix <m>A</m> represents the number of tickets sold during the first week tickets were on sale, and Matrix <m>B</m> represents the number of tickets sold during the second week tickets were available. Matrix <m>P</m> represents the price (in dollars) at which tickets were sold at each of the five different companies and Matrix <m>C</m> represents the dollar amount each company paid for the tickets (before selling).
+            <md>A= \begin{array}{r c}
+                      \amp \begin{matrix} \text{Online} \amp \text{Phone} \amp \text{Mail} \amp \text{In-person} \end{matrix} \\
+                      \begin{matrix} \text{Seat Geek} \\ \text{Stub Hub} \\ \text{Ticket Master} \\ \text{Vivid Seats} \\ \text{Tick Pick} \end{matrix} \amp
+                      \begin{bmatrix}
+                        615 \amp 321 \amp 35 \amp 57 \\
+                        221 \amp 462 \amp 0 \amp 26 \\
+                        567 \amp 147 \amp 24 \amp 55 \\
+                        432 \amp 143 \amp 11 \amp 34 \\
+                        710 \amp 210 \amp 0 \amp 0
+                      \end{bmatrix}
+                      \end{array}</md>
+            <md>B= \begin{array}{r c}
+                      \amp \begin{matrix} \text{Online} \amp \text{Phone} \amp \text{Mail} \amp \text{In-person} \end{matrix} \\
+                      \begin{matrix} \text{Seat Geek} \\ \text{Stub Hub} \\ \text{Ticket Master} \\ \text{Vivid Seats} \\ \text{Tick Pick} \end{matrix} \amp
+                      \begin{bmatrix}
+                        230 \amp 101 \amp 24 \amp 12 \\
+                        130 \amp 72 \amp 0 \amp 2 \\
+                        345 \amp 45 \amp 36 \amp 35 \\
+                        127 \amp 16 \amp 10 \amp 67 \\
+                        95 \amp 20 \amp 0 \amp 0
+                      \end{bmatrix}
+                      \end{array}</md>
+            <md>P= \begin{array}{r c}
+                      \amp \begin{matrix} \$ \end{matrix}\\
+                      \begin{matrix} \text{Seat Geek} \\ \text{Stub Hub} \\ \text{Ticket Master} \\ \text{Vivid Seats} \\ \text{Tick Pick} \end{matrix} \amp
+                      \begin{bmatrix}
+                        250 \\
+                        275 \\
+                        300 \\
+                        250 \\
+                        125
+                      \end{bmatrix}
+                      \end{array}</md>
+            <md>C= \begin{array}{r c}
+                      \amp \begin{matrix} \$ \end{matrix}\\
+                      \begin{matrix} \text{Seat Geek} \\ \text{Stub Hub} \\ \text{Ticket Master} \\ \text{Vivid Seats} \\ \text{Tick Pick} \end{matrix} \amp
+                      \begin{bmatrix}
+                        65 \\
+                        60 \\
+                        65 \\
+                        60 \\
+                        45
+                      \end{bmatrix}
+                      \end{array}</md>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Compute <m>D=A+B</m> and give the meaning of <m>d_{24}</m> in the context of this problem.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <md>D= \begin{array}{r c}
+                      \amp \begin{matrix} \text{Online} \amp \text{Phone} \amp \text{Mail} \amp \text{In-person} \end{matrix} \\
+                      \begin{matrix} \text{Seat Geek} \\ \text{Stub Hub} \\ \text{Ticket Master} \\ \text{Vivid Seats} \\ \text{Tick Pick} \end{matrix} \amp
+                      \begin{bmatrix}
+                        845 \amp 422 \amp 59 \amp 69 \\
+                        351 \amp 534 \amp 0 \amp 28 \\
+                        912 \amp 192 \amp 60 \amp 90 \\
+                        559 \amp 159 \amp 21 \amp 101 \\
+                        805 \amp 230 \amp 0 \amp 0
+                      \end{bmatrix}
+                      \end{array}</md>
+              <m>d_{24}=28</m>, which is the total number of tickets sold during the first and second week in-person by Stub Hub.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Compute <m>E=P-C</m> and give the meaning of <m>e_{51}</m> in the context of this problem.
             </p>
           </statement>
           <answer>
             <p>
-              
+            <md>E= \begin{array}{r c}
+                      \amp \begin{matrix} \$ \end{matrix}\\
+                      \begin{matrix} \text{Seat Geek} \\ \text{Stub Hub} \\ \text{Ticket Master} \\ \text{Vivid Seats} \\ \text{Tick Pick} \end{matrix} \amp
+                      \begin{bmatrix}
+                        185 \\
+                        215 \\
+                        235 \\
+                        190 \\
+                        80
+                      \end{bmatrix}
+                      \end{array}</md>
+              <m>e_{51}=\$80</m>, which is the profit that Tick Pick made for each ticket it sold.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compute <m>F=A^TP</m> and give the meaning of <m>f_{11}</m> in the context of this problem.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <md>F= \begin{array}{r c}
+                      \amp \begin{matrix} \$ \end{matrix}\\
+                      \begin{matrix} \text{Online} \\ \text{Phone} \\ \text{Mail} \\ \text{In-person} \end{matrix} \amp
+                      \begin{bmatrix}
+                        581375 \\
+                        313400 \\
+                        18700 \\
+                        46400
+                      \end{bmatrix}
+                      \end{array}</md>
+              <m>f_{11}=\$581375</m>, which is the revenue from online ticket sales by the five companies during the first week tickets were on sale.
             </p>
           </answer>
         </task>
@@ -684,34 +517,157 @@
         <exercise number="9"><!-- #9 -->
         <introduction>
           <p>
-            
+            The web server bought to host information about <url href="https://reveille.tamu.edu/" visual="reveille.tamu.edu/">Reveille</url> originally cost <m>\$12000</m> in the year 2001. The server reached its scrap value of <m>\$6000</m> in 2005.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Compute the rate of depreciation of the web server.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\$1500</m> per year
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Let <m>t</m> be the amount of time since 2001 (in years). Find a linear depreciation function <m>V(t)</m> where <m>V</m> is the value (in dollars) of the web server.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>V(t)=\begin{cases}-1500t+12000 \amp 0 \leq t \leq 4 \\ 6000 \amp t \gt 4 \end{cases}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              In what year was the server worth <m>\$7500</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              2004
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What was the value of the server in 2006?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\$6000</m>
             </p>
           </answer>
         </task>
         </exercise>
+      <exercise number="10"><!-- #10 -->
+          <statement>
+            <p>
+              Solve the system of equations below using the substitution method. Write any solutions as ordered pairs with exact values. If no solutions exist, write 'NO SOLUTION'. For parametric solutions, use <m>t</m> as your parameter.
+              <md>\begin{cases} 2x-y=1 \\ 3x+2y=12 \end{cases}</md>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>(2,3)</m>
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="11"><!-- #11 -->
+          <statement>
+            <p>
+              Solve the system of equations below using the elimination method. Write any solutions as ordered pairs with exact values. If no solutions exist, write 'NO SOLUTION'. For parametric solutions, use <m>t</m> as your parameter.
+              <md>\begin{cases} 3x-6y=12 \\ -5x+15y=-20 \end{cases}</md>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>(4,0)</m>
+            </p>
+          </answer>
+      </exercise>
+        <exercise number="12"><!-- #12 -->
+        <introduction>
+          <p>
+            Let <m>B=\begin{bmatrix} -15v \amp -3 \amp -12 \\ 9w \amp -5r \amp 1 \end{bmatrix}</m> and <m>A=\begin{bmatrix} -1 \amp 18 \\ -8q \amp 4 \\ 12m \amp 2n \end{bmatrix}</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Given <m>E=3A^T-2B</m>, find <m>e_{12}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>e_{12}=-24q+6</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Calculate <m>BA</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>BA=\begin{bmatrix} 15v+24q-144m \amp -270v-12-24n \\ -9w+40rq+12m \amp 162w-20r+2n \end{bmatrix}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+      <exercise number="13"><!-- #13 -->
+          <statement>
+            <p>
+              The Aggie football bobblehead manufacturer manufactures a bobblehead at a cost of <m>\$4</m> a unit and sells them for <m>\$10</m> a unit. If making <m>1000</m> bobbleheads costs the manufacturer <m>\$16000</m> in total, compute their break-even point. Interpret the meaning of your answer in the context of this problem.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>(2000,20000)</m>, so when the manufacturer makes <m>2000</m> bobbleheads they make a profit of <m>\$0</m>.
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="14"><!-- #14 -->
+          <statement>
+            <p>
+              Consider the matrix equation below. Find the values of <m>a</m>, <m>b</m>, and <m>c</m> that make this equation true.
+              <md>
+                \begin{bmatrix} 1 \amp -4 \\ 0 \amp c+1 \end{bmatrix} + 3\begin{bmatrix} a+2 \amp 0 \\ 3 \amp -1 \end{bmatrix}^T = \begin{bmatrix} 7 \amp b \\ 0 \amp 1 \end{bmatrix}
+              </md> 
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>a=0</m>, <m>b=5</m>, <m>c=3</m>
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="15"><!-- #15 -->
+          <statement>
+            <p>
+              Write but do not solve a system of equations to solve the following problem. A coffee shop wants to create <m>75</m> pounds of a specialty blend using three types of coffee roasts: dark roast, medium roast, and light roast. Dark roast costs <m>\$12</m> per pound, medium roast costs <m>\$9</m> per pound, and light roast costs <m>\$7</m> per pound. The specialty blend needs to cost <m>\$9.20</m> per pound, and must have twice as much medium roast as light roast. How many pounds of each existing roast are needed to create the specialty blend?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>d=</m> pounds of dark roast, <m>m=</m> pounds of medium roast, <m>l= </m> pounds of light roast
+              <md>
+                \begin{cases} d+m+l=75 \\ 12d+9m+7l=690 \\ m=2l \end{cases}
+              </md>
+            </p>
+          </answer>
+      </exercise>
     </paragraphs>
 
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
@@ -720,39 +676,39 @@
       <exercise number="1"><!-- #1 -->
         <statement>
           <p>
-            
+            Consumers will purchase <m>260</m> items when each item is sold for <m>\$60</m> and 325 items when each item is sold for <m>\$21</m>. Companies will produce (and sell) <m>108</m> items when the items are priced at <m>\$42</m>. When companies increase the price by <m>\$6</m>, four more items are produced (and sold). How many items will consumers purchase if the items are free?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>216</m> items
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>360</m> items
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>80</m> items
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>120</m> items
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>160</m> items
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (B)
           </p>
         </answer>
       </exercise>
@@ -760,39 +716,39 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            
+            A company's cost equation (in dollars) is given by <m>C(x)=45x+6000</m>, where <m>x</m> is the number of items produced. If the company sells each item for <m>\$75</m>, determine the amount of revenue the company must earn to break even.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  The company will never "actually" break even.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>\$200</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>\$6000</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>\$15000</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>\$9375</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (D)
           </p>
         </answer>
       </exercise>
@@ -800,39 +756,42 @@
       <exercise number="3"><!-- #3 -->
         <statement>
           <p>
-            
+            Which of the statements below is true about the following system of linear equations?
+            <md>
+              \begin{cases} 16x+10y+12z=2 \\ 4x+5y-12z=-7 \\ -24x-15y-18z=-3 \end{cases}
+            </md>
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  The system has exactly one solution, and the solution is <m>(x,y,z)=(2,-3,0)</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The system has infinitely many solutions, and the solutions are <m>(x,y,z)=(2-4.5t,-3+6t,t)</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The system has infinitely many solutions, and the solutions are <m>(x,y,z)=(-4.5t,6t,t)</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The system has exactly one solution, and the solution is <m>(x,y,z)=(4.5,6,0)</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The system has no solution.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (B)
           </p>
         </answer>
       </exercise>
@@ -840,39 +799,54 @@
       <exercise number="4"><!-- #4 -->
         <statement>
           <p>
-            
+            Find the row operation used between the two matrices below.
+            <md>\begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    1 \amp 0 \amp 0 \amp 8 \\
+                    3 \amp -1 \amp 6 \amp 10 \\
+                    1 \amp 4 \amp -1 \amp 12
+                    \end{array}\right]
+                    \end{array} \overset{???}{\rightarrow} \begin{array}{c}
+                    \begin{matrix} \quad x \amp \, y \amp \, z \amp \text{const} \end{matrix} \\
+                    \left[\begin{array}{ccc|c}
+                    1 \amp 0 \amp 0 \amp 8 \\
+                    0 \amp -1 \amp 6 \amp -14 \\
+                    1 \amp 4 \amp -1 \amp 12
+                    \end{array}\right]
+                    \end{array}</md>
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>\dfrac{1}{3}R_2 \rightarrow R_2</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>0R_2+R_1\rightarrow R_2</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>-3R_1+R_2\rightarrow R_1</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>-3R_1+R_2 \rightarrow R_2</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>R_2 \rightarrow 2R_2</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (D)
           </p>
         </answer>
       </exercise>
@@ -880,39 +854,39 @@
       <exercise number="5"><!-- #5 -->
         <statement>
           <p>
-            
+            Given <m>A=\begin{bmatrix} -2 \amp 8 \\ x \amp 3 \\ y \amp 4 \end{bmatrix}</m>, <m>B=\begin{bmatrix} 0 \amp -9 \\ z \amp 3 \\ -1 \amp 4 \end{bmatrix}</m>, and <m>C=AB</m>, find <m>c_{31}</m>.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>-y</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>yz-4</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>yz-y+4z-4</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>-y+16</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The Matrix <m>C</m> is not a defined matrix.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (E)
           </p>
         </answer>
       </exercise>
@@ -920,119 +894,39 @@
       <exercise number="6"><!-- #6 -->
         <statement>
           <p>
-            
+            Given <m>y+3=\dfrac{4}{5}(x-5)</m>, if the <m>x</m>-value increases by <m>10</m> units, what is the corresponding change in the <m>y</m>-value?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  Increase by <m>5</m> units
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  Increase by <m>12</m> units
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  Decrease by <m>8</m> units
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  Increase by <m>8</m> units
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  None of these
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="7"><!-- #7 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="8"><!-- #8 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
+            (D)
           </p>
         </answer>
       </exercise>
