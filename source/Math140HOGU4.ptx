@@ -25,203 +25,86 @@
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
       <exercise><!-- #1 -->
-        <statement>
-          <p>
-            
-          </p>
-          <sidebyside widths="82% 18%" valign="middle">
-            <p>
-              <ol marker="a)">
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-              </ol>
-            </p>
-
-            <p>
-              <ol marker="I)">
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </sidebyside>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-      <exercise><!-- #2 -->
         <introduction>
           <p>
-            
+            Use the graph below for the following tasks.
+            IMAGE
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Match each region (<m>I</m>, <m>II</m>, <m>III</m>, <m>IV</m>) with its corresponding system of linear inequalities (<m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m>) given below.
+              <ol marker="(A)">
+                <li>
+                  <p>
+                    <m>\begin{cases}y \geq -\dfrac{13}{16}x+52\\ y \geq \dfrac{3}{16}x+20 \\ x \geq 0, y \geq 0\end{cases}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\begin{cases}y \leq -\dfrac{13}{16}x+52\\ y \geq \dfrac{3}{16}x+20 \\ x \geq 0, y \geq 0\end{cases}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\begin{cases}y \leq -\dfrac{13}{16}x+52\\ y \leq \dfrac{3}{16}x+20 \\ x \geq 0, y \geq 0\end{cases}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\begin{cases}y \geq -\dfrac{13}{16}x+52\\ y \leq \dfrac{3}{16}x+20 \\ x \geq 0, y \geq 0\end{cases}</m>
+                  </p>
+                </li>
+              </ol>
             </p>
           </statement>
           <answer>
             <p>
-              
+              A--II, B--I, C--IV, D--III
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Determine which of the four regions are bounded and which regions are unbounded.
             </p>
           </statement>
           <answer>
             <p>
-              
+              Since we can enclose region <m>I</m> and region <m>IV</m> inside a circle, these regions are bounded. Region <m>II</m> and <m>III</m> are unbounded.
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise><!-- #2 -->
+        <introduction>
+          <p>
+            Find the inequality that represents each region below.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              IMAGE
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y\leq \dfrac{4}{3}x+5</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              IMAGE
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              <m>y\gt \dfrac{4}{3}x+5</m>
             </p>
           </answer>
         </task>
@@ -232,73 +115,44 @@
       <exercise number="1"><!-- #1 -->
         <introduction>
           <p>
-            
+            Complete the following tasks to set up, but not solve, the following linear programming problem.
+
+            A factory produced two types of gas, regular and premium. Each gas requires the use of two operations: distillation and treatment. 
+            Regular gas requires <m>1</m> hour of distillation and <m>2</m> hours of treatment per batch, while premium gas requires <m>1</m> hour of treatment and <m>2</m> hours of distillation per batch.
+            The factory has only <m>24</m> hours they can devote to distillation and <m>36</m> hours they can devote to treatment. They can also only make, at most, twice as much premium gasoline as regular gasoline. 
+            If the factory makes <m>\$20</m> of profit for each batch of regular gasoline and <m>\$30</m> of profit for each batch of premium gasoline, how many of each batch should be manufactured to maximize profit?
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Define the variables and objective function for this problem in words.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>x=</m> # of batches of regular gasoline produced, 
+              <m>y=</m> # of batches of premium gasoline produced, 
+              <m>P=</m> profit (in dollars) from # of batches of regular gasoline and # batches of premium gasoline produced
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Identify the objective function and set up the constraints for the problem.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>P=20x+30y</m>, <m>x+2y\leq 24</m>, <m>2x+y\leq 36</m>, <m>y \leq 2x</m>, <m>x\geq 0</m>, <m>y \geq 0</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
+              Combined the information from parts (a) and (b) for the final setup of the linear programming problem.
             </p>
           </statement>
           <answer>
@@ -309,12 +163,6 @@
         </task>
       </exercise>
       <exercise number="2"><!-- #2 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -325,55 +173,6 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
       <exercise number="3"><!-- #3 -->
         <introduction>
@@ -417,38 +216,8 @@
             </p>
           </answer>
         </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
       <exercise number="4"><!-- #4 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -459,75 +228,8 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
         <exercise number="5"><!-- #5 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -538,31 +240,6 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
         </exercise>
         <exercise number="6"><!-- #6 -->
         <introduction>
@@ -608,12 +285,6 @@
         </task>
         </exercise>
         <exercise number="7"><!-- #7 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -624,39 +295,8 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
         </exercise>
         <exercise number="8"><!-- #8 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -667,50 +307,6 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="9"><!-- #9 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
         </exercise>
     </paragraphs>
 
@@ -878,126 +474,6 @@
       </exercise>
 
       <exercise number="5"><!-- #5 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="6"><!-- #6 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="7"><!-- #7 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="8"><!-- #8 -->
         <statement>
           <p>
             
