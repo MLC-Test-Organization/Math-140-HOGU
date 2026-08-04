@@ -131,9 +131,11 @@
           </statement>
           <answer>
             <p>
-              <m>x=</m> # of batches of regular gasoline produced, 
-              <m>y=</m> # of batches of premium gasoline produced, 
-              <m>P=</m> profit (in dollars) from # of batches of regular gasoline and # batches of premium gasoline produced
+              <md>
+                <mrow>x \amp =\text{\# of batches of regular gasoline produced}</mrow>
+                <mrow>y \amp =\text{\# of batches of premium gasoline produced}</mrow>
+                <mrow>P \amp =\text{profit (in dollars)}</mrow>
+              </md>
             </p>
           </answer>
         </task>
@@ -144,20 +146,35 @@
             </p>
           </statement>
           <answer>
-            <p>
-              <m>P=20x+30y</m>, <m>x+2y\leq 24</m>, <m>2x+y\leq 36</m>, <m>y \leq 2x</m>, <m>x\geq 0</m>, <m>y \geq 0</m>
-            </p>
+            <md>
+                <mrow>\amp P = 20x + 30y</mrow>
+                <mrow>\amp x + 2y \leq 24</mrow>
+                <mrow>\amp 2x + y \leq 36</mrow>
+                <mrow>\amp y \leq 2x</mrow>
+                <mrow>\amp x \geq 0, y \geq 0</mrow>
+              </md>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              Combined the information from parts (a) and (b) for the final setup of the linear programming problem.
+              Combine the information from parts (a) and (b) for the final setup of the linear programming problem
             </p>
           </statement>
           <answer>
             <p>
-              
+              <md>
+                <mrow>x \amp =\text{\# of batches of regular gasoline produced}</mrow>
+                <mrow>y \amp =\text{\# of batches of premium gasoline produced}</mrow>
+                <mrow>P \amp =\text{profit (in dollars)}</mrow>
+              </md>
+              <md>
+                <mrow>\text{Maximize } \amp P = 20x + 30y</mrow>
+                <mrow>\text{subject to } \amp x + 2y \leq 24</mrow>
+                <mrow>\amp 2x + y \leq 36</mrow>
+                <mrow>\amp y \leq 2x</mrow>
+                <mrow>\amp x \geq 0, y \geq 0</mrow>
+              </md>
             </p>
           </answer>
         </task>
