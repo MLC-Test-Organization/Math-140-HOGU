@@ -1,0 +1,25 @@
+<diagram xmlns="https://prefigure.org" dimensions="(800,600)" margins="5">
+  <coordinates bbox="(-2,-2,27,17)">
+    <grid-axes spacings="((-1,1,26),(-1,1,16))" xlabel="x" ylabel="y" hlabels="(-1,1,26)" vlabels="(-1,1,16)" hticks="(-1,1,26)" vticks="(-1,1,16)" arrows="2"/>
+    <point p="(0,2)" size="6" fill="black" thickness="0"/>
+    <point p="(0,4)" size="6" fill="black" thickness="0"/>
+    <point p="(0,9)" size="6" fill="black" thickness="0"/>
+    <point p="(0,14)" size="6" fill="black" thickness="0"/>
+    <point p="(8,2)" size="6" fill="black" thickness="0"/>
+    <point p="(8,8)" size="6" fill="black" thickness="0"/>
+    <point p="(10,12)" size="6" fill="black" thickness="0"/>
+    <point p="(13,7)" size="6" fill="black" thickness="0"/>
+    <point p="(15,5)" size="6" fill="black" thickness="0"/>
+    <point p="(20,2)" size="6" fill="black" thickness="0"/>
+    <label anchor="(0,2)" alignment="ne" color="black"><m>\LARGE (0,2)</m></label>
+    <label anchor="(0,4)" alignment="ne" color="black"><m>\LARGE (0,4)</m></label>
+    <label anchor="(0,9)" alignment="ne" color="black"><m>\LARGE (0,9)</m></label>
+    <label anchor="(0,14)" alignment="ne" color="black"><m>\LARGE (0,14)</m></label>
+    <label anchor="(8,2)" alignment="ne" color="black"><m>\LARGE (8,2)</m></label>
+    <label anchor="(8,8)" alignment="ne" color="black"><m>\LARGE (8,8)</m></label>
+    <label anchor="(10,12)" alignment="ne" color="black"><m>\LARGE (10,12)</m></label>
+    <label anchor="(13,7)" alignment="ne" color="black"><m>\LARGE (13,7)</m></label>
+    <label anchor="(15,5)" alignment="ne" color="black"><m>\LARGE (15,5)</m></label>
+    <label anchor="(20,2)" alignment="ne" color="black"><m>\LARGE (20,2)</m></label>
+  </coordinates>
+</diagram>

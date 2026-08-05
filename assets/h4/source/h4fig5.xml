@@ -1,0 +1,22 @@
+<diagram xmlns="https://prefigure.org" dimensions="(800,600)" margins="5">
+  <definition>l1(x)=2*x+7</definition>
+  <definition>l2(x)=-5/6*x+21/3</definition>
+  <definition>l3(x)=-11/2*x-8</definition>
+  <definition>l4(x)=5/3*x-8</definition>
+  <definition>l5(x)=-10</definition>
+  <definition>l6(x)=10</definition>
+  <coordinates bbox="(-7,-10,11,10)">
+    <grid-axes spacings="((-6,1,10),(-9,1,9))" xlabel="x" ylabel="y" hlabels="(-6,1,10)" vlabels="(-9,1,9)" hticks="(-6,1,10)" vticks="(-9,1,9)" arrows="2"/>
+    <area-between-curves function1="l1" function2="l6" domain="(-7,1.5)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l2" function2="l6" domain="(-3.6,11)" fill="green" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l3" function2="l5" domain="(-36/11,4/11)" fill="red" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l5" function2="l6" domain="(-7,-36/11)" fill="red" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l4" function2="l5" domain="(-1.2,10.8)" fill="orange" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l6" function2="l5" domain="(10.8,11)" fill="orange" stroke="empty" fill-opacity="0.2"/>
+    <graph function="l1" domain="(-7,11)" stroke="black" dash="2 2"/>
+    <graph function="l2" domain="(-7,11)" stroke="black"/>
+    <graph function="l3" domain="(-7,11)" stroke="black" dash="2 2"/>
+    <graph function="l4" domain="(-7,11)" stroke="black"/>
+    <label anchor="(1,2)" alignment="se" color="black"><m>\Huge S</m></label>
+  </coordinates>
+</diagram>

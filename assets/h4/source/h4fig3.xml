@@ -1,0 +1,10 @@
+<diagram xmlns="https://prefigure.org" dimensions="(400,300)" margins="5">
+  <definition>l1(x)=4/3*x+5</definition>
+  <definition>l2(x)=7</definition>
+  <definition>l3(x)=-4</definition>
+  <coordinates bbox="(-5,-4,5,7)">
+    <grid-axes spacings="((-4,1,4),(-3,1,6))" xlabel="x" ylabel="y" hlabels="(-4,1,4)" vlabels="(-3,1,6)" hticks="(-4,1,4)" vticks="(-3,1,6)" arrows="2"/>
+    <area-between-curves function1="l1" function2="l2" domain="(-5,1.5)" fill="orange" stroke="empty" fill-opacity="0.2"/>
+    <graph function="l1" domain="(-5,4)" stroke="black" dash="2,2"/>
+  </coordinates>
+</diagram>
