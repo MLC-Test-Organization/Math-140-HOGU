@@ -1,0 +1,27 @@
+<diagram xmlns="https://prefigure.org" dimensions="(600,600)" margins="5">
+  <definition>l1(x)=-3*x+10</definition>
+  <definition>l2(x)=-2*x+9</definition>
+  <definition>l3(x)=-x+7</definition>
+  <definition>l4(x)=-1/4*x+3.25</definition>
+  <definition>l5(x)=1</definition>
+  <definition>l6(x)=12</definition>
+  <coordinates bbox="(-1,-1,12,12)">
+    <grid-axes spacings="((0,1,11),(0,1,11))" xlabel="x" ylabel="y" hlabels="(0,1,11)" vlabels="(0,1,11)" hticks="(0,1,11)" vticks="(0,1,11)" arrows="2"/>
+    <area-between-curves function1="l1" function2="l6" domain="(0,1)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l2" function2="l6" domain="(1,2)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l3" function2="l6" domain="(2,5)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l4" function2="l6" domain="(5,9)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l5" function2="l6" domain="(9,12)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <graph function="l1" domain="(0,1)" stroke="black"/>
+    <graph function="l2" domain="(1,2)" stroke="black"/>
+    <graph function="l3" domain="(2,5)" stroke="black"/>
+    <graph function="l4" domain="(5,9)" stroke="black"/>
+    <graph function="l5" domain="(9,12)" stroke="black"/>
+    <point at="point" p="(0,10)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large (0,10)</m></point>
+    <point at="point" p="(1,7)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large (1,7)</m></point>
+    <point at="point" p="(2,5)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large (2,5)</m></point>
+    <point at="point" p="(5,2)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large (5,2)</m></point>
+    <point at="point" p="(9,1)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large (9,1)</m></point>
+    <label anchor="(7,7)" alignment="sw" color="black"><m>\Huge S</m></label>
+  </coordinates>
+</diagram>

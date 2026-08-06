@@ -33,7 +33,7 @@
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
                   A graph of two intersecting lines, on coordinate axes with <m>x</m>-values from <m>0</m> to <m>65</m> and <m>y</m>-values from <m>0</m> to <m>50</m>.
-                  The first line, is given by the equation <m>y_1=\dfrac{3}{16}x+20</m>. The second line is given by the equation <m>y_2=-\dfrac{13}{16}x+52</m>.
+                  The first line is given by the equation <m>y_1=\dfrac{3}{16}x+20</m>. The second line is given by the equation <m>y_2=-\dfrac{13}{16}x+52</m>.
                   Four regions are labeled.
                   The first, labeled <m>I</m>, is above <m>y_1</m> but below <m>y_2</m> for <m>x</m> on the interval <m>(0,32)</m>.
                   The second, labeled <m>II</m>, is above <m>y_1</m> and <m>y_2</m> for <m>x</m> on the interval <m>(0,64)</m>.
@@ -86,7 +86,7 @@
           </statement>
           <answer>
             <p>
-              Since we can enclose region <m>I</m> and region <m>IV</m> inside a circle, these regions are bounded. Region <m>II</m> and <m>III</m> are unbounded.
+              Since we can enclose region <m>I</m> and region <m>IV</m> inside a circle, these regions are bounded. Regions <m>II</m> and <m>III</m> are unbounded.
             </p>
           </answer>
         </task>
@@ -121,7 +121,7 @@
         <task>
           <statement>
             <p>
-            <image source="h4/images/h4fig2" width="80%">
+            <image source="h4/images/h4fig3" width="80%">
               <shortdescription>Graph of a line with a region shaded. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
@@ -148,7 +148,7 @@
           <p>
             Complete the following tasks to set up, but not solve, the following linear programming problem.
 
-            A factory produced two types of gas, regular and premium. Each gas requires the use of two operations: distillation and treatment. 
+            A factory produces two types of gas, regular and premium. Each gas requires the use of two operations: distillation and treatment. 
             Regular gas requires <m>1</m> hour of distillation and <m>2</m> hours of treatment per batch, while premium gas requires <m>1</m> hour of treatment and <m>2</m> hours of distillation per batch.
             The factory has only <m>24</m> hours they can devote to distillation and <m>36</m> hours they can devote to treatment. They can also only make, at most, twice as much premium gasoline as regular gasoline. 
             If the factory makes <m>\$20</m> of profit for each batch of regular gasoline and <m>\$30</m> of profit for each batch of premium gasoline, how many of each batch should be manufactured to maximize profit?
@@ -213,7 +213,7 @@
       <exercise number="2"><!-- #2 -->
           <statement>
             <p>
-              Set up, but do not solve, the following linear programming problem. A baker has <m>600</m> pounds of all-purpose flour, <m>400</m> pounds of whole wheat flour, and <m>50</m> ounces of yeast with which to bake three types of bread; white, wheat, and sourdough.
+              Set up, but do not solve, the following linear programming problem. A baker has <m>600</m> pounds of all-purpose flour, <m>400</m> pounds of whole wheat flour, and <m>50</m> ounces of yeast with which to bake three types of bread: white, wheat, and sourdough.
               The following table details how much of each ingredient it takes to make a single loaf of each type of bread:
                           <table>
                 <title>Ingredient Amounts and Bread Prices</title>
@@ -307,7 +307,7 @@
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
                   A graph of the four inequalities given in the problem, on coordinate axes with <m>x</m>-values from <m>-6</m> to <m>10</m> and <m>y</m>-values from <m>-9</m> to <m>9</m>.
-                  The regions above the first two lines are shaded, and the regions below the second two inequalities lines shaded.
+                  The regions above the first two lines are shaded, and the regions below the second two inequality lines are shaded.
                   The region in the center, under the first two lines and above the second two lines and unshaded, is labeled with an <m>S</m>.
                 </p>
               </description>
@@ -331,7 +331,7 @@
       <exercise number="4"><!-- #4 -->
           <statement>
             <p>
-              Graph the boundary lines and find the solutions set to the system of inequalities given below.
+              Graph the boundary lines and find the solution set to the system of inequalities given below.
               <md>\begin{cases}0 \leq x \leq 8\\ 0 \leq y \leq 8\\ x+y\leq 10\\ x\geq \dfrac{1}{2}y \end{cases}</md>
               Mark the solution set with an <m>S</m>.
             </p>
@@ -343,7 +343,7 @@
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
                   A graph of the four inequalities given in the problem, on coordinate axes with <m>x</m>-values from <m>-6</m> to <m>10</m> and <m>y</m>-values from <m>-7</m> to <m>9</m>.
-                  The regions above <m>y=8</m> and below <m>y=0</m> are shaded. The region to the left of <m>x=0</m> and to the right of <m>x=8</m> are shaded.
+                  The regions above <m>y=8</m> and below <m>y=0</m> are shaded. The regions to the left of <m>x=0</m> and to the right of <m>x=8</m> are shaded.
                   The regions above the lines given by the equations <m>x+y=10</m> and <m>x=\dfrac{1}{2}y</m> are shaded.
                   The region of the plane left unshaded is labeled with an <m>S</m>.
                 </p>
@@ -355,7 +355,7 @@
         <exercise number="5"><!-- #5 -->
           <statement>
             <p>
-              Use the graph below to find the solution set of the given system of linear inequalities. Label the solution set <m>S</m> and find all corner points for the solution set. The given points are provided to help graph the boundary lines, you will not use all the points provided when graphing the lines.
+              Use the graph below to find the solution set of the given system of linear inequalities. Label the solution set <m>S</m> and find all corner points for the solution set. The given points are provided to help graph the boundary lines; you will not use all the points provided when graphing the lines.
               <md>\begin{cases}x+8y\leq 72\\ 3x+7y\leq 80\\ 3x+5y\leq 70\\ x\geq 0\\ y\geq 2 \end{cases}</md>
               <image source="h4/images/h4fig7" width="80%">
               <shortdescription>Graph with several points given. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
@@ -388,7 +388,16 @@
         <introduction>
           <p>
             The feasible region, <m>S</m>, for a linear programming problem is given in the graph below. 
-            IMAGE
+            <image source="h4/images/h4fig9" width="80%">
+              <shortdescription>Graph of three lines and the solution set marked and shaded with a circle around it. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of the four inequalities given in the problem, on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-1</m> to <m>5</m>.
+                  The entire region is in Quadrant <m>I</m>. The first line is given by the equation <m>y_1=-x</m>. The second line is given by the equation <m>y_2=-\dfrac{1}{2}x+3</m>. The third line is given by the equation <m>y_3=-2x+6</m>.
+                  The solution set <m>S</m> is contained within a circle. The solution set <m>S</m> is above the line <m>y_1</m>, below the line <m>y_2</m>, and below the line <m>y_3</m>.
+                </p>
+              </description>
+            </image>
             The objective function for this problem is <m>P=10x+15y</m>.
           </p>
         </introduction>
@@ -412,7 +421,7 @@
           </statement>
           <answer>
             <p>
-              Yes, since the region <m>S</m> can be enclosed (bounded) inside a circle, it follows by the Fundamental Theorem of Linear Programming (FTLP) that a maximum exists.
+              Yes, since the region <m>S</m> can be enclosed (bounded) inside a circle, it follows by the Fundamental Theorem of Linear Programming (FTLP) that a minimum exists.
             </p>
           </answer>
         </task>
@@ -432,8 +441,16 @@
         <exercise number="7"><!-- #7 -->
           <statement>
             <p>
-              The region <m>S</m> below is the feasible region for a linear programming problem with objective function <m>M=120x+75y</m>. Find the maximum and minium values of the objective function, if they exist, and where they occur.
-              IMAGE
+              The region <m>S</m> below is the feasible region for a linear programming problem with objective function <m>M=120x+75y</m>. Find the maximum and minimum values of the objective function, if they exist, and where they occur.
+            <image source="h4/images/h4fig10" width="80%">
+              <shortdescription>Graph of a feasible region with corners marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of a feasible region with corners marked, on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-1</m> to <m>12</m>.
+                  The corners are <m>(0,10)</m>, <m>(1,7)</m>, <m>(2,5)</m>, <m>(5,2)</m>, and <m>(9,1)</m>. The region is unbounded from above and to the right.
+                </p>
+              </description>
+            </image>
             </p>
           </statement>
           <answer>
@@ -447,31 +464,57 @@
           <p>
             Complete the following tasks to solve the linear programming problem below using the method of corners.
             <md>
-              \begin{cases}-x-3y\geq -27\\ -x+3y\geq 3\\ 3 \leq x \leq 9\end{cases}
+              \text{Minimize: }Z = -8x + 24y\\
+              \text{Subject to: } \begin{cases}-x-3y\geq -27\\ -x+3y\geq 3\\ 3 \leq x \leq 9\end{cases}
             </md>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              Graph each of the constraints
+              Graph each of the constraints.
+            <image source="h4/images/h4fig11" width="80%">
+              <shortdescription>The Cartesian plane. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  Coordinate axes with <m>x</m>-values from <m>-1</m> to <m>17</m> and <m>y</m>-values from <m>-1</m> to <m>14</m>.
+                </p>
+              </description>
+            </image>
             </p>
           </statement>
           <answer>
             <p>
-              IMAGE
+            <image source="h4/images/h4fig12" width="80%">
+              <shortdescription>Coordinate axis with all constraints above graphed. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  All constraints above graphed on coordinate axes with <m>x</m>-values from <m>-1</m> to <m>17</m> and <m>y</m>-values from <m>-1</m> to <m>14</m>.
+                  The corners at <m>(3,2)</m>, <m>(3,8)</m>, <m>(9,4)</m>, and <m>(9,6)</m> are marked.
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              Label the feasible region <m>S</m>. 
+              Label the feasible region <m>S</m>, including any corner points. 
             </p>
           </statement>
           <answer>
             <p>
-              IMAGE
+            <image source="h4/images/h4fig13" width="80%">
+              <shortdescription>Coordinate axis with all constraints above graphed and the feasible region marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  All constraints above graphed on coordinate axes with <m>x</m>-values from <m>-1</m> to <m>17</m> and <m>y</m>-values from <m>-1</m> to <m>14</m>.
+                  The corners at <m>(3,2)</m>, <m>(3,8)</m>, <m>(9,4)</m>, and <m>(9,6)</m> are marked.
+                  The feasible region contained within the quadrilateral formed by the corners is marked with an <m>S</m>.
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </task>
@@ -484,14 +527,23 @@
           <answer>
             <p>
               The feasible region is bounded. That is, we can draw a circle around <m>S</m>.
-              IMAGE
+            <image source="h4/images/h4fig14" width="80%">
+              <shortdescription>Coordinate axis with all constraints above graphed and the feasible region marked and circled. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  All constraints above graphed on coordinate axes with <m>x</m>-values from <m>-1</m> to <m>17</m> and <m>y</m>-values from <m>-1</m> to <m>14</m>.
+                  The corners at <m>(3,2)</m>, <m>(3,8)</m>, <m>(9,4)</m>, and <m>(9,6)</m> are marked.
+                  The feasible region contained within the quadrilateral formed by the corners is marked with an <m>S</m> and contained within a circle.
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              Find the minimum of value of <m>Z</m> in <m>S</m> using the method of corners.
+              Find the minimum value of <m>Z</m> in <m>S</m> using the method of corners.
             </p>
           </statement>
           <answer>
@@ -509,7 +561,7 @@
       <exercise number="1"><!-- #1 -->
         <statement>
           <p>
-            Determine the objective function for the following linear programming problem. You are the lead contractor of a building complex. Your team is making final inspections of two types of new commercial buildings: gas stations and restaurants. Final inspections involve the work of three separate inspectors: a plumbing inspector, and electrical inspector, and a building inspector. The plumbing inspector requires <m>4</m> hours to inspect a gas station and <m>2</m> hours to inspect a restaurant. The electrical inspector requires <m>2</m> hours to inspect a gas station and <m>6</m> hours to inspect a restaurant. The building inspector requires <m>4</m> hours to inspect a gas station and <m>6</m> hours to inspect a restaurant. Considering the time required for other duties, the plumbing inspector has <m>28</m> hours a week available for inspections; the electrical inspector has <m>30</m> hours available; and the building inspector has <m>36</m> hours available. You want to inspect as many of these buildings as possible each week.
+            Determine the objective function for the following linear programming problem. You are the lead contractor of a building complex. Your team is making final inspections of two types of new commercial buildings: gas stations and restaurants. Final inspections involve the work of three separate inspectors: a plumbing inspector, an electrical inspector, and a building inspector. The plumbing inspector requires <m>4</m> hours to inspect a gas station and <m>2</m> hours to inspect a restaurant. The electrical inspector requires <m>2</m> hours to inspect a gas station and <m>6</m> hours to inspect a restaurant. The building inspector requires <m>4</m> hours to inspect a gas station and <m>6</m> hours to inspect a restaurant. Considering the time required for other duties, the plumbing inspector has <m>28</m> hours a week available for inspections; the electrical inspector has <m>30</m> hours available; and the building inspector has <m>36</m> hours available. You want to inspect as many of these buildings as possible each week.
           </p>
             <ol marker="(A)">
               <li>
@@ -549,7 +601,7 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            For the linear programming problem below, which of the choices below correctly defines the variables needed to solve the problem? A fruit grower has <m>150</m> acres of land available to raise two crops; strawberries and watermelons. It takes the fruit grower one day to prepare one acre of land to plant strawberries and two days to prepare one acre of land to plant the watermelons. There are <m>240</m> days per year available for preparing the lands. It takes <m>0.3</m> of a day to pick one acre of strawberries and <m>0.1</m> of a day to pick one acre of watermelons. There are <m>30</m> days per year available for picking fruit from the land. The fruit grower earns <m>\$140</m> per acre for strawberries and <m>\$235</m> per acre for watermelons. Find the number of acres of each fruit the fruit grower should plant annually to maximize profit.
+            For the linear programming problem below, which of the choices below correctly defines the variables needed to solve the problem? A fruit grower has <m>150</m> acres of land available to raise two crops: strawberries and watermelons. It takes the fruit grower one day to prepare one acre of land to plant strawberries and two days to prepare one acre of land to plant the watermelons. There are <m>240</m> days per year available for preparing the lands. It takes <m>0.3</m> of a day to pick one acre of strawberries and <m>0.1</m> of a day to pick one acre of watermelons. There are <m>30</m> days per year available for picking fruit from the land. The fruit grower earns <m>\$140</m> per acre for strawberries and <m>\$235</m> per acre for watermelons. Find the number of acres of each fruit the fruit grower should plant annually to maximize profit.
           </p>
             <ol marker="(A)">
               <li>
@@ -559,7 +611,7 @@
               </li>
               <li>
                 <p>
-                  <m>x:=</m>profit from strawberries, <m>y:=</m>number of days spend preparing watermelon fields. The objective function is <m>P=150x+240y</m>.
+                  <m>x:=</m>profit from strawberries, <m>y:=</m>number of days spent preparing watermelon fields. The objective function is <m>P=150x+240y</m>.
                 </p>
               </li>
               <li>
@@ -587,7 +639,36 @@
       </exercise>
       <p>
         In the figure below, eleven regions are created when the four lines are graphed. Use this figure to answer the questions that follow.
-        IMAGE
+            <image source="h4/images/h4fig15" width="80%">
+              <shortdescription>Graph of several lines, points, and marked regions. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  Four lines are graphed above on coordinate axes.
+                  The four lines are given by the equations <m>y=3</m>, <m>x+y=8</m>, <m>5x+y=12</m>, and <m>-3x+y=12</m>.
+                  The marked points are as follows:
+                  <m>A</m>: Intersection of <m>-3x + y = 12</m> and <m>5x + y = 12</m>.
+                  <m>B</m>: Intersection of <m>5x + y = 12</m> and <m>x + y = 8</m>.
+                  <m>C</m>: Point on <m>5x + y = 12</m>.
+                  <m>D</m>: Intersection of <m>-3x + y = 12</m> and <m>x + y = 8</m>.
+                  <m>E</m>: Intersection of <m>x + y = 8</m> and <m>y = 3</m>.
+                  <m>F</m>: Intersection of <m>5x + y = 12</m> and <m>y = 3</m>.
+                  <m>G</m>: Intersection of <m>-3x + y = 12</m> and <m>y = 3</m>.
+                  <m>H</m>: Point on <m>y = 3</m>.
+                  The marked regions are as follows:
+                  <m>R_1</m>: Upper-left area above <m>y = 3</m> and left of <m>-3x + y = 12</m>.
+                  <m>R_2</m>: Quadrilateral region bounded by <m>-3x + y = 12</m>, <m>x + y = 8</m>, <m>5x + y = 12</m>, and <m>y = 3</m>.
+                  <m>R_3</m>: Region bounded by <m>5x + y = 12</m>, <m>x + y = 8</m>, and <m>y = 3</m>.
+                  <m>R_4</m>: Upper-right region above <m>x + y = 8</m> and right of <m>5x + y = 12</m>.
+                  <m>R_5</m>: Triangular region bounded by <m>-3x + y = 12</m>, <m>x + y = 8</m>, and <m>5x + y = 12</m>.
+                  <m>R_6</m>: Region above <m>-3x + y = 12</m> and left of <m>5x + y = 12</m>.
+                  <m>R_7</m>: Top central region between <m>-3x + y = 12</m> and <m>5x + y = 12</m>.
+                  <m>R_8</m>: Lower-left region below <m>y = 3</m> and left of <m>-3x + y = 12</m>.
+                  <m>R_9</m>: Bottom region below <m>y = 3</m> between <m>-3x + y = 12</m> and <m>5x + y = 12</m>.
+                  <m>R_{10}</m>: Bottom region below <m>y = 3</m> between <m>5x + y = 12</m> and <m>x + y = 8</m>.
+                  <m>R_{11}</m>: Lower-right region below <m>y = 3</m> and right of <m>x + y = 8</m>.
+                </p>
+              </description>
+            </image>
       </p>
       <exercise number="3"><!-- #3 -->
         <statement>
@@ -632,7 +713,7 @@
       <exercise number="4"><!-- #4 -->
         <statement>
           <p>
-            The corner points for <m>R_4</m> are...
+            The corner points for <m>R_3</m> are...
           </p>
             <ol marker="(A)">
               <li>
