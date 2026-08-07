@@ -393,7 +393,7 @@
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
                   A graph of the four inequalities given in the problem, on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-1</m> to <m>5</m>.
-                  The entire region is in Quadrant <m>I</m>. The first line is given by the equation <m>y_1=-x</m>. The second line is given by the equation <m>y_2=-\dfrac{1}{2}x+3</m>. The third line is given by the equation <m>y_3=-2x+6</m>.
+                  The entire region is in Quadrant <m>I</m>. The first line is given by the equation <m>y_1=-x+1</m>. The second line is given by the equation <m>y_2=-\dfrac{1}{2}x+3</m>. The third line is given by the equation <m>y_3=-2x+6</m>.
                   The solution set <m>S</m> is contained within a circle. The solution set <m>S</m> is above the line <m>y_1</m>, below the line <m>y_2</m>, and below the line <m>y_3</m>.
                 </p>
               </description>
@@ -601,7 +601,7 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            For the linear programming problem below, which of the choices below correctly defines the variables needed to solve the problem? A fruit grower has <m>150</m> acres of land available to raise two crops: strawberries and watermelons. It takes the fruit grower one day to prepare one acre of land to plant strawberries and two days to prepare one acre of land to plant the watermelons. There are <m>240</m> days per year available for preparing the lands. It takes <m>0.3</m> of a day to pick one acre of strawberries and <m>0.1</m> of a day to pick one acre of watermelons. There are <m>30</m> days per year available for picking fruit from the land. The fruit grower earns <m>\$140</m> per acre for strawberries and <m>\$235</m> per acre for watermelons. Find the number of acres of each fruit the fruit grower should plant annually to maximize profit.
+            For the linear programming problem below, which of the choices below correctly defines the variables needed to solve the problem? A fruit grower has <m>150</m> acres of land available to raise two crops: strawberries and watermelons. It takes the fruit grower one day to prepare one acre of land to plant strawberries and two days to prepare one acre of land to plant the watermelons. There are <m>240</m> days per year available for preparing the land. It takes <m>0.3</m> of a day to pick one acre of strawberries and <m>0.1</m> of a day to pick one acre of watermelons. There are <m>30</m> days per year available for picking fruit from the land. The fruit grower earns <m>\$140</m> per acre for strawberries and <m>\$235</m> per acre for watermelons. Find the number of acres of each fruit the fruit grower should plant annually to maximize profit.
           </p>
             <ol marker="(A)">
               <li>
@@ -655,17 +655,17 @@
                   <m>G</m>: Intersection of <m>-3x + y = 12</m> and <m>y = 3</m>.
                   <m>H</m>: Point on <m>y = 3</m>.
                   The marked regions are as follows:
-                  <m>R_1</m>: Upper-left area above <m>y = 3</m> and left of <m>-3x + y = 12</m>.
+                  <m>R_1</m>: Upper-left area above <m>y = 3</m>, above <m>-3x+y=12</m>, and below <m>x+y=8</m>.
                   <m>R_2</m>: Quadrilateral region bounded by <m>-3x + y = 12</m>, <m>x + y = 8</m>, <m>5x + y = 12</m>, and <m>y = 3</m>.
                   <m>R_3</m>: Region bounded by <m>5x + y = 12</m>, <m>x + y = 8</m>, and <m>y = 3</m>.
-                  <m>R_4</m>: Upper-right region above <m>x + y = 8</m> and right of <m>5x + y = 12</m>.
+                  <m>R_4</m>: Upper-right region above <m>x + y = 8</m>, above <m>y=3</m>, below <m>-3x+y=12</m>, and above <m>5x + y = 12</m>.
                   <m>R_5</m>: Triangular region bounded by <m>-3x + y = 12</m>, <m>x + y = 8</m>, and <m>5x + y = 12</m>.
-                  <m>R_6</m>: Region above <m>-3x + y = 12</m> and left of <m>5x + y = 12</m>.
-                  <m>R_7</m>: Top central region between <m>-3x + y = 12</m> and <m>5x + y = 12</m>.
-                  <m>R_8</m>: Lower-left region below <m>y = 3</m> and left of <m>-3x + y = 12</m>.
-                  <m>R_9</m>: Bottom region below <m>y = 3</m> between <m>-3x + y = 12</m> and <m>5x + y = 12</m>.
-                  <m>R_{10}</m>: Bottom region below <m>y = 3</m> between <m>5x + y = 12</m> and <m>x + y = 8</m>.
-                  <m>R_{11}</m>: Lower-right region below <m>y = 3</m> and right of <m>x + y = 8</m>.
+                  <m>R_6</m>: Region above <m>-3x + y = 12</m>, above <m>x+y=8</m>, and below <m>5x + y = 12</m>.
+                  <m>R_7</m>: Top central region above <m>-3x + y = 12</m> and above <m>5x + y = 12</m>.
+                  <m>R_8</m>: Lower-left region below <m>y = 3</m> and above <m>-3x + y = 12</m>.
+                  <m>R_9</m>: Bottom region below <m>y = 3</m>, below <m>-3x + y = 12</m>, and below <m>5x + y = 12</m>.
+                  <m>R_{10}</m>: Bottom region below <m>y = 3</m>, above <m>5x + y = 12</m>, and below <m>x + y = 8</m>.
+                  <m>R_{11}</m>: Lower-right region below <m>y = 3</m> and above <m>x + y = 8</m>.
                 </p>
               </description>
             </image>
