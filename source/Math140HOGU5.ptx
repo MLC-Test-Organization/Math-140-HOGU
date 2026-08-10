@@ -25,147 +25,116 @@
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
       <exercise><!-- #1 -->
-        <statement>
-          <p>
-            
-          </p>
-          <sidebyside widths="82% 18%" valign="middle">
-            <p>
-              <ol marker="a)">
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-              </ol>
-            </p>
-
-            <p>
-              <ol marker="I)">
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </sidebyside>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-      <exercise><!-- #2 -->
         <introduction>
           <p>
-            
+            Use the linear programming problem below to answer the questions that follow.
+              <md>
+                <mrow>\text{Maximize } \amp P = x+3y+2z</mrow>
+                <mrow>\text{subject to } \amp \dfrac{2}{7}x+\dfrac{1}{5}y+\dfrac{3}{4}z\leq 630</mrow>
+                <mrow>\amp \dfrac{1}{4}x+\dfrac{1}{8}y+\dfrac{1}{2}z\leq 250</mrow>
+                <mrow>\amp x-y+2z\leq 480</mrow>
+                <mrow>\amp x\geq 0, y\geq 0, z\geq 0</mrow>
+              </md>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Complete the simplex tableau by filling in the blanks with the correct element.
+              <me>
+                \begin{array}{rrrrrrr|r}
+                  x \amp y \amp z \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
+                  \hline
+                  \dfrac{2}{7} \amp \_ \amp \_ \amp \_ \amp \_ \amp \_ \amp 0 \amp 630 \\
+                  \_ \amp \_ \amp \dfrac{1}{2} \amp \_ \amp \_ \amp \_ \amp 0 \amp 250 \\
+                  \_ \amp -1 \amp \_ \amp \_ \amp \_ \amp \_ \amp 0 \amp 480 \\
+                  \hline
+                  \_ \amp \_ \amp \_ \amp 0 \amp 0 \amp 0 \amp 1 \amp 0
+                \end{array}
+              </me>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <me>
+                \begin{array}{rrrrrrr|r}
+                  x \amp y \amp z \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
+                  \hline
+                  \dfrac{2}{7} \amp \dfrac{1}{5} \amp \dfrac{3}{4} \amp 1 \amp 0 \amp 0 \amp 0 \amp 630 \\
+                  \dfrac{3}{4} \amp \dfrac{1}{8} \amp \dfrac{1}{2} \amp 0 \amp 1 \amp 0 \amp 0 \amp 250 \\
+                  1 \amp -1 \amp 2 \amp 0 \amp 0 \amp 1 \amp 0 \amp 480 \\
+                  \hline
+                  -1 \amp -3 \amp -2 \amp 0 \amp 0 \amp 0 \amp 1 \amp 0
+                \end{array}
+              </me>
             </p>
           </answer>
         </task>
         <task>
+          <statement>
+            <p>
+              For the simplex tableau above, the pivot column in which column?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              The pivot column is identified by looking for the most negative entry in the bottom row (i.e., the row representing the objective function). 
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Column <m>2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compute the test ratios for each row, except the last row.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              The ratios are computed by dividing the far-right column (denoted with a <m>c</m>) by the corresponding value in the pivot column of that row. A ratio that has a zero or a negative number in the denominator is ignored.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Row <m>1</m>: <m>\dfrac{630}{\frac{1}{5}}=3150</m>, Row <m>2</m>: <m>\dfrac{250}{\frac{1}{8}}=2000</m>, Row <m>3</m>: <m>\dfrac{480}{-1}=-480</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Given the information above, which row is the pivot row?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              The smallest non-negative ratio computed identifies the pivot row.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Row <m>2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Identify the pivot element in the original simplex tableau.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{1}{8}</m>, Row <m>2</m> Column <m>2</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise><!-- #2 -->
           <statement>
             <p>
               
@@ -176,55 +145,6 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
     </paragraphs>
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
@@ -235,30 +155,6 @@
             
           </p>
         </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
         <task>
           <statement>
             <p>
@@ -362,18 +258,6 @@
             </p>
           </answer>
         </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
       <exercise number="3"><!-- #3 -->
         <introduction>
@@ -381,42 +265,6 @@
             
           </p>
         </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
         <task>
           <statement>
             <p>
@@ -472,54 +320,6 @@
             </p>
           </answer>
         </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
         <exercise number="5"><!-- #5 -->
         <introduction>
@@ -527,18 +327,6 @@
             
           </p>
         </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
         <task>
           <statement>
             <p>
@@ -606,6 +394,30 @@
             </p>
           </answer>
         </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
         </exercise>
         <exercise number="7"><!-- #7 -->
         <introduction>
@@ -637,26 +449,8 @@
             </p>
           </answer>
         </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
         </exercise>
         <exercise number="8"><!-- #8 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
               
@@ -667,50 +461,6 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="9"><!-- #9 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
         </exercise>
     </paragraphs>
 
