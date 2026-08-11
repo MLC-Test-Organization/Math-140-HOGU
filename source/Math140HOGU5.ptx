@@ -137,12 +137,234 @@
       <exercise><!-- #2 -->
           <statement>
             <p>
-              
+              Fill in each blank with the correct words. A list of possible words is given in the word bank below.
+          <sidebyside widths="28% 22% 22% 28%" valign="middle">
+            <p>
+              <ul>
+                <li>
+                  <p>
+                    random experiment
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>2^n</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    certain
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    compliment
+                  </p>
+                </li>
+              </ul>
+            </p>
+            <p>
+              <ul>
+                <li>
+                  <p>
+                    simple
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    subset
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    outcomes
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    both <m>E</m> and <m>F</m>
+                  </p>
+                </li>
+              </ul>
+            </p>
+            <p>
+              <ul>
+                <li>
+                  <p>
+                    sample space
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    impossible
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\emptyset</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>E \cap F</m>
+                  </p>
+                </li>
+              </ul>
+            </p>
+            <p>
+              <ul>
+                <li>
+                  <p>
+                    both
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>E \cup F</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    union
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    mutually exclusive
+                  </p>
+                </li>
+              </ul>
+            </p>
+
+          </sidebyside>
+              <ol>
+                <li>
+                  <p>
+                    A(n) _____ is an activity or observation whose results cannot be predicted ahead of time.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    _____ are the results of a random experiment.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The _____, <m>S</m>, is the set of all possible outcomes for a random experiment.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    An event, <m>E</m>, is a _____ of the sample space (a collection of outcomes from an experiment).
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    A(n) _____ event is an event with exactly one outcome.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The _____ event, often denoted by <m>S</m>, is the event containing all outcomes of an experiment (the entire sample space).
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    A(n) _____ event, often denoted as <m>\{\}</m> or _____, is an event containing no outcomes.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    In general, for a sample space with <m>n</m> outcomes, there are <m>n</m> simple events, and the total number of possible events is _____.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The _____ of event <m>A</m>, denoted by <m>A^c</m>, is the event that contains all outcomes in the sample space which are NOT in event <m>A</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The intersection of events <m>E</m> and <m>F</m>, denoted _____, is the event that contains all outcomes in the sample space which _____ have in common.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    If two events, <m>E</m> and <m>F</m>, have no outcomes in common, then their intersection is impossible, <m>E \cap F = \emptyset</m>; the events <m>E</m> and <m>F</m> are called _____, or disjoint, events.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The _____ of events <m>E</m> and <m>F</m>, denoted _____, is the event that contains all outcomes in the sample space which are in <m>E</m> or <m>F</m>, or are in _____ <m>E</m> and <m>F</m>. 
+                  </p>
+                </li>
+              </ol>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <ol>
+                <li>
+                  <p>
+                    A(n) random experiment is an activity or observation whose results cannot be predicted ahead of time.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Outcomes are the results of a random experiment.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The sample space, <m>S</m>, is the set of all possible outcomes for a random experiment.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    An event, <m>E</m>, is a subset of the sample space (a collection of outcomes from an experiment).
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    A(n) simple event is an event with exactly one outcome.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The certain event, often denoted by <m>S</m>, is the event containing all outcomes of an experiment (the entire sample space).
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    A(n) impossible event, often denoted as <m>\{\}</m> or <m>\emptyset</m>, is an event containing no outcomes.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    In general, for a sample space with <m>n</m> outcomes, there are <m>n</m> simple events, and the total number of possible events is <m>2^n</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The compliment of event <m>A</m>, denoted by <m>A^c</m>, is the event that contains all outcomes in the sample space which are NOT in event <m>A</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The intersection of events <m>E</m> and <m>F</m>, denoted <m>E \cap F</m>, is the event that contains all outcomes in the sample space which both <m>E</m> and <m>F</m> have in common.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    If two events, <m>E</m> and <m>F</m>, have no outcomes in common, then their intersection is impossible, <m>E \cap F = \emptyset</m>; the events <m>E</m> and <m>F</m> are called mutually exclusive, or disjoint, events.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The union of events <m>E</m> and <m>F</m>, denoted <m>E \cup F</m>, is the event that contains all outcomes in the sample space which are in <m>E</m> or <m>F</m>, or are in both <m>E</m> and <m>F</m>. 
+                  </p>
+                </li>
+              </ol>
             </p>
           </answer>
       </exercise>
@@ -152,18 +374,59 @@
       <exercise number="1"><!-- #1 -->
         <introduction>
           <p>
-            
+            The graph of the linear programming problem
+              <md>
+                <mrow>\text{Maximize } \amp Z = 6x+4y</mrow>
+                <mrow>\text{subject to } \amp 5x+y\leq 25</mrow>
+                <mrow>\amp -x+2y\leq 6</mrow>
+                <mrow>\amp 3x+5y\leq 26</mrow>
+                <mrow>\amp x\geq 0, y\geq 0</mrow>
+              </md>
+            is given below.
+            <image source="h5/images/h5fig1" width="80%">
+              <shortdescription>Graph of the linear programming problem above. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of the linear programming problem above, on coordinate axes with <m>x</m>-values from <m>-3</m> to <m>9</m> and <m>y</m>-values from <m>-3</m> to <m>7</m>.
+                  The solution set is marked with an <m>S</m>. All lines are marked with their corresponding equations and all intersection points between those lines are marked with solid dots.
+                </p>
+              </description>
+            </image>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              The initial simplex tableau for this linear programming problem is given below.
+              <me>
+                \begin{array}{rrrrrr|r}
+                  x \amp y \amp s_1 \amp s_2 \amp s_3 \amp Z \amp c \\
+                  \hline
+                  5 \amp 1 \amp 1 \amp 0 \amp 0 \amp 0 \amp 25 \\
+                  -1 \amp 2 \amp 0 \amp 1 \amp 0 \amp 0 \amp 6 \\
+                  3 \amp 5 \amp 0 \amp 0 \amp 1 \amp 0 \amp 26 \\
+                  \hline
+                  -6 \amp -4 \amp 0 \amp 0 \amp 0 \amp 1 \amp 0
+                \end{array}
+              </me>
+            Identify the basic and non-basic columns of the tableau, then state the solution at this stage of the simplex. Label this solution as "<m>A</m>" on the graph.
             </p>
           </statement>
           <answer>
             <p>
-              
+            Basic: <m>s_1, s_2, s_3, Z</m>;
+            Non-basic: <m>x,y</m>;
+            Solution: <m>x=0</m>, <m>y=0</m>, <m>s_1=25</m>, <m>s_2=6</m>, <m>s_3=26</m>, <m>Z=0</m>
+            <image source="h5/images/h5fig2" width="80%">
+              <shortdescription>Graph of the linear programming problem above with the first solution point marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of the linear programming problem above, on coordinate axes with <m>x</m>-values from <m>-3</m> to <m>9</m> and <m>y</m>-values from <m>-3</m> to <m>7</m>.
+                  The solution set is marked with an <m>S</m>. All lines are marked with their corresponding equations and all intersection points between those lines are marked with solid dots.
+                  The dot at <m>(0,0)</m> is marked with an "<m>A</m>".
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </task>
@@ -175,7 +438,20 @@
           </statement>
           <answer>
             <p>
-              
+            Basic: <m>x, s_2, s_3, Z</m>;
+            Non-basic: <m>y,s_1</m>;
+            Solution: <m>x=5</m>, <m>y=0</m>, <m>s_1=0</m>, <m>s_2=11</m>, <m>s_3=11</m>, <m>Z=30</m>
+            <image source="h5/images/h5fig3" width="80%">
+              <shortdescription>Graph of the linear programming problem above with the first and second solution points marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of the linear programming problem above, on coordinate axes with <m>x</m>-values from <m>-3</m> to <m>9</m> and <m>y</m>-values from <m>-3</m> to <m>7</m>.
+                  The solution set is marked with an <m>S</m>. All lines are marked with their corresponding equations and all intersection points between those lines are marked with solid dots.
+                  The dot at <m>(0,0)</m> is marked with an "<m>A</m>".
+                  The dot at <m>(5,0)</m> is marked with an "<m>B</m>".
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </task>
@@ -187,7 +463,21 @@
           </statement>
           <answer>
             <p>
-              
+            Basic: <m>x, y, s_2, Z</m>;
+            Non-basic: <m>s_1, s_3</m>;
+            Solution: <m>x=\dfrac{9}{2}</m>, <m>y=\dfrac{5}{2}</m>, <m>s_1=0</m>, <m>s_2=\dfrac{11}{2}</m>, <m>s_3=0</m>, <m>Z=37</m>
+            <image source="h5/images/h5fig4" width="80%">
+              <shortdescription>Graph of the linear programming problem above with the first, second, and third solution points marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of the linear programming problem above, on coordinate axes with <m>x</m>-values from <m>-3</m> to <m>9</m> and <m>y</m>-values from <m>-3</m> to <m>7</m>.
+                  The solution set is marked with an <m>S</m>. All lines are marked with their corresponding equations and all intersection points between those lines are marked with solid dots.
+                  The dot at <m>(0,0)</m> is marked with an "<m>A</m>".
+                  The dot at <m>(5,0)</m> is marked with an "<m>B</m>".
+                  The dot at <m>(4.5,2.5)</m> is marked with an "<m>C</m>".
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </task>

@@ -1,0 +1,28 @@
+<diagram xmlns="https://prefigure.org" dimensions="(800,600)" margins="5">
+  <definition>l1(x)=3+1/2*x</definition>
+  <definition>l2(x)=26/5-3/5*x</definition>
+  <definition>l3(x)=25-5*x</definition>
+  <definition>l4(x)=0</definition>
+  <coordinates bbox="(-3,-4,10,8)">
+    <grid-axes spacings="((-2,1,9),(-3,1,7))" xlabel="x" ylabel="y" hlabels="(-2,1,9)" vlabels="(-3,1,7)" hticks="(-2,1,9)" vticks="(-3,1,7)" arrows="2"/>
+    <area-between-curves function1="l1" function2="l4" domain="(0,2)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l2" function2="l4" domain="(2,4.5)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l3" function2="l4" domain="(4.5,5)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <graph function="l1" domain="(-3,10)" stroke="blue"/>
+    <graph function="l2" domain="(-3,10)" stroke="blue"/>
+    <graph function="l3" domain="(-3,10)" stroke="blue"/>
+    <graph function="l4" domain="(-3,10)" stroke="blue"/>
+    <graph function="l5" domain="(-3,10)" stroke="blue"/>
+    <line endpoints="((0,-4),(0,8))" stroke="blue" infinite="yes"/>
+    <label anchor="(6,6)" alignment="se" color="black"><m>\large -x+2y=6</m></label>
+    <label anchor="(6.4,2)" alignment="se" color="black"><m>\large 3x+5y=26</m></label>
+    <label anchor="(6,-3)" alignment="se" color="black"><m>\large 5x+y=25</m></label>
+    <label anchor="(2,2)" alignment="se" color="black"><m>\Huge S</m></label>
+    <label anchor="(0.1,0.1)" alignment="ne" color="black"><m>\Huge A</m></label>
+    <point p="(0,0)" size="8" fill="black" thickness="0"/>
+    <point p="(5,0)" size="8" fill="black" thickness="0"/>
+    <point p="(4.5,2.5)" size="8" fill="black" thickness="0"/>
+    <point p="(0,3)" size="8" fill="black" thickness="0"/>
+    <point p="(2,4)" size="8" fill="black" thickness="0"/>
+  </coordinates>
+</diagram>
