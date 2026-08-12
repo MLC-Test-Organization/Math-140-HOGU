@@ -61,7 +61,7 @@
                   x \amp y \amp z \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
                   \hline
                   \dfrac{2}{7} \amp \dfrac{1}{5} \amp \dfrac{3}{4} \amp 1 \amp 0 \amp 0 \amp 0 \amp 630 \\
-                  \dfrac{3}{4} \amp \dfrac{1}{8} \amp \dfrac{1}{2} \amp 0 \amp 1 \amp 0 \amp 0 \amp 250 \\
+                  \dfrac{1}{4} \amp \dfrac{1}{8} \amp \dfrac{1}{2} \amp 0 \amp 1 \amp 0 \amp 0 \amp 250 \\
                   1 \amp -1 \amp 2 \amp 0 \amp 0 \amp 1 \amp 0 \amp 480 \\
                   \hline
                   -1 \amp -3 \amp -2 \amp 0 \amp 0 \amp 0 \amp 1 \amp 0
@@ -73,7 +73,7 @@
         <task>
           <statement>
             <p>
-              For the simplex tableau above, the pivot column in which column?
+              For the simplex tableau above, the pivot column is in which column?
             </p>
           </statement>
           <hint>
@@ -158,7 +158,7 @@
                 </li>
                 <li>
                   <p>
-                    compliment
+                    complement
                   </p>
                 </li>
               </ul>
@@ -346,7 +346,7 @@
                 </li>
                 <li>
                   <p>
-                    The compliment of event <m>A</m>, denoted by <m>A^c</m>, is the event that contains all outcomes in the sample space which are NOT in event <m>A</m>.
+                    The complement of event <m>A</m>, denoted by <m>A^c</m>, is the event that contains all outcomes in the sample space which are NOT in event <m>A</m>.
                   </p>
                 </li>
                 <li>
@@ -470,6 +470,7 @@
         <task>
           <statement>
             <p>
+              The pivot element of the tableau above is in column #<m>2</m>, row #<m>3</m> (be sure you know why). Performing the row operations on this element gives the tableau below.
               <me>
                 \begin{array}{rrrrrr|r}
                   x \amp y \amp s_1 \amp s_2 \amp s_3 \amp Z \amp c \\
@@ -481,6 +482,7 @@
                   0 \amp 0 \amp \dfrac{9}{11} \amp 0 \amp \dfrac{7}{11} \amp 1 \amp 37
                 \end{array}
               </me>
+              Identify the basic and non-basic columns of the tableau, then state the solution at this stage of the simplex. Label this solution as "<m>C</m>" on the graph.
             </p>
           </statement>
           <answer>
@@ -634,7 +636,7 @@
               <md>
                 <mrow>b \amp =\text{\# of beginner kits produced}</mrow>
                 <mrow>e \amp =\text{\# of explorer kits produced}</mrow>
-                <mrow>r \amp =\text{\# of research produced}</mrow>
+                <mrow>r \amp =\text{\# of research kits produced}</mrow>
                 <mrow>P \amp =\text{profit (in dollars) from selling produced robot kits}</mrow>
               </md>
               <md>
@@ -742,7 +744,14 @@
           </statement>
           <answer>
             <p>
-              IMAGE
+            <image source="h5/images/h5fig5" width="80%">
+              <shortdescription>A tree diagram for this problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A tree diagram for this problem. The words "heart", "spade", "diamond", and "club" come out of a solid dot. The letters "H" and "T" come out of each of the four words.
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </task>
@@ -762,66 +771,68 @@
         <exercise number="6"><!-- #6 -->
         <introduction>
           <p>
-            
+            An experiment consists of drawing a card from a standard deck of <m>52</m> cards, noting the color, and then rolling a six-sided die, noting the number rolled.
+            Let <m>E</m> be the event "a black card is drawn", <m>F</m> be the event "a number less than <m>4</m> is rolled", and <m>G</m> be the event "a multiple of <m>3</m> is rolled".
+            Describe and list the outcomes in the events below.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Give the sample space for the experiment.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>S=\{(R,1), (R,2), (R,3), (R,4), (R,5), (R,6), (B,1), (B,2), (B,3), (B,4), (B,5), (B,6)\}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Describe and list the outcomes in the event <m>E^c \cup F</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>E^c\cup F = \{(R,1),(R,2),(R,3),(R,4),(R,5),(R,6),(B,1),(B,2),(B,3)\}</m> is the event a red card is drawn or a number less than <m>4</m> is rolled.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Describe and list the outcomes in the event <m>(G\cap F)^c</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>(G\cap F)^c=\{(R,1),(R,2),(R,4),(R,5),(R,6),(B,1),(B,2),(B,4),(B,5),(B,6)\}</m> is the event that a non-multiple of <m>3</m> is rolled or a number greater than or equal to <m>4</m> is rolled.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Describe and list the outcomes in <m>(E \cup F) \cap G</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>(E \cup F) \cap G = \{(R,3),(B,3),(B,6)\}</m> is the event a black card is drawn or a number less than <m>4</m> is rolled and a multiple of <m>3</m> is rolled.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Write the symbolic notation for the event "a red card is drawn or a number less than <m>4</m> is rolled, but not a multiple of <m>3</m>".
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>(E^c\cup F)\cap G^c</m>
             </p>
           </answer>
         </task>
@@ -829,30 +840,60 @@
         <exercise number="7"><!-- #7 -->
         <introduction>
           <p>
-            
+            Given sample space <m>S</m> and two events <m>A</m> and <m>B</m>, shade in the given set in each Venn diagram.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              <m>A \cup B^c</m>
+            <image source="h5/images/h5fig6" width="40%">
+              <shortdescription>An empty Venn diagram. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  An empty Venn diagram. The circles overlap.
+                </p>
+              </description>
+            </image>
             </p>
           </statement>
           <answer>
             <p>
-              
+            <image source="h5/images/h5fig7" width="40%">
+              <shortdescription>A Venn diagram for this problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A Venn diagram for this problem. The circles overlap. The region in circle <m>A</m>, as well as the region not contained within either circle, are shaded.
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>A^c \cap B^c</m>
+            <image source="h5/images/h5fig8" width="40%">
+              <shortdescription>An empty Venn diagram. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  An empty Venn diagram. The circles overlap.
+                </p>
+              </description>
+            </image>
             </p>
           </statement>
           <answer>
             <p>
-              
+            <image source="h5/images/h5fig9" width="40%">
+              <shortdescription>A Venn diagram for this problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A Venn diagram for this problem. The circles overlap. The region not contained within either circle is shaded.
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </task>
@@ -860,12 +901,19 @@
         <exercise number="8"><!-- #8 -->
           <statement>
             <p>
-              
+              Given sample space <m>S</m> and two mutually exclusive events <m>A</m> and <m>B</m>, draw a Venn diagram that represents <m>B\cup A^c</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+            <image source="h5/images/h5fig10" width="40%">
+              <shortdescription>A Venn diagram for this problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A Venn diagram for this problem. The circles do not overlap. The region outside of circle <m>A</m> is shaded.
+                </p>
+              </description>
+            </image>
             </p>
           </answer>
         </exercise>
@@ -877,39 +925,50 @@
       <exercise number="1"><!-- #1 -->
         <statement>
           <p>
-            
+            Choose the statement below that best describes whether the optimal solution for the given simplex tableau has been reached.
+              <me>
+                \begin{array}{rrrrrrr|r}
+                  x \amp y \amp z \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
+                  \hline
+                  -2 \amp 1 \amp \dfrac{3}{4} \amp \dfrac{1}{2} \amp 0 \amp 0 \amp 0 \amp 5000 \\
+                  0 \amp 0 \amp \dfrac{1}{2} \amp -\dfrac{1}{3} \amp 1 \amp 0 \amp 0 \amp 1250 \\
+                  \dfrac{1}{3} \amp 0 \amp \dfrac{1}{4} \amp -\dfrac{1}{6} \amp 0 \amp 1 \amp 0 \amp 300 \\
+                  \hline
+                  -3 \amp 0 \amp -2 \amp 8 \amp 0 \amp 0 \amp 1 \amp 45625
+                \end{array}
+              </me>
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  The optimal solution has been reached because no further pivots are necessary, and the optimal solution is <m>P=45625</m> when <m>(x,y,z)=(0,1250,0)</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The optimal solution has not been reached, and the next pivot element is the <m>\dfrac{3}{4}</m> in row <m>1</m>, column <m>3</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The optimal solution has been reached because no further pivots are necessary and the optimal solution is <m>P=45625</m> when <m>(x,y,z)=(5000,1250,300)</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The optimal solution has not been reached, and the next pivot element is the <m>-2</m> in row <m>1</m>, column <m>1</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The optimal solution has not been reached, and the next pivot element is the <m>\dfrac{1}{3}</m> in row <m>3</m>, column <m>1</m>.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (E)
           </p>
         </answer>
       </exercise>
@@ -917,39 +976,74 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            
+            In the Venn diagrams below, which one has a grey shaded area that represents <m>A^c\cup B</m>?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+            <image source="h5/images/h5fig11" width="40%">
+              <shortdescription>A Venn diagram for this problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A Venn diagram for this problem. The circles overlap. The region contained in circle <m>B</m> and the region not contained within either circle are shaded.
+                </p>
+              </description>
+            </image>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+              <image source="h5/images/h5fig12" width="40%">
+              <shortdescription>A Venn diagram for this problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A Venn diagram for this problem. The circles overlap. The region not contained within circle <m>A</m> is shaded.
+                </p>
+              </description>
+            </image>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+            <image source="h5/images/h5fig13" width="40%">
+              <shortdescription>A Venn diagram for this problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A Venn diagram for this problem. The circles overlap. The region only contained within circle <m>B</m> but not <m>A</m> is shaded.
+                </p>
+              </description>
+            </image>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+            <image source="h5/images/h5fig14" width="40%">
+              <shortdescription>A Venn diagram for this problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A Venn diagram for this problem. The circles overlap. The region not contained within either circle is shaded.
+                </p>
+              </description>
+            </image>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+            <image source="h5/images/h5fig15" width="40%">
+              <shortdescription>A Venn diagram for this problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A Venn diagram for this problem. The circles overlap. The region contained within only one circle, but not both, is shaded.
+                </p>
+              </description>
+            </image>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (A)
           </p>
         </answer>
       </exercise>
@@ -957,39 +1051,80 @@
       <exercise number="3"><!-- #3 -->
         <statement>
           <p>
-            
+            Which linear programming problem is represented by the initial simplex tableau below?
+              <me>
+                \begin{array}{rrrrrr|r}
+                  x \amp y \amp s_1 \amp s_2 \amp s_3 \amp Z \amp c \\
+                  \hline
+                  3 \amp 4 \amp 1 \amp 0 \amp 0 \amp 0 \amp 30 \\
+                  2 \amp 6 \amp 0 \amp 1 \amp 0 \amp 0 \amp 45 \\
+                  0 \amp 4 \amp 0 \amp 0 \amp 1 \amp 0 \amp 24 \\
+                  \hline
+                  -5 \amp -7 \amp 0 \amp 0 \amp 0 \amp 1 \amp 0
+                \end{array}
+              </me>
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+              <md>
+                <mrow>\text{Maximize } \amp P = -5x-7y</mrow>
+                <mrow>\text{subject to } \amp 3x+4y\leq 30</mrow>
+                <mrow>\amp 2x+6y\leq 45</mrow>
+                <mrow>\amp 4y\leq 24</mrow>
+                <mrow>\amp x\geq 0, y\geq 0</mrow>
+              </md>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+              <md>
+                <mrow>\text{Maximize } \amp P = 5x+7y</mrow>
+                <mrow>\text{subject to } \amp 3x+4y\geq 30</mrow>
+                <mrow>\amp 2x+6y\geq 45</mrow>
+                <mrow>\amp 4y\geq 24</mrow>
+                <mrow>\amp x\leq 0, y\leq 0</mrow>
+              </md>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+              <md>
+                <mrow>\text{Maximize } \amp c=5x+7y+P</mrow>
+                <mrow>\text{subject to } \amp 3x+4y\leq 30</mrow>
+                <mrow>\amp 2x+6y\leq 45</mrow>
+                <mrow>\amp 4y\leq 24</mrow>
+                <mrow>\amp x\geq 0, y\geq 0</mrow>
+              </md>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+              <md>
+                <mrow>\text{Maximize } \amp P=5x+7y</mrow>
+                <mrow>\text{subject to } \amp 3x+4y\leq 30</mrow>
+                <mrow>\amp 2x+6y\leq 45</mrow>
+                <mrow>\amp 4y\leq 24</mrow>
+                <mrow>\amp x\geq 0, y\geq 0</mrow>
+              </md>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+              <md>
+                <mrow>\text{Maximize } \amp P=7x+5y</mrow>
+                <mrow>\text{subject to } \amp 4x+3y\leq 30</mrow>
+                <mrow>\amp 6x+2y\leq 45</mrow>
+                <mrow>\amp 4y\leq 24</mrow>
+                <mrow>\amp x\geq 0, y\geq 0</mrow>
+              </md>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (D)
           </p>
         </answer>
       </exercise>
@@ -997,39 +1132,39 @@
       <exercise number="4"><!-- #4 -->
         <statement>
           <p>
-            
+            Consider the experiment of randomly selecting a distinct letter from the word "reveille" and then drawing a card from a standard deck of <m>52</m> cards and noting the color. Using <m>R</m> to designate a red card is drawn and <m>B</m> for a black card is drawn, which of the following choices below gives the sample space for the experiment?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>S=\{rR,eR,vR,eR,iR,lR,lR,eR,rB,eB,vB,iB,lB\}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>S=\{rR,eR,vR,iR,lR,rB,eB,vB,iB,lB\}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>S=\{r,e,v,i,l,R,B\}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>S=\{rR,eR,vR,lR,eB,vB,iB,lB\}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  None of these.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (B)
           </p>
         </answer>
       </exercise>
@@ -1037,159 +1172,50 @@
       <exercise number="5"><!-- #5 -->
         <statement>
           <p>
-            
+            Find the next pivot element in the simplex tableau below.
+              <me>
+                \begin{array}{rrrrrrr|r}
+                  x \amp y \amp z \amp s_1 \amp s_2 \amp s_3 \amp Z \amp c \\
+                  \hline
+                  1 \amp 2 \amp 4 \amp \dfrac{1}{2} \amp 0 \amp 0 \amp 0 \amp 12 \\
+                  0 \amp 5 \amp 10 \amp \dfrac{5}{2} \amp 1 \amp 0 \amp 0 \amp 20 \\
+                  0 \amp 0 \amp -6 \amp 4 \amp 0 \amp 1 \amp 0 \amp 5 \\
+                  \hline
+                  0 \amp -5 \amp -2 \amp \dfrac{7}{2} \amp 0 \amp 0 \amp 1 \amp 0
+                \end{array}
+              </me>
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  The element in row <m>\#2</m>, column <m>\#2</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The element in row <m>\#1</m>, column <m>\#2</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The element in row <m>\#3</m>, column <m>\#2</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The element in row <m>\#1</m>, column <m>\#3</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The element in row <m>\#3</m>, column <m>\#3</m>.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="6"><!-- #6 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="7"><!-- #7 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="8"><!-- #8 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
+            (A)
           </p>
         </answer>
       </exercise>

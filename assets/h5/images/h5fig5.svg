@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="h5fig6-figure" width="410" height="310" viewBox="0 0 410 310">
+  <defs>
+    <clipPath id="h5fig6-__clipPath-0">
+      <rect x="5.0" y="5.0" width="400.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="h5fig6-__clipPath-1">
+      <rect x="5.0" y="5.0" width="400.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <circle id="h5fig6-__circle-0" cx="38.3" cy="155.0" r="8" stroke="black" stroke-width="0" fill="black"/>
+  <line id="h5fig6-__line-0" x1="38.3" y1="155.0" x2="171.7" y2="42.5" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-1" x1="38.3" y1="155.0" x2="171.7" y2="117.5" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-2" x1="38.3" y1="155.0" x2="171.7" y2="192.5" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-3" x1="38.3" y1="155.0" x2="171.7" y2="267.5" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-4" x1="238.3" y1="42.5" x2="338.3" y2="23.8" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-5" x1="238.3" y1="42.5" x2="338.3" y2="61.2" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-6" x1="238.3" y1="117.5" x2="338.3" y2="98.8" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-7" x1="238.3" y1="117.5" x2="338.3" y2="136.2" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-8" x1="238.3" y1="192.5" x2="338.3" y2="173.8" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-9" x1="238.3" y1="192.5" x2="338.3" y2="211.2" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-10" x1="238.3" y1="267.5" x2="338.3" y2="248.8" stroke="black" stroke-width="2" fill="none"/>
+  <line id="h5fig6-__line-11" x1="238.3" y1="267.5" x2="338.3" y2="286.2" stroke="black" stroke-width="2" fill="none"/>
+  <g id="h5fig6-__label-0" transform="translate(205.0,42.5) translate(-18.7,-5.4)">
+    <g id="h5fig6-__g-0">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.6">heart</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-1" transform="translate(205.0,117.5) translate(-21.1,-6.8)">
+    <g id="h5fig6-__g-1">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.6">spade</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-2" transform="translate(205.0,192.5) translate(-30.7,-5.4)">
+    <g id="h5fig6-__g-2">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.6">diamond</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-3" transform="translate(205.0,267.5) translate(-14.7,-5.4)">
+    <g id="h5fig6-__g-3">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.6">club</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-4" transform="translate(342.3,23.8) translate(0.0,-5.1)">
+    <g id="h5fig6-__g-4">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.2">H</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-5" transform="translate(342.3,61.2) translate(0.0,-5.1)">
+    <g id="h5fig6-__g-5">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.2">T</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-6" transform="translate(342.3,98.8) translate(0.0,-5.1)">
+    <g id="h5fig6-__g-6">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.2">H</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-7" transform="translate(342.3,136.2) translate(0.0,-5.1)">
+    <g id="h5fig6-__g-7">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.2">T</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-8" transform="translate(342.3,173.8) translate(0.0,-5.1)">
+    <g id="h5fig6-__g-8">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.2">H</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-9" transform="translate(342.3,211.2) translate(0.0,-5.1)">
+    <g id="h5fig6-__g-9">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.2">T</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-10" transform="translate(342.3,248.8) translate(0.0,-5.1)">
+    <g id="h5fig6-__g-10">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.2">H</text>
+    </g>
+  </g>
+  <g id="h5fig6-__label-11" transform="translate(342.3,286.2) translate(0.0,-5.1)">
+    <g id="h5fig6-__g-11">
+      <text font-family="sans-serif" font-size="14" fill="black" x="0.0" y="10.2">T</text>
+    </g>
+  </g>
+</svg>
