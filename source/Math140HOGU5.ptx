@@ -387,7 +387,7 @@
               <shortdescription>Graph of the linear programming problem above. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
-                  A graph of the linear programming problem above, on coordinate axes with <m>x</m>-values from <m>-3</m> to <m>9</m> and <m>y</m>-values from <m>-3</m> to <m>7</m>.
+                  A graph of the linear programming problem above, on coordinate axes with <m>x</m>-values from <m>-2</m> to <m>9</m> and <m>y</m>-values from <m>-3</m> to <m>7</m>.
                   The solution set is marked with an <m>S</m>. All lines are marked with their corresponding equations and all intersection points between those lines are marked with solid dots.
                 </p>
               </description>
@@ -433,7 +433,19 @@
         <task>
           <statement>
             <p>
-              
+              The pivot element of the tableau above is in column #<m>1</m>, row #<m>1</m> (be sure you know why). Performing the row operations on this element gives the tableau below.
+              <me>
+                \begin{array}{rrrrrr|r}
+                  x \amp y \amp s_1 \amp s_2 \amp s_3 \amp Z \amp c \\
+                  \hline
+                  1 \amp \dfrac{1}{5} \amp \dfrac{1}{5} \amp 0 \amp 0 \amp 0 \amp 5 \\
+                  0 \amp \dfrac{11}{5} \amp \dfrac{1}{5} \amp 1 \amp 0 \amp 0 \amp 11 \\
+                  0 \amp \dfrac{22}{5} \amp -\dfrac{3}{5} \amp 0 \amp 1 \amp 0 \amp 11 \\
+                  \hline
+                  0 \amp -\dfrac{14}{5} \amp \dfrac{6}{5} \amp 0 \amp 0 \amp 1 \amp 30
+                \end{array}
+              </me>
+              Identify the basic and non-basic columns of the tableau, then state the solution at this stage of the simplex. Label this solution as "<m>B</m>" on the graph.
             </p>
           </statement>
           <answer>
@@ -458,7 +470,17 @@
         <task>
           <statement>
             <p>
-              
+              <me>
+                \begin{array}{rrrrrr|r}
+                  x \amp y \amp s_1 \amp s_2 \amp s_3 \amp Z \amp c \\
+                  \hline
+                  1 \amp 0 \amp \dfrac{5}{22} \amp 0 \amp -\dfrac{1}{22} \amp 0 \amp \dfrac{9}{2} \\
+                  0 \amp 0 \amp \dfrac{1}{2} \amp 1 \amp -\dfrac{1}{2} \amp 0 \amp \dfrac{11}{2} \\
+                  0 \amp 1 \amp -\dfrac{3}{22} \amp 0 \amp \dfrac{5}{22} \amp 0 \amp \dfrac{5}{2} \\
+                  \hline
+                  0 \amp 0 \amp \dfrac{9}{11} \amp 0 \amp \dfrac{7}{11} \amp 1 \amp 37
+                \end{array}
+              </me>
             </p>
           </statement>
           <answer>
@@ -484,12 +506,12 @@
         <task>
           <statement>
             <p>
-              
+              The last solution, <m>Z=37</m>, is the optimal solution. How do you know this?
             </p>
           </statement>
           <answer>
             <p>
-              
+              There are no negative entries in the bottom row.
             </p>
           </answer>
         </task>
@@ -497,54 +519,94 @@
       <exercise number="2"><!-- #2 -->
         <introduction>
           <p>
-            
+            For each simplex tableau, determine whether it is in its final form. If it is, find the optimal solution. If it is not, state the next pivot entry.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              <me>
+                \begin{array}{rrrrrrr|r}
+                  x \amp y \amp s_1 \amp s_2 \amp s_3 \amp s_4 \amp P \amp c \\
+                  \hline
+                  2 \amp 3 \amp 1 \amp 0 \amp 0 \amp 0 \amp 0 \amp 6 \\
+                  -3 \amp -2 \amp 0 \amp 1 \amp 0 \amp 0 \amp 0 \amp 3 \\
+                  0 \amp 2 \amp 0 \amp 0 \amp 1 \amp 0 \amp 0 \amp 5 \\
+                  2 \amp 1 \amp 0 \amp 0 \amp 0 \amp 1 \amp 0 \amp 4 \\
+                  \hline
+                  -4 \amp -3 \amp 0 \amp 0 \amp 0 \amp 0 \amp 1 \amp 0
+                \end{array}
+              </me>
             </p>
           </statement>
           <answer>
             <p>
-              
+              The next pivot element is <m>2</m> in column <m>1</m>, row <m>4</m>.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <me>
+                \begin{array}{rrrrrr|r}
+                  x \amp y \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
+                  \hline
+                  0 \amp 0 \amp 1 \amp 0 \amp -8 \amp 0 \amp 56 \\
+                  -\dfrac{7}{2} \amp 0 \amp 0 \amp 1 \amp -2 \amp 0 \amp 24 \\
+                  \dfrac{1}{4} \amp 1 \amp 0 \amp 0 \amp 1 \amp 0 \amp 0 \\
+                  \hline
+                  -13 \amp 0 \amp 0 \amp 0 \amp 12 \amp 1 \amp 0
+                \end{array}
+              </me>
             </p>
           </statement>
           <answer>
             <p>
-              
+              The next pivot element is <m>\dfrac{1}{4}</m> in column <m>1</m>, row <m>3</m>.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <me>
+                \begin{array}{rrrrr|r}
+                  x \amp y \amp s_1 \amp s_2 \amp P \amp c \\
+                  \hline
+                  1 \amp 0 \amp \dfrac{3}{4} \amp -\dfrac{1}{4} \amp 0 \amp 3 \\
+                  0 \amp 1 \amp -\dfrac{1}{2} \amp \dfrac{1}{2} \amp 0 \amp 4 \\
+                  \hline
+                  0 \amp 0 \amp \dfrac{3}{2} \amp \dfrac{1}{2} \amp 1 \amp 24
+                \end{array}
+              </me>
             </p>
           </statement>
           <answer>
             <p>
-              
+              The optimal solution is <m>P=24</m> when <m>x=3</m> and <m>y=4</m>.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <me>
+                \begin{array}{rrrrrrr|r}
+                  x \amp y \amp z \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
+                  \hline
+                  0 \amp 0 \amp 1 \amp 0 \amp -8 \amp \dfrac{1}{2} \amp 0 \amp 56 \\
+                  0 \amp 14 \amp 0 \amp 1 \amp 12 \amp 0 \amp 0 \amp 24 \\
+                  1 \amp 4 \amp 0 \amp 0 \amp 4 \amp -1 \amp 0 \amp 48 \\
+                  \hline
+                  0 \amp 52 \amp 0 \amp 0 \amp 64 \amp \dfrac{2}{3} \amp 1 \amp 240
+                \end{array}
+              </me>
             </p>
           </statement>
           <answer>
             <p>
-              
+              The optimal solution is <m>P=240</m> when <m>x=48</m>, <m>y=0</m>, and <m>z=56</m>.
             </p>
           </answer>
         </task>
@@ -552,30 +614,85 @@
       <exercise number="3"><!-- #3 -->
         <introduction>
           <p>
-            
+            A company builds educational robot kits designed for children. They produce three types of robot kits: beginner, explorer, and research.
+            Each beginner kit requires <m>1</m> motor, <m>2</m> sensors, and <m>1</m> battery pack.
+            Each explorer kit requires <m>2</m> motors, <m>2</m> sensors, and <m>2</m> battery packs.
+            Each research kit requires <m>6</m> motors, <m>4</m> sensors, and <m>2</m> battery packs.
+            The profit earned for each beginner, explorer, and research kit is <m>\$25</m>, <m>\$65</m>, and <m>\$80</m> respectively.
+            The company has <m>500</m> motors, <m>700</m> sensors, and <m>300</m> battery packs in inventory.
+            How many of each type of robot kit should be produced to maximize profit?
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Set up the linear programming problem (i.e., constraints and objective function) that represents this scenario.
             </p>
           </statement>
-          <answer>
+          <answer>  
             <p>
-              
+              <md>
+                <mrow>b \amp =\text{\# of beginner kits produced}</mrow>
+                <mrow>e \amp =\text{\# of explorer kits produced}</mrow>
+                <mrow>r \amp =\text{\# of research produced}</mrow>
+                <mrow>P \amp =\text{profit (in dollars) from selling produced robot kits}</mrow>
+              </md>
+              <md>
+                <mrow>\text{Maximize } \amp P=25b+65e+80r</mrow>
+                <mrow>\text{subject to } \amp b+2e+6r\leq 500</mrow>
+                <mrow>\amp 2b+2e+4r\leq 700</mrow>
+                <mrow>\amp b+2e+2r\leq 300</mrow>
+                <mrow>\amp b,e,r \geq 0</mrow>
+              </md>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Give the initial simplex tableau that represents this linear programming problem.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <me>
+                \begin{array}{rrrrrrr|r}
+                  b \amp e \amp r \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
+                  \hline
+                  1 \amp 2 \amp 6 \amp 1 \amp 0 \amp 0 \amp 0 \amp 500 \\
+                  2 \amp 2 \amp 4 \amp 0 \amp 1 \amp 0 \amp 0 \amp 700 \\
+                  1 \amp 2 \amp 2 \amp 0 \amp 0 \amp 1 \amp 0 \amp 300 \\
+                  \hline
+                  -25 \amp -65 \amp -80 \amp 0 \amp 0 \amp 0 \amp 1 \amp 0
+                \end{array}
+              </me>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The final simplex tableau is given below where <m>b</m> is the number of beginner kits produced, <m>e</m> is the 
+              number of explorer kits produced, <m>r</m> is the number of research kits produced, <m>s_1</m> is the slack variable for
+              the number of motors left over, <m>s_2</m> is the slack variable for the number of sensors left over, <m>s_3</m> is the 
+              slack variable for the number of battery packs left over, and <m>P</m> is the profit earned, in dollars.
+              <me>
+                \begin{array}{rrrrrrr|r}
+                  b \amp e \amp r \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
+                  \hline
+                  0 \amp 0 \amp 1 \amp \dfrac{1}{4} \amp 0 \amp -\dfrac{1}{4} \amp 0 \amp 50 \\
+                  1 \amp 0 \amp 0 \amp -\dfrac{1}{2} \amp 1 \amp -\dfrac{1}{2} \amp 0 \amp 300 \\
+                  \dfrac{1}{2} \amp 1 \amp 0 \amp -\dfrac{1}{4} \amp 0 \amp \dfrac{3}{4} \amp 0 \amp 100 \\
+                  \hline
+                  \dfrac{15}{2} \amp 0 \amp 0 \amp \dfrac{15}{4} \amp 0 \amp \dfrac{115}{4} \amp 1 \amp 10500
+                \end{array}
+              </me>
+              Give the optimal solution for this problem.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>P=10500</m> when <m>b=0</m>, <m>e=100</m>, and <m>r=50</m>.
             </p>
           </answer>
         </task>
@@ -583,30 +700,30 @@
       <exercise number="4"><!-- #4 -->
         <introduction>
           <p>
-            
+            Consider a two-stage experiment consisting of rolling a standard fair four-sided die and noting whether the number shown is odd or even, then drawing a distinct letter from the word 'GIGEM'.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              State the sample space.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>S=\{(\text{odd},\text{G}),(\text{odd},\text{I}),(\text{odd},\text{E}),(\text{odd},\text{M}),(\text{even},\text{G}),(\text{even},\text{I}),(\text{even},\text{E}),(\text{even},\text{M})\}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              How many total possible events are there in this experiment?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>2^8=256</m>
             </p>
           </answer>
         </task>
@@ -614,30 +731,30 @@
         <exercise number="5"><!-- #5 -->
         <introduction>
           <p>
-            
+            A student draws a card from a standard deck of <m>52</m> cards, noting the suit, then flips a coin, noting which side of the coin (heads or tails) lands facing up.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Make a tree diagram that illustrates the sample space of this experiment.
             </p>
           </statement>
           <answer>
             <p>
-              
+              IMAGE
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              How many total possible events are there in this experiment?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>2^8=256</m>
             </p>
           </answer>
         </task>
