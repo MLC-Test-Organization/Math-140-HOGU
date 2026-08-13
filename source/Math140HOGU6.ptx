@@ -25,206 +25,164 @@
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
       <exercise><!-- #1 -->
-        <statement>
-          <p>
-            
-          </p>
-          <sidebyside widths="82% 18%" valign="middle">
-            <p>
-              <ol marker="a)">
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-              </ol>
-            </p>
-
-            <p>
-              <ol marker="I)">
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m></m>
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </sidebyside>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-      <exercise><!-- #2 -->
         <introduction>
           <p>
-            
+            Recall that, for a uniform sample space <m>S</m>, the probability of an event, <m>A</m> (denote <m>P(A)</m>) is calculated as
+            <md>
+              P(A)=\dfrac{\text{total number of outcomes in }A}{\text{total number of possible outcomes}}.
+            </md>
+            A bag contains the same size marbles in three different colors: red, blue, and white. The bag has <m>14</m> identical red marbles, <m>12</m> identical blue marbles, and <m>20</m> identical white marbles (all of the same size).
+            One marble is drawn from the bag and the color of the marble is noted. Let <m>B</m> be the event that the marble drawn is blue, <m>R</m> be the event that the marble drawn is red, and <m>W</m> the event that the marble drawn is white.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              What is the total number of possible outcomes for this experiment?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>46</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Find <m>P(B)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>P(B)=\dfrac{12}{46}=\dfrac{6}{23}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Find the probability the marble is red or white.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>P(R\cup W) = \dfrac{34}{46}=\dfrac{17}{23}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Find <m>P(W^c)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>P(W^c)=\dfrac{26}{46}=\dfrac{13}{23}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise><!-- #2 -->
+        <introduction>
+          <p>
+            Answer True or False to each of the following questions.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              The probability of any event is always between <m>0</m> and <m>1</m>, inclusive.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              True
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              If two events, <m>A</m> and <m>B</m>, are mutually exclusive, then <m>P(A \cap B)=\emptyset</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              False
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              For any two events, <m>A</m> and <m>B</m>, <m>P(A \cup B) = P(A) + P(B)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              False
             </p>
           </answer>
         </task>
+        <task>
+          <statement>
+            <p>
+              The complement rule states that <m>P(A^c)=1-P(A)</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              True
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The sum of probabilities of all possible outcomes in a sample space is <m>1</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              True
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise><!-- #3 -->
+          <statement>
+            <p>
+              Let the sample space for an experiment be <m>S=\{s_1,s_2,s_3,s_4,s_5\}</m>. Given the probability distribution below, what is <m>P(s_3)</m>?
+            <table>
+                <title>Sample space and probabilities for Section 1 Exercise 3</title>
+                <tabular halign="center">
+                    <row bottom="major" header="no">
+                        <cell>Outcomes</cell>
+                        <cell><m>s_1</m></cell>
+                        <cell><m>s_2</m></cell>
+                        <cell><m>s_3</m></cell>
+                        <cell><m>s_4</m></cell>
+                        <cell><m>s_5</m></cell>
+                    </row>
+                    <row bottom="major">
+                        <cell>Probability</cell>
+                        <cell><m>\dfrac{3}{10}</m></cell>
+                        <cell><m>\dfrac{1}{5}</m></cell>
+                        <cell><m>?</m></cell>
+                        <cell><m>\dfrac{1}{20}</m></cell>
+                        <cell><m>\dfrac{1}{10}</m></cell>
+                    </row>
+                </tabular>
+            </table>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>P(s_3)=\dfrac{7}{20}</m>
+            </p>
+          </answer>
       </exercise>
     </paragraphs>
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
@@ -232,78 +190,116 @@
       <exercise number="1"><!-- #1 -->
         <introduction>
           <p>
-            
+            A real estate agent has kept records of the number of houses with one or two bedrooms, three bedrooms, four bedrooms, and five or more bedrooms that they sold during the years <m>2016</m> to <m>2020</m>. The data is listed in the following table.
+            <table>
+                <title>Number of bedrooms per house versus year</title>
+                <tabular halign="center">
+                    <row bottom="major" header="yes">
+                        <cell>Year</cell>
+                        <cell>One or Two</cell>
+                        <cell>Three</cell>
+                        <cell>Four</cell>
+                        <cell>Five or more</cell>
+                        <cell>Total</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>2016</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>22</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>47</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>2017</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>19</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>54</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>2018</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>17</m></cell>
+                        <cell><m>24</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>48</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>2019</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>22</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>51</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>2020</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>18</m></cell>
+                        <cell><m>30</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>59</m></cell>
+                    </row>
+                    <row bottom="major">
+                        <cell>Total</cell>
+                        <cell><m>32</m></cell>
+                        <cell><m>85</m></cell>
+                        <cell><m>123</m></cell>
+                        <cell><m>19</m></cell>
+                        <cell><m>259</m></cell>
+                    </row>
+                </tabular>
+            </table>
+            If a home sold by the agent is selected at random, what is the probability...
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              ... the home had exactly four bedrooms?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\dfrac{123}{259}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              ... the home was sold after <m>2017</m>?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\dfrac{158}{259}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              ... the home was not sold in <m>2020</m> and had five or more bedrooms?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\dfrac{13}{259}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              ... the home was not sold in <m>2016</m> or was not sold in <m>2020</m>?
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              <m>\dfrac{259}{259}=1</m>
             </p>
           </answer>
         </task>
@@ -311,66 +307,42 @@
       <exercise number="2"><!-- #2 -->
         <introduction>
           <p>
-            
+            Let <m>A</m> and <m>B</m> be two events such that <m>P(A)=0.4</m>, <m>P(B)=0.3</m>, and <m>P(A \cup B)=0.5</m>.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Compute <m>P(A \cap B)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>P(A \cap B) = 0.2</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Compute <m>P(A^c \cup B)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>P(A^c \cup B) = 0.8</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Compute <m>P((A\cup B)^c)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              <m>P((A\cup B)^c)=0.5</m>
             </p>
           </answer>
         </task>
@@ -378,156 +350,141 @@
       <exercise number="3"><!-- #3 -->
         <introduction>
           <p>
-            
+            Let the sample space for an experiment be <m>S=\{s_1,s_2,s_3,s_4,s_5,s_6\}</m>, with events <m>A=\{s_2,s_4,s_5\}</m> and <m>B=\{s_1,s_3,s_4\}</m>, and the probability distribution below.
+            <table>
+                <title>Sample space and probabilities for Section 2 Exercise 3</title>
+                <tabular halign="center">
+                    <row bottom="major" header="no">
+                        <cell>Outcomes</cell>
+                        <cell><m>s_1</m></cell>
+                        <cell><m>s_2</m></cell>
+                        <cell><m>s_3</m></cell>
+                        <cell><m>s_4</m></cell>
+                        <cell><m>s_5</m></cell>
+                        <cell><m>s_6</m></cell>
+                    </row>
+                    <row bottom="major">
+                        <cell>Probability</cell>
+                        <cell><m>\dfrac{3}{20}</m></cell>
+                        <cell><m>\dfrac{1}{10}</m></cell>
+                        <cell><m>\dfrac{1}{5}</m></cell>
+                        <cell><m>?</m></cell>
+                        <cell><m>\dfrac{3}{20}</m></cell>
+                        <cell><m>\dfrac{1}{20}</m></cell>
+                    </row>
+                </tabular>
+            </table>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Compute <m>P(A^c)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>P(A^c)=\dfrac{8}{20}=\dfrac{2}{5}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Compute <m>P(A\cup B)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>P(A\cup B)=\dfrac{19}{20}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Compute <m>P(A^c\cap B)</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              <m>P(A^c\cap B)=\dfrac{7}{20}</m>
             </p>
           </answer>
         </task>
       </exercise>
       <exercise number="4"><!-- #4 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
           <statement>
             <p>
-              
+              A cereal company released <m>2000</m> special boxes at a price of <m>\$2</m> each. Within these boxes, the company randomly distributes one <m>\$1000</m> coupon, two <m>\$200</m> coupons, and three <m>\$100</m> coupons. Compute your expected net winnings from buying a single special box of this cereal. Is this game fair?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>E(X)=-\$1.15</m>, this game is not fair.
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
       </exercise>
-        <exercise number="5"><!-- #5 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
+      <exercise number="5"><!-- #5 -->
+          <statement>
+            <p>
+              A new piano is insured with a full-replacement policy worth <m>\$12000</m> if the piano is damaged beyond repair. If the piano is damaged, but able to be repaired, the policy will pay half of the full-replacement value. There is a <m>1.5\%</m> chance the piano will need to be replaced during the year and a <m>2.5\%</m> chance it will be damaged but can be repaired. If the premium for this policy is <m>\$1000</m>, find the insurance company's expected profit.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>E(X)=\$670</m>
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="6"><!-- #6 -->
+          <statement>
+            <p>
+              Set up, but do not solve, the following linear programming problem.
+
+              A small woodworking business produces three types of furniture items: tables, chairs, and desks. Each product 
+              requires a certain amount of labor, wood, and workspace. Tables require <m>4</m> hours of labor, <m>3</m> units of wood, and 
+              occupy <m>5</m> square feet of workspace while being assembled. Chairs require <m>2</m> hours of labor, <m>1</m> unit of wood, and <m>2</m>
+              square feet of workspace while being assembled. Desks require <m>5</m> hours of labor, <m>4</m> units of wood, and <m>6</m> square 
+              feet of workspace while being assembled. The business has <m>200</m> labor hours, <m>150</m> units of wood, and <m>234</m> square 
+              feet of usable workspace. The business makes <m>\$30</m> in profit for each table, <m>\$12</m> for each chair, and <m>\$40</m> for each 
+              desk it produces. How many of each type of furniture should the company produce to obtain maximum profit.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <md>
+                <mrow>x \amp =\text{\# of tables produced by the business}</mrow>
+                <mrow>y \amp =\text{\# of chairs produced by the business}</mrow>
+                <mrow>z \amp =\text{\# of desks produced by the business}</mrow>
+                <mrow>P \amp =\text{Profit (in dollars) for the produced furnature}</mrow>
+              </md>
+              <md>
+                <mrow>\text{Maximize } \amp P=30x+12y+40z</mrow>
+                <mrow>\text{subject to } \amp 4x+2y+5z\leq 200</mrow>
+                <mrow>\amp 3x+y+4z\leq 150</mrow>
+                <mrow>\amp 5x+2y+6z\leq 234</mrow>
+                <mrow>\amp x\geq 0, y\geq 0, z\geq 0</mrow>
+              </md>
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="7"><!-- #7 -->
+          <statement>
+            <p>
+              Consider the linear programming problem below.
+              PROBLEM
+              Graph the solution set <m>S</m>. Label and identify all corner points.
+              GRAPH
+            </p>
+          </statement>
+          <answer>
+            <p>
+              GRAPH
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="8"><!-- #8 -->
           <statement>
             <p>
               
@@ -538,8 +495,8 @@
               
             </p>
           </answer>
-        </task>
-        <task>
+      </exercise>
+      <exercise number="9"><!-- #9 -->
           <statement>
             <p>
               
@@ -550,168 +507,7 @@
               
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="6"><!-- #6 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="7"><!-- #7 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="8"><!-- #8 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="9"><!-- #9 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
+      </exercise>
     </paragraphs>
 
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
@@ -918,86 +714,6 @@
       </exercise>
 
       <exercise number="6"><!-- #6 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="7"><!-- #7 -->
-        <statement>
-          <p>
-            
-          </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </exercise>
-
-      <exercise number="8"><!-- #8 -->
         <statement>
           <p>
             

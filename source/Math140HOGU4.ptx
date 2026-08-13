@@ -215,7 +215,7 @@
             <p>
               Set up, but do not solve, the following linear programming problem. A baker has <m>600</m> pounds of all-purpose flour, <m>400</m> pounds of whole wheat flour, and <m>50</m> ounces of yeast with which to bake three types of bread: white, wheat, and sourdough.
               The following table details how much of each ingredient it takes to make a single loaf of each type of bread:
-                          <table>
+            <table>
                 <title>Ingredient Amounts and Bread Prices</title>
                 <tabular halign="center">
                     <row bottom="major" header="yes">
@@ -257,6 +257,7 @@
                 <mrow>x \amp =\text{\# of loaves of white bread to make}</mrow>
                 <mrow>y \amp =\text{\# of loaves of wheat bread to make}</mrow>
                 <mrow>z \amp =\text{\# of loaves of sourdough bread to make}</mrow>
+                <mrow>R \amp =\text{Revenue (in dollars) after selling loaves of bread}</mrow>
               </md>
               <md>
                 <mrow>\text{Maximize } \amp R = 5x + 6y+8z</mrow>
