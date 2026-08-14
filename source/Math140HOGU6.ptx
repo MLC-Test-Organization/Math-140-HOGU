@@ -473,26 +473,60 @@
           <statement>
             <p>
               Consider the linear programming problem below.
-              PROBLEM
+              <md>
+                <mrow>\text{Maximize } \amp P=6x+5y</mrow>
+                <mrow>\text{subject to } \amp 2x+y\leq 40</mrow>
+                <mrow>\amp x+3y\leq 45</mrow>
+                <mrow>\amp 0\leq x \leq 18</mrow>
+                <mrow>\amp 0\leq y \leq 20</mrow>
+              </md>
               Graph the solution set <m>S</m>. Label and identify all corner points.
-              GRAPH
+            <image source="h6/images/h6fig1" width="80%">
+              <shortdescription>Coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  Coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-50</m> to <m>50</m>.
+                </p>
+              </description>
+            </image>
             </p>
           </statement>
           <answer>
             <p>
-              GRAPH
+            <image source="h6/images/h6fig2" width="80%">
+              <shortdescription>Graph of the linear programming problem above with solution set and corner points marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of the linear programming problem above, on coordinate axes with with <m>x</m>-values and <m>y</m>-values from <m>-50</m> to <m>50</m>.
+                  The solution set is marked with an <m>S</m>. All corner points of the solutions set have been marked with solid dots and their coordinates below.
+                </p>
+              </description>
+            </image>
+            Corner points: <m>\{(0,0),(0,15),(15,10),(18,4),(18,0)\}</m>
             </p>
           </answer>
       </exercise>
       <exercise number="8"><!-- #8 -->
           <statement>
             <p>
-              
+              The feasible region, <m>S</m>, shaded in the graph below 
+            <image source="h6/images/h6fig3" width="80%">
+              <shortdescription>Graph of the linear programming problem below with solution set and corner points marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of the linear programming problem above, on coordinate axes with with <m>x</m>-values from <m>-3</m> to <m>13</m> and <m>y</m>-values from <m>-1</m> to <m>10</m>.
+                  The solution set is marked with an <m>S</m>. All corner points of the solutions set have been marked with solid dots. Each equation is placed next to it's corresponding graph.
+                </p>
+              </description>
+            </image>
+              corresponds to the following system of inequalities.
+            <md>\begin{cases}9x+2y\leq 30\\ y\leq 3x\\ 2x+10y\geq 21\\ 18x-9y\leq 90\end{cases}</md>
+              Use the method of corners to find the maximum and minimum, if they exist, for the objective function <m>P=2x+3y</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              No maximum, minimum at <m>\left(3,\dfrac{3}{2}\right)</m>.
             </p>
           </answer>
       </exercise>
