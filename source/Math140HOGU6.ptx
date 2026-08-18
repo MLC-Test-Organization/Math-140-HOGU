@@ -27,7 +27,7 @@
       <exercise><!-- #1 -->
         <introduction>
           <p>
-            Recall that, for a uniform sample space <m>S</m>, the probability of an event, <m>A</m> (denote <m>P(A)</m>) is calculated as
+            Recall that, for a uniform sample space <m>S</m>, the probability of an event, <m>A</m> (denoted <m>P(A)</m>) is calculated as
             <md>
               P(A)=\dfrac{\text{total number of outcomes in }A}{\text{total number of possible outcomes}}.
             </md>
@@ -448,7 +448,7 @@
               square feet of workspace while being assembled. Desks require <m>5</m> hours of labor, <m>4</m> units of wood, and <m>6</m> square 
               feet of workspace while being assembled. The business has <m>200</m> labor hours, <m>150</m> units of wood, and <m>234</m> square 
               feet of usable workspace. The business makes <m>\$30</m> in profit for each table, <m>\$12</m> for each chair, and <m>\$40</m> for each 
-              desk it produces. How many of each type of furniture should the company produce to obtain maximum profit.
+              desk it produces. How many of each type of furniture should the company produce to obtain maximum profit?
             </p>
           </statement>
           <answer>
@@ -457,7 +457,7 @@
                 <mrow>x \amp =\text{\# of tables produced by the business}</mrow>
                 <mrow>y \amp =\text{\# of chairs produced by the business}</mrow>
                 <mrow>z \amp =\text{\# of desks produced by the business}</mrow>
-                <mrow>P \amp =\text{Profit (in dollars) for the produced furnature}</mrow>
+                <mrow>P \amp =\text{Profit (in dollars) for the produced furniture}</mrow>
               </md>
               <md>
                 <mrow>\text{Maximize } \amp P=30x+12y+40z</mrow>
@@ -497,8 +497,8 @@
               <shortdescription>Graph of the linear programming problem above with solution set and corner points marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
-                  A graph of the linear programming problem above, on coordinate axes with with <m>x</m>-values and <m>y</m>-values from <m>-50</m> to <m>50</m>.
-                  The solution set is marked with an <m>S</m>. All corner points of the solutions set have been marked with solid dots and their coordinates below.
+                  A graph of the linear programming problem above, on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-50</m> to <m>50</m>.
+                  The solution set is marked with an <m>S</m>. All corner points of the solution set have been marked with solid dots and their coordinates below.
                 </p>
               </description>
             </image>
@@ -514,13 +514,13 @@
               <shortdescription>Graph of the linear programming problem below with solution set and corner points marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
-                  A graph of the linear programming problem above, on coordinate axes with with <m>x</m>-values from <m>-3</m> to <m>13</m> and <m>y</m>-values from <m>-1</m> to <m>10</m>.
-                  The solution set is marked with an <m>S</m>. All corner points of the solutions set have been marked with solid dots. Each equation is placed next to it's corresponding graph.
+                  A graph of the linear programming problem above, on coordinate axes with <m>x</m>-values from <m>-3</m> to <m>13</m> and <m>y</m>-values from <m>-1</m> to <m>10</m>.
+                  The solution set is marked with an <m>S</m>. All corner points of the solution set have been marked with solid dots. Each equation is placed next to its corresponding graph.
                 </p>
               </description>
             </image>
               corresponds to the following system of inequalities.
-            <md>\begin{cases}9x+2y\leq 30\\ y\leq 3x\\ 2x+10y\geq 21\\ 18x-9y\leq 90\end{cases}</md>
+            <md>\begin{cases}9x+2y\geq 30\\ y\leq 3x\\ 2x+10y\geq 21\\ 18x-9y\leq 90\end{cases}</md>
               Use the method of corners to find the maximum and minimum, if they exist, for the objective function <m>P=2x+3y</m>.
             </p>
           </statement>
@@ -533,12 +533,30 @@
       <exercise number="9"><!-- #9 -->
           <statement>
             <p>
-              
+              The following linear programming problem can be written as a standard maximization problem. Create the initial simplex tableau for the problem and find the first pivot element.
+              <md>
+                <mrow>\text{Maximize } \amp P = 4x-5y+z</mrow>
+                <mrow>\text{subject to } \amp 4x+7z\leq 50</mrow>
+                <mrow>\amp x+3y+2z\leq 30</mrow>
+                <mrow>\amp 5y\leq 120+3z</mrow>
+                <mrow>\amp x\geq 0, y\geq 0, z\geq 0</mrow>
+              </md>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <me>
+                \begin{array}{rrrrrrr|r}
+                  x \amp y \amp z \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
+                  \hline
+                  4 \amp 0 \amp 7 \amp 1 \amp 0 \amp 0 \amp 0 \amp 50 \\
+                  1 \amp 3 \amp 2 \amp 0 \amp 1 \amp 0 \amp 0 \amp 30 \\
+                  0 \amp 5 \amp -3 \amp 0 \amp 0 \amp 1 \amp 0 \amp 120 \\
+                  \hline
+                  -4 \amp 5 \amp -1 \amp 0 \amp 0 \amp 0 \amp 1 \amp 0
+                \end{array}
+              </me>
+              The first pivot element is the value <m>4</m> in row <m>1</m>, column <m>1</m>.
             </p>
           </answer>
       </exercise>
@@ -550,39 +568,39 @@
       <exercise number="1"><!-- #1 -->
         <statement>
           <p>
-            
+            Suppose you have an unbounded feasible region, <m>R</m>, in the first quadrant of the coordinate plane. Region <m>R</m> has corner points at <m>(7,0)</m>, <m>(4,6)</m>, <m>(9,1)</m>, and <m>(5,10)</m>. Given the objective function <m>P=3x+4y</m>, find the maximum value for <m>P</m> on this feasible region, <m>R</m>.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has a maximum of <m>55</m> when <m>x=5</m> and <m>y=10</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has a maximum of <m>62</m> when <m>x=6</m> and <m>y=11</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has a maximum of <m>73</m> when <m>x=4</m> and <m>y=6</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has a maximum at all points <m>(x,y)</m> in <m>R</m> because it is unbounded.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has no maximum because <m>R</m> is unbounded.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (E)
           </p>
         </answer>
       </exercise>
@@ -590,39 +608,39 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            
+            Suppose you have an unbounded feasible region, <m>R</m>, in the first quadrant of the coordinate plane. Region <m>R</m> has corner points at <m>(7,0)</m>, <m>(4,6)</m>, <m>(9,1)</m>, and <m>(5,10)</m>. Given the objective function <m>P=3x+4y</m>, find the minimum value for <m>P</m> on this feasible region, <m>R</m>.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has a minimum of <m>31</m> when <m>x=9</m> and <m>y=1</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has a minimum of <m>0</m> when <m>x=0</m> and <m>y=0</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has a minimum of <m>21</m> when <m>x=7</m> and <m>y=0</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has a minimum at all points <m>(x,y)</m> in <m>R</m> because it is unbounded.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P</m> has no minimum because <m>R</m> is unbounded.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (C)
           </p>
         </answer>
       </exercise>
@@ -630,39 +648,39 @@
       <exercise number="3"><!-- #3 -->
         <statement>
           <p>
-            
+            One card is drawn from a well-shuffled, standard deck of <m>52</m> cards. If <m>E</m> is the event "a queen is drawn" and <m>F</m> is the event "a red card is drawn", which is true about the event <m>E \cap F</m>?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>E</m> and <m>F</m> are mutually exclusive, so <m>P(E\cap F)=0</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P(E \cap F)=\dfrac{28}{52}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P(E \cap F)=\dfrac{30}{52}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>P(E \cap F)=\dfrac{2}{52}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  None of the above are true.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (D)
           </p>
         </answer>
       </exercise>
@@ -670,39 +688,44 @@
       <exercise number="4"><!-- #4 -->
         <statement>
           <p>
-            
+            A small farm plants two crops: kale and tomatoes. The farm has up to <m>20</m> acres of land, <m>48000</m> gallons of
+            water, and <m>240</m> hours of labor it can divide between these two crops. Each crop of kale requires <m>2</m> acres of
+            land, <m>2000</m> gallons of water, <m>12</m> hours of labor, and makes <m>\$4,000</m> in profit. Each crop of tomatoes requires <m>1</m>
+            acre of land, <m>3000</m> gallons of water, <m>16</m> hours of labor, and makes <m>\$6,000</m> in profit. The farmers have
+            calculated they achieve a maximum profit of <m>\$88,000</m> when they plant <m>4</m> crops of kale and <m>12</m> crops of
+            tomatoes. Given this solution, how much of each resource (land, water, and labor) is left over?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>4</m> acres of land, <m>4000</m> gallons of water, and <m>12</m> hours of labor
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>4</m> acres of land, <m>2000</m> gallons of water, and <m>0</m> hours of labor
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>4</m> acres of land, <m>4000</m> gallons of water, and <m>0</m> hours of labor
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>0</m> acres of land, <m>4000</m> gallons of water, and <m>0</m> hours of labor
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>0</m> acres of land, <m>2000</m> gallons of water, and <m>0</m> hours of labor
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (D)
           </p>
         </answer>
       </exercise>
@@ -710,39 +733,49 @@
       <exercise number="5"><!-- #5 -->
         <statement>
           <p>
-            
+            Which system of linear inequalities is represented by the graph below?
+            <image source="h6/images/h6fig4" width="80%">
+              <shortdescription>Graph of a linear programming problem with solution set and corner points marked. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                  A graph of a linear programming problem, on coordinate axes with <m>x</m>-values from <m>-2</m> to <m>20</m> and <m>y</m>-values from <m>-4</m> to <m>14</m>.
+                  The solution set is marked with an <m>S</m>. All corner points of the solution set have been marked with solid dots at <m>(6,4)</m>, <m>(8,8)</m>, and <m>(12,7)</m>.
+                  The line passing through <m>(6,4)</m> and <m>(8,8)</m> is solid. The line passing through <m>(8,8)</m> and <m>(12,7)</m> is dashed. The line passing through <m>(6,4)</m> and <m>(12,7)</m> is dashed.
+                </p>
+              </description>
+            </image>
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>\begin{cases}-x-4y\leq -40\\ x-2y\leq -2\\ -2x+y\lt -8 \end{cases}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>\begin{cases}-x-4y\gt -40\\ x-2y\lt -2\\ -2x+y\leq -8 \end{cases}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>\begin{cases}-x-4y\geq -40\\ x-2y\leq -2\\ -2x+y\leq -8 \end{cases}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>\begin{cases}-x-4y\lt -40\\ x-2y\gt -2\\ -2x+y\leq -8 \end{cases}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  None of these.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (B)
           </p>
         </answer>
       </exercise>
@@ -750,39 +783,50 @@
       <exercise number="6"><!-- #6 -->
         <statement>
           <p>
-            
+            Determine whether the simplex tableau below is in its final form. If it is, find the optimal solution. If it is not, state the next pivot entry.
+              <me>
+                \begin{array}{rrrrrr|r}
+                  x \amp y  \amp s_1 \amp s_2 \amp s_3 \amp P \amp c \\
+                  \hline
+                  0 \amp 1 \amp \dfrac{1}{8} \amp 0 \amp -\dfrac{1}{8} \amp 0 \amp \dfrac{1}{4} \\
+                  0 \amp 0 \amp -\dfrac{1}{4} \amp 1 \amp \dfrac{7}{4} \amp 0 \amp \dfrac{35}{2} \\
+                  1 \amp 0 \amp 0 \amp 0 \amp \dfrac{1}{2} \amp 0 \amp 2 \\
+                  \hline
+                  0 \amp 0 \amp \dfrac{3}{8} \amp 0 \amp \dfrac{13}{8} \amp 1 \amp \dfrac{35}{4}
+                \end{array}
+              </me>
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  The tableau is not in final form because of the negative in column <m>\#3</m>. The next pivot element is in row <m>\#1</m>, column <m>\#3</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The tableau is not in final form because of the negative in column <m>\#5</m>. The next pivot element is in row <m>\#2</m>, column <m>\#5</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The tableau is in final form. The optimal solution is <m>x=\dfrac{1}{4}</m>, <m>y=\dfrac{35}{2}</m>, <m>s_1=2</m>, <m>s_2=0</m>, <m>s_3=0</m>, and <m>P=\dfrac{35}{4}</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The tableau is in final form. The optimal solution is <m>x=2</m>, <m>y=\dfrac{1}{4}</m>, <m>s_1=0</m>, <m>s_2=\dfrac{35}{2}</m>, <m>s_3=0</m>, and <m>P=\dfrac{35}{4}</m>.
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  The tableau is in final form. The optimal solution is <m>x=2</m>, <m>y=\dfrac{1}{4}</m>, <m>s_1=\dfrac{1}{4}</m>, <m>s_2=0</m>, <m>s_3=0</m>, and <m>P=\dfrac{35}{4}</m>.
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (D)
           </p>
         </answer>
       </exercise>

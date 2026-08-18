@@ -1,0 +1,19 @@
+<diagram xmlns="https://prefigure.org" dimensions="(600,600)" margins="5">
+  <definition>l1(x)=-1/4*x+10</definition>
+  <definition>l2(x)=-8+2*x</definition>
+  <definition>l3(x)=1/2*x+1</definition>
+  <coordinates bbox="(-2,-4,20,14)">
+    <grid-axes spacings="((0,2,18),(-2,2,12))" xlabel="x" ylabel="y" hlabels="(0,2,18)" vlabels="(-2,2,12)" hticks="(0,2,18)" vticks="(-2,2,12)" arrows="2"/>
+    <area-between-curves function1="l2" function2="l3" domain="(6,8)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l1" function2="l3" domain="(8,12)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <graph function="l1" domain="(-2,30)" stroke="black" dash="9 9"/>
+    <graph function="l2" domain="(-2,30)" stroke="black"/>
+    <graph function="l3" domain="(-2,30)" stroke="black" dash="9 9"/>
+    <label anchor="(8,7)" alignment="se" color="black"><m>\Huge S</m></label>
+    <point p="(0,1)" size="6" fill="black" thickness="0"/>
+    <point p="(4,0)" size="6" fill="black" thickness="0"/>
+    <point p="(6,4)" size="6" fill="black" thickness="0"/>
+    <point p="(8,8)" size="6" fill="black" thickness="0"/>
+    <point p="(12,7)" size="6" fill="black" thickness="0"/>
+  </coordinates>
+</diagram>
