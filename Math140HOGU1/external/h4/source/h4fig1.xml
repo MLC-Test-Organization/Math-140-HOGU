@@ -1,0 +1,22 @@
+<diagram xmlns="https://prefigure.org" dimensions="(600,600)" margins="5">
+  <definition>l1(x)=-13/16*x+52</definition>
+  <definition>l2(x)=3/16*x+20</definition>
+  <definition>l3(x)=0</definition>
+  <definition>l4(x)=55</definition>
+  <coordinates bbox="(-5,-5,70,55)">
+    <grid-axes spacings="((0,5,65),(0,10,50))" xlabel="x" ylabel="y" hlabels="(0,5,65)" vlabels="(0,10,50)" hticks="(0,5,65)" vticks="(0,10,50)" arrows="2"/>
+    <area-between-curves function1="l1" function2="l2" domain="(0,32)" fill="blue" stroke="empty" fill-opacity="0.3"/>
+    <area-between-curves function1="l1" function2="l2" domain="(32,64)" fill="orange" stroke="empty" fill-opacity="0.3"/>
+    <area-between-curves function1="l2" function2="l3" domain="(64,70)" fill="orange" stroke="empty" fill-opacity="0.3"/>
+    <area-between-curves function1="l1" function2="l4" domain="(0,32)" fill="green" stroke="empty" fill-opacity="0.3"/>
+    <area-between-curves function1="l2" function2="l4" domain="(32,70)" fill="green" stroke="empty" fill-opacity="0.3"/>
+    <area-between-curves function1="l2" function2="l3" domain="(0,32)" fill="red" stroke="empty" fill-opacity="0.3"/>
+    <area-between-curves function1="l1" function2="l3" domain="(32,64)" fill="red" stroke="empty" fill-opacity="0.3"/>
+    <label anchor="(10,30)" alignment="ne" color="black"><m>\LARGE I</m></label>
+    <label anchor="(35,45)" alignment="sw" color="black"><m>\LARGE II</m></label>
+    <label anchor="(55,20)" alignment="se" color="black"><m>\LARGE III</m></label>
+    <label anchor="(30,12)" alignment="sw" color="black"><m>\LARGE IV</m></label>
+    <graph function="l1" domain="(-5,70)" stroke="black"/>
+    <graph function="l2" domain="(-5,70)" stroke="black"/>
+  </coordinates>
+</diagram>

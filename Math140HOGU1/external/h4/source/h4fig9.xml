@@ -1,0 +1,22 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition>l1(x)=-1/2*x+3</definition>
+  <definition>l2(x)=-x+1</definition>
+  <definition>l3(x)=-2*x+6</definition>
+  <definition>l4(x)=0</definition>
+  <coordinates bbox="(-2,-2,6,6)">
+    <grid-axes spacings="((-1,1,5),(-1,1,5))" xlabel="x" ylabel="y" hlabels="(-1,1,5)" vlabels="(-1,1,5)" hticks="(-1,1,5)" vticks="(-1,1,5)" arrows="2"/>
+    <area-between-curves function1="l1" function2="l2" domain="(0,1)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l1" function2="l4" domain="(1,2)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l3" function2="l4" domain="(2,3)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <graph function="l1" domain="(-2,6)" stroke="black"/>
+    <graph function="l2" domain="(-2,6)" stroke="black"/>
+    <graph function="l3" domain="(-2,6)" stroke="black"/>
+    <point at="point" p="(0,1)" alignment="ne" size="6" fill="black" stroke="black"></point>
+    <point at="point" p="(0,3)" alignment="se" size="6" fill="black" stroke="black"></point>
+    <point at="point" p="(1,0)" alignment="ne" size="6" fill="black" stroke="black"></point>
+    <point at="point" p="(3,0)" alignment="nw" size="6" fill="black" stroke="black"></point>
+    <point at="point" p="(2,2)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large (2,2)</m></point>
+    <circle center="(1.5,1.5)" radius="3" fill="none" thickness="2" stroke="darkblue"/>
+    <label anchor="(1.5,1.5)" alignment="sw" color="black"><m>S</m></label>
+  </coordinates>
+</diagram>

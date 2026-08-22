@@ -1,0 +1,9 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition>l1(x)=4/3*x+10</definition>
+  <definition>l2(x)=4/3*x+10</definition>
+  <coordinates bbox="(-16,-4,8,20)">
+    <grid-axes spacings="((-14,2,6),(-2,2,18))" hlabels="" vlabels="" hticks="(-14,2,6)" vticks="(-2,2,18)" arrows="2"/>
+    <graph function="l1" domain="(-16,8)" thickness="5" stroke="blue"/>
+    <graph function="l2" domain="(-16,8)" stroke="orange"/>
+  </coordinates>
+</diagram>

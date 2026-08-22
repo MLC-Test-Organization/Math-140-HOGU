@@ -1,0 +1,29 @@
+<diagram xmlns="https://prefigure.org" dimensions="(600,600)" margins="5">
+  <definition>l1(x)=3*x</definition>
+  <definition>l2(x)=15-9/2*x</definition>
+  <definition>l3(x)=2.1-1/5*x</definition>
+  <definition>l4(x)=2*x-10</definition>
+  <definition>l5(x)=10</definition>
+  <coordinates bbox="(-3,-1,13,10)">
+    <grid-axes spacings="((-2,1,12),(0,1,9))" xlabel="x" ylabel="y" hlabels="(-2,1,12)" vlabels="(0,1,9)" hticks="(-2,1,12)" vticks="(0,1,9)" arrows="2"/>
+    <area-between-curves function1="l1" function2="l2" domain="(2,3)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l1" function2="l3" domain="(3,10/3)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l3" function2="l5" domain="(10/3,5.5)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <area-between-curves function1="l4" function2="l5" domain="(5.499,10)" fill="blue" stroke="empty" fill-opacity="0.2"/>
+    <graph function="l1" domain="(-3,13)" stroke="black"/>
+    <graph function="l2" domain="(-3,13)" stroke="black"/>
+    <graph function="l3" domain="(-3,13)" stroke="black"/>
+    <graph function="l4" domain="(-3,13)" stroke="black"/>
+    <label anchor="(5,6)" alignment="s" color="black"><m>\Huge S</m></label>
+    <point p="(0,0)" size="6" fill="black" thickness="0"/>
+    <point p="(2,6)" size="6" fill="black" thickness="0"/>
+    <point p="(3,3/2)" size="6" fill="black" thickness="0"/>
+    <point p="(11/2,1)" size="6" fill="black" thickness="0"/>
+    <point p="(3,9)" size="6" fill="black" thickness="0"/>
+    <point p="(9,8)" size="6" fill="black" thickness="0"/>
+    <label anchor="(5,9)" alignment="n" color="black"><m>\Large -3x+y=0</m></label>
+    <label anchor="(4.3,5)" alignment="s" color="black"><m>\Large 9x+2y=30</m></label>
+    <label anchor="(8,.5)" alignment="ne" color="black"><m>\Large 2x+10y=21</m></label>
+    <label anchor="(8.5,7)" alignment="se" color="black"><m>\Large 18x-9y=90</m></label>
+  </coordinates>
+</diagram>

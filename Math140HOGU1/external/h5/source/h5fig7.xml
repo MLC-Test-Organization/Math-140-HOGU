@@ -1,0 +1,13 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <coordinates bbox="(-6,-6,6,6)">
+    <rectangle lower-left="(-6,-6)" dimensions="(12,12)" fill="blue"/>
+    <circle center="(2,0)" radius="3.5" fill="white" thickness="0"/>
+    <circle center="(-2,0)" radius="3.5" fill="blue" thickness="0"/>
+    <label anchor="(-2,3)" alignment="s" color="black"><m>\Large A</m></label>
+    <label anchor="(2,3)" alignment="s" color="black"><m>\Large B</m></label>
+    <label anchor="(5,5)" alignment="ne" color="black"><m>\Large S</m></label>
+    <rectangle lower-left="(-6,-6)" dimensions="(12,12)" fill="none" stroke="black"/>
+    <circle center="(-2,0)" radius="3.5" fill="none" thickness="3"/>
+    <circle center="(2,0)" radius="3.5" fill="none" thickness="3"/>
+  </coordinates>
+</diagram>

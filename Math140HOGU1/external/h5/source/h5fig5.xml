@@ -1,0 +1,29 @@
+<diagram xmlns="https://prefigure.org" dimensions="(400,300)" margins="5">
+  <coordinates bbox="(-6,-8,6,8)">
+    <point p="(-5,0)" size="8" fill="black" thickness="0"/>
+    <line endpoints="((-5,0),(-1,6))" stroke="black" infinite="no"/>
+    <line endpoints="((-5,0),(-1,2))" stroke="black" infinite="no"/>
+    <line endpoints="((-5,0),(-1,-2))" stroke="black" infinite="no"/>
+    <line endpoints="((-5,0),(-1,-6))" stroke="black" infinite="no"/>
+    <line endpoints="((1,6),(4,7))" stroke="black" infinite="no"/>
+    <line endpoints="((1,6),(4,5))" stroke="black" infinite="no"/>
+    <line endpoints="((1,2),(4,3))" stroke="black" infinite="no"/>
+    <line endpoints="((1,2),(4,1))" stroke="black" infinite="no"/>
+    <line endpoints="((1,-2),(4,-1))" stroke="black" infinite="no"/>
+    <line endpoints="((1,-2),(4,-3))" stroke="black" infinite="no"/>
+    <line endpoints="((1,-6),(4,-5))" stroke="black" infinite="no"/>
+    <line endpoints="((1,-6),(4,-7))" stroke="black" infinite="no"/>
+    <label anchor="(0,6)" color="black">heart</label>
+    <label anchor="(0,2)" color="black">spade</label>
+    <label anchor="(0,-2)" color="black">diamond</label>
+    <label anchor="(0,-6)" color="black">club</label>
+    <label anchor="(4,7)" alignment="e" color="black">H</label>
+    <label anchor="(4,5)" alignment="e" color="black">T</label>
+    <label anchor="(4,3)" alignment="e" color="black">H</label>
+    <label anchor="(4,1)" alignment="e" color="black">T</label>
+    <label anchor="(4,-1)" alignment="e" color="black">H</label>
+    <label anchor="(4,-3)" alignment="e" color="black">T</label>
+    <label anchor="(4,-5)" alignment="e" color="black">H</label>
+    <label anchor="(4,-7)" alignment="e" color="black">T</label>
+  </coordinates>
+</diagram>

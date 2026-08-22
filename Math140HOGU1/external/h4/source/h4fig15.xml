@@ -1,0 +1,36 @@
+<diagram xmlns="https://prefigure.org" dimensions="(600,600)" margins="5">
+  <definition>l1(x)=3</definition>
+  <definition>l2(x)=8-x</definition>
+  <definition>l3(x)=12-5*x</definition>
+  <definition>l4(x)=12+3*x</definition>
+  <coordinates bbox="(-7,-6,9,20)">
+    <grid-axes spacings="((-6,1,8),(-5,1,19))" xlabel="x" ylabel="y" hlabels="" vlabels="" hticks="" vticks="" arrows="2"/>
+    <graph function="l1" domain="(-7,18)" stroke="red"/>
+    <graph function="l2" domain="(-7,18)" stroke="magenta"/>
+    <graph function="l3" domain="(-7,18)" stroke="green"/>
+    <graph function="l4" domain="(-7,18)" stroke="blue"/>
+    <label anchor="(-6,3)" alignment="s" color="red"><m>y=3</m></label>
+    <label anchor="(-5.5,12.5)" alignment="s" color="magenta"><m>x+y=8</m></label>
+    <label anchor="(-2.8,19)" alignment="s" color="green"><m>5x+y=12</m></label>
+    <label anchor="(3,16)" alignment="s" color="blue"><m>-3x+y=12</m></label>
+    <label anchor="(-5,8)" alignment="s" color="black"><m>\Large R_1</m></label>
+    <label anchor="(-1,6)" alignment="se" color="black"><m>\Large R_2</m></label>
+    <label anchor="(3,5)" alignment="sw" color="black"><m>\Large R_3</m></label>
+    <label anchor="(3,12)" alignment="s" color="black"><m>\Large R_4</m></label>
+    <label anchor="(-0.4,10)" alignment="s" color="black"><m>\Large R_5</m></label>
+    <label anchor="(-3,16)" alignment="s" color="black"><m>\Large R_6</m></label>
+    <label anchor="(1,18)" alignment="s" color="black"><m>\Large R_7</m></label>
+    <label anchor="(-6,0)" alignment="s" color="black"><m>\Large R_8</m></label>
+    <label anchor="(-1,-1)" alignment="s" color="black"><m>\Large R_9</m></label>
+    <label anchor="(5,0)" alignment="s" color="black"><m>\Large R_{10}</m></label>
+    <label anchor="(8,2)" alignment="s" color="black"><m>\Large R_{11}</m></label>
+    <point at="point" p="(0,12)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large A</m></point>
+    <point at="point" p="(1,7)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large B</m></point>
+    <point at="point" p="(2,18)" alignment="se" size="6" fill="black" stroke="black"><m>\Large C</m></point>
+    <point at="point" p="(-1,9)" alignment="w" size="6" fill="black" stroke="black"><m>\Large D</m></point>
+    <point at="point" p="(5,3)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large E</m></point>
+    <point at="point" p="(9/5,3)" alignment="sw" size="6" fill="black" stroke="black"><m>\Large F</m></point>
+    <point at="point" p="(-3,3)" alignment="nw" size="6" fill="black" stroke="black"><m>\Large G</m></point>
+    <point at="point" p="(7,3)" alignment="ne" size="6" fill="black" stroke="black"><m>\Large H</m></point>
+  </coordinates>
+</diagram>
