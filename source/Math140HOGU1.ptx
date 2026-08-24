@@ -96,14 +96,14 @@
               State the value of each matrix entry given below.
             </p>
           </introduction>
-          <task workspace=".025in">
+          <task workspace=".1in">
             <statement>
               <p>
               <m>a_{23}=</m> ____
               </p>
             </statement>
           </task>
-          <task workspace=".025in">
+          <task workspace=".1in">
             <statement>
               <p>
                 <m>c_{12}=</m> ____
