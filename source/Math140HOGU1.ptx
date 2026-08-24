@@ -88,11 +88,6 @@
               </p>
             </statement>
            </task>
-          <answer>
-            <p>
-              False, True, False, False, True
-            </p>
-          </answer>
         </exercise>
         
         <exercise number="5"><!-- #5 -->
@@ -137,11 +132,6 @@
               <m>A+2B</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>A+2B=\begin{bmatrix} 4 \amp 3 \amp -2 \\ 8 \amp 1 \amp 5 \end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
 
         <task workspace="1in">
@@ -150,11 +140,6 @@
               <m>3A-H</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              Since <m>A</m> is a <m>2\times 3</m> matrix, and <m>H</m> is a <m>3\times 2</m> matrix, <m>A</m> and <m>H</m> have different dimensions so matrix subtraction is not defined and the given operation is not possible.
-            </p>
-          </answer>
         </task>
 
         <task workspace="1in">
@@ -163,11 +148,6 @@
               <m>4B-H^T</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>4B-H^T=\begin{bmatrix} 3 \amp 8 \amp -10 \\ 18 \amp -8 \amp -3 \end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
   
         <task workspace="1in">
@@ -176,11 +156,6 @@
               <m>2BH</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>2BH=\begin{bmatrix} 14 \amp -6 \\ 8 \amp -24 \end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
       </exercise>
 
@@ -193,11 +168,6 @@
               </md>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>F=\begin{bmatrix} 1 \amp 12 \amp -33 \\ 4 \amp -5 \amp 2 \\ -5 \amp 21 \amp 3 \end{bmatrix}</m>
-            </p>
-          </answer>
       </exercise>
       <exercise number="3" workspace="2.25in"><!-- #3 -->
           <statement>
@@ -208,11 +178,6 @@
               </md>              
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>x=3</m>, <m>y=6</m>
-            </p>
-          </answer>
       </exercise>
       <exercise number="4"><!-- #4 -->
         <introduction>
@@ -226,11 +191,6 @@
               Find <m>(K+L)^T</m>.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>(K+L)^T=\begin{bmatrix} 1+y \amp 4 \\ 10 \amp x+1 \\ 12 \amp 8 \end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
         <task workspace="1.75in">
           <statement>
@@ -238,11 +198,6 @@
               Find <m>K^T+L^T</m>.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>K^T+L^T=\begin{bmatrix} 1+y \amp 4 \\ 10 \amp x+1 \\ 12 \amp 8 \end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
         <task workspace="1.75in">
           <statement>
@@ -250,11 +205,6 @@
               Determine whether <m>(K+L)^T=K^T+L^T</m>. Justify your answer.
             </p>
           </statement>
-          <answer>
-            <p>
-              Yes, from parts (a) and (b). (In general, <m>(A+B)^T=A^T+B^T</m> for all matrices <m>A</m> and <m>B</m>.)
-            </p>
-          </answer>
         </task>
       </exercise>
         <exercise number="5"><!-- #5 -->
@@ -302,11 +252,6 @@
               Write a <m>3\times 4</m> matrix <m>A</m> to represent the prices of the four items in the three supermarkets.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>A=\begin{bmatrix} 3.29 \amp 3.99 \amp 2.79 \amp 2.99 \\ 2.89 \amp 2.99 \amp 2.99 \amp 3.49 \\ 3.49 \amp 2.74 \amp 3.09 \amp 2.89 \end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
         <task workspace="1.75in">
           <statement>
@@ -314,11 +259,6 @@
               For the first week, Laura plans to buy three <m>5</m>-lb bags of sugar, six <m>5</m>-lb bags of flour, four <m>1</m>-gal cartons of milk, and four <m>1</m>-dozen count cartons of eggs. Write a <m>4\times 1</m> matrix <m>B</m> to represent the quantities of each item that Laura plans to purchase for the first week.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>B=\begin{bmatrix} 3 \\ 6 \\ 4 \\ 4\end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
         <task workspace="1.25in">
           <statement>
@@ -326,11 +266,6 @@
               For the second week, Laura plans to buy two <m>5</m>-lb bags of sugar, three <m>5</m>-lb bags of flour, five <m>1</m>-gal cartons of milk, and two <m>1</m>-dozen count cartons of eggs. Write a <m>4\times 1</m> matrix <m>C</m> to represent the quantities of each item that Laura plans to purchase for the second week.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>C=\begin{bmatrix} 2 \\ 3 \\ 5 \\ 2\end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
         <task workspace="1.25in">
           <statement>
@@ -338,11 +273,6 @@
               Find <m>B+C</m> and interpret the meaning of the matrix.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>B+C=\begin{bmatrix} 5 \\ 9 \\ 9 \\ 6 \end{bmatrix}</m> represents the quantity of each item that Laura plans to buy for the first and second weeks combined.
-            </p>
-          </answer>
         </task>
         <task workspace="1.25in">
           <statement>
@@ -350,11 +280,6 @@
               If <m>T=A(B+C)</m>, what does matrix <m>T</m> mean?
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>T</m> represents the matrix of total cost Laura would spend on the items purchased for the first and second weeks in each supermarket.
-            </p>
-          </answer>
         </task>
         <task workspace="1.25in">
           <statement>
@@ -362,11 +287,6 @@
               Use your calculator to find matrix <m>T</m> and then determine which supermarket Laura should buy the items from to minimize the cost. (Assuming she only shops at one supermarket)
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>T=A(B+C)=\begin{bmatrix} 95.41 \\ 89.21 \\ 87.26 \end{bmatrix}</m>, so Laura should purchase items from Supermarket 3 to minimize her total cost.
-            </p>
-          </answer>
         </task>
         </exercise>
       <exercise number="6" workspace="1.25in"><!-- #6 -->
@@ -376,11 +296,6 @@
               Find the values of <m>x</m> and <m>y</m> so that <m>GH=\begin{bmatrix} 1 \amp 8 \\ 0 \amp 12 \end{bmatrix}</m>.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>x=3</m>, <m>y=3</m>
-            </p>
-          </answer>
       </exercise>
         <exercise number="7"><!-- #7 -->
         <introduction>
@@ -405,11 +320,6 @@
               If the prices of Products <m>A</m>, <m>B</m>, and <m>D</m> are <m>\$5</m>, <m>\$10</m>, and <m>\$8</m> respectively, create a <m>1\times 3</m> matrix <m>C</m> that represents the price of each product.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>C=\begin{bmatrix} 5 \amp 10 \amp 8 \end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
         <task workspace=".5in">
           <statement>
@@ -417,11 +327,6 @@
               Write an equation using matrices <m>S</m> and <m>C</m> that represents the revenue matrix <m>R</m>.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>R=CS=\begin{bmatrix} 5 \amp 10 \amp 8 \end{bmatrix}\begin{bmatrix} 100 \amp 200 \amp 150 \amp 175 \\ 80 \amp 120 \amp 90 \amp 110 \\ 60 \amp 70 \amp 65 \amp 85\end{bmatrix}</m>
-            </p>
-          </answer>
         </task>
         <task workspace=".5in">
           <statement>
@@ -429,11 +334,6 @@
               Find the revenue matrix <m>R</m> and interpret the meaning of <m>r_{13}</m>.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>R=\begin{bmatrix} 1780 \amp 2760 \amp 2170 \amp 2655\end{bmatrix}</m>, <m>r_{13}=2170</m> is the revenue from the sales of products <m>A</m>, <m>B</m>, and <m>D</m> in region <m>R3</m>.
-            </p>
-          </answer>
         </task>
         </exercise>
       <exercise number="8" workspace="1.5in"><!-- #8 -->
@@ -467,11 +367,6 @@
               Compute the product <m>PF</m> and interpret the result.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>PF=\begin{bmatrix} 43140\end{bmatrix}</m>, so, in total, faculty members spend <m>\$43140</m> on tickets to attend Aggie football games <m>1</m>, <m>2</m>, and <m>3</m>.
-            </p>
-          </answer>
       </exercise>
         <exercise number="9"><!-- #9 -->
         <introduction>
@@ -485,11 +380,6 @@
               Find the dimensions of the matrix <m>B</m> so that the product matrix <m>ABC</m> exists.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>4 \times 1</m>
-            </p>
-          </answer>
         </task>
         <task workspace=".75in">
           <statement>
@@ -497,11 +387,6 @@
               What are the dimensions of the matrix <m>ABC</m>?
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>3 \times 2</m>
-            </p>
-          </answer>
         </task>
         </exercise>
     </paragraphs>
@@ -541,11 +426,6 @@
               </li>
             </ol>
         </statement>
-        <answer>
-          <p>
-            (A)
-          </p>
-        </answer>
       </exercise>
 
       <exercise number="2" workspace=".35in"><!-- #2 -->
@@ -581,11 +461,6 @@
               </li>
             </ol>
         </statement>
-        <answer>
-          <p>
-            (C)
-          </p>
-        </answer>
       </exercise>
 
       <exercise number="3" workspace=".35in"><!-- #3 -->
@@ -621,11 +496,6 @@
               </li>
             </ol>
         </statement>
-        <answer>
-          <p>
-            (B)
-          </p>
-        </answer>
       </exercise>
 
       <exercise number="4" workspace=".5in"><!-- #4 -->
@@ -691,11 +561,6 @@
               </li>
             </ol>
         </statement>
-        <answer>
-          <p>
-            (A)
-          </p>
-        </answer>
       </exercise>
 
       <exercise number="5"><!-- #5 -->
@@ -731,11 +596,6 @@
               </li>
             </ol>
         </statement>
-        <answer>
-          <p>
-            (B)
-          </p>
-        </answer>
       </exercise>
     </paragraphs>
   
