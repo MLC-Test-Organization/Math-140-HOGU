@@ -20,7 +20,7 @@
     <title> Session #1 (Sections 1.1 &amp; 1.2)</title>
     <p>
       Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
-      The Math 140 textbook is free, and can be viewed at <url href="https://oaktrust.library.tamu.edu/items/7d9f5efe-b63b-4c57-8db3-91790deed00d" visual="oaktrust.library.tamu.edu/items/7d9f5efe-b63b-4c57-8db3-91790deed00d">Texas A&amp;M OAKTrust Digital Repository</url>.
+      The Math 140 textbook is free, and can be viewed at <url href="https://odp.library.tamu.edu/math-business-social-sciences/" visual="https://odp.library.tamu.edu/math-business-social-sciences/">Texas A&amp;M Open Digital Publishing</url>.
     </p>
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
@@ -32,7 +32,7 @@
           </p>
         </introduction>
         <task>
-          <statement>
+          <statement workspace="0.75in">
             <p>
               Matrix <m>C</m> has dimensions <m>3\times 2</m> because it has ____ rows and ____ columns.
             </p>
@@ -44,7 +44,7 @@
           </answer>
         </task>
         <task>
-          <statement>
+          <statement workspace="0.75in">
             <p>
               The dimensions of matrix <m>B</m> are ____ <m>\times</m> ____ because it has ____ rows and ____ columns.
             </p>
@@ -56,7 +56,7 @@
           </answer>
         </task>
         <task>
-          <statement>
+          <statement workspace="0.75in">
             <p>
               Because the dimensions of matrix <m>A</m> are ____ <m>\times</m> ____, the dimensions of <m>A^T</m> are ____ <m>\times</m> ____.
             </p>
@@ -68,34 +68,39 @@
           </answer>
         </task>
         <task>
-          <statement>
+          <statement workspace="0.75in">
             <p>
-              Answer True or False for each of the following.
+              Circle True or False for each of the following.
               <ol>
                 <li>
                   <p>
                     <m>A+B</m> is a defined matrix.
                   </p>
+                  <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
                 </li>
                 <li>
                   <p>
                     <m>AB</m> is a defined matrix.
                   </p>
+                   <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
                 </li>
                 <li>
                   <p>
                     The dimensions of <m>BA</m> are <m>2\times 2</m>.
                   </p>
+                   <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
                 </li>
                 <li>
                   <p>
                     <m>AB=BA</m>
                   </p>
+                   <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
                 </li>
                 <li>
                   <p>
                     <m>A+B^T=B^T+A</m>
                   </p>
+                   <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
                 </li>
               </ol>
             </p>
