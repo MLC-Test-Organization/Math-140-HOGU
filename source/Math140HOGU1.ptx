@@ -388,7 +388,7 @@
           </answer>
         </task>
         </exercise>
-      <exercise number="6" workspace="1.5in"><!-- #6 -->
+      <exercise number="6" workspace="1.25in"><!-- #6 -->
           <statement>
             <p>
               Consider the matrices <m>G=\begin{bmatrix} x \amp 2 \\ 3 \amp y \end{bmatrix}</m> and <m>H=\begin{bmatrix} 1 \amp 0 \\ -1 \amp 4 \end{bmatrix}</m>.
@@ -418,7 +418,7 @@
             </md>
           </p>
         </introduction>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               If the prices of Products <m>A</m>, <m>B</m>, and <m>D</m> are <m>\$5</m>, <m>\$10</m>, and <m>\$8</m> respectively, create a <m>1\times 3</m> matrix <m>C</m> that represents the price of each product.
@@ -430,7 +430,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               Write an equation using matrices <m>S</m> and <m>C</m> that represents the revenue matrix <m>R</m>.
@@ -442,7 +442,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               Find the revenue matrix <m>R</m> and interpret the meaning of <m>r_{13}</m>.
@@ -455,19 +455,19 @@
           </answer>
         </task>
         </exercise>
-      <exercise number="8"><!-- #8 -->
+      <exercise number="8" workspace="1.5in"><!-- #8 -->
           <statement>
             <p>
-              Matrix 
+              Suppose matrix <m>P</m> represents the prices for one faculty ticket to three different Aggie football games, and matrix <m>F</m> represents the number of faculty members who attended each of the three games. 
               <md> \begin{array}{r c}
                         \amp \begin{matrix} \text{Game } 1 \amp \text{Game } 2 \amp \text{Game } 3 \end{matrix} \\[3pt]
                         P = \text{ Price} \amp
                         \begin{bmatrix}
                         \$20  \ \ \  \amp  \ \ \   \$35  \ \ \  \amp  \ \ \   \$50  \ \ 
                         \end{bmatrix}
-                        
+
                       \end{array}</md>
-              represents the prices for one faculty ticket to three different Aggie football games. Matrix 
+              
               <md>F = \begin{array}{r c}
                         \amp \text{Attendees} \\[3pt]
                         \begin{matrix}
@@ -482,7 +482,8 @@
                           542
                         \end{bmatrix}
                       \end{array}</md> 
-              represents the number of faculty members who attended each of the three games. Compute the product <m>PF</m> and interpret the result.
+              
+              Compute the product <m>PF</m> and interpret the result.
             </p>
           </statement>
           <answer>
@@ -497,7 +498,7 @@
             Let <m>A</m>, <m>B</m>, and <m>C</m> be matrices such that <m>A</m> has dimensions <m>3\times 4</m> and <m>C</m> has dimensions <m>1\times 2</m>.
           </p>
         </introduction>
-        <task workspace="1in">
+        <task workspace=".75in">
           <statement>
             <p>
               Find the dimensions of the matrix <m>B</m> so that the product matrix <m>ABC</m> exists.
@@ -509,7 +510,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".75in">
           <statement>
             <p>
               What are the dimensions of the matrix <m>ABC</m>?
@@ -526,8 +527,7 @@
 
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
       <title>Now Grades Go Up</title>
-      
-      <exercise number="1"><!-- #1 -->
+      <exercise number="1" workspace=".35in"><!-- #1 -->
         <statement>
           <p>
             If <m>A</m> is a <m>2\times 3</m> matrix and <m>B</m> is a <m>3\times 2</m> matrix, what are the dimensions of <m>(AB)^T</m>?
@@ -567,7 +567,7 @@
         </answer>
       </exercise>
 
-      <exercise number="2"><!-- #2 -->
+      <exercise number="2" workspace=".35in"><!-- #2 -->
         <statement>
           <p>
             Let <m>A=\begin{bmatrix} x \amp 2 \\ 3 \amp y \end{bmatrix}</m> and <m>B=\begin{bmatrix} 1 \amp 1 \\ 1 \amp 1 \end{bmatrix}</m>. If <m>A+B=\begin{bmatrix} 4 \amp 3 \\ 4 \amp 8 \end{bmatrix}</m>, find the value of <m>x+y</m>.
@@ -607,7 +607,7 @@
         </answer>
       </exercise>
 
-      <exercise number="3"><!-- #3 -->
+      <exercise number="3" workspace=".35in"><!-- #3 -->
         <statement>
           <p>
             If <m>A</m> is a <m>2\times 3</m> matrix, <m>B</m> is a <m>3\times 4</m> matrix, and <m>C</m> is a <m>2\times 4</m> matrix, which one of the following matrix operations is defined?
@@ -647,7 +647,7 @@
         </answer>
       </exercise>
 
-      <exercise number="4"><!-- #4 -->
+      <exercise number="4" workspace=".5in"><!-- #4 -->
         <statement>
           <p>
             An auto parts store has reduced the price of three items (wiper blades, brake fluid, and floor mats) in their stores by <m>20\%</m>. The original price at Store <m>A</m> for wiper blades was <m>\$15</m>, a can of brake fluid was <m>\$7</m>, and floor mats were <m>\$25</m>. Which answer below is the correct <m>3\times 2</m> matrix that represents this information?
