@@ -6,19 +6,21 @@
 <project ptx-version="2">
   <targets>
     <target name="Math140HOGU1" source="Math140HOGU1.ptx" format="html" deploy-dir="Math140HOGU1" />
-    <target name="Math140HOGU2" source="Math140HOGU2.ptx" format="html" deploy-dir="Math140HOGU2" />
-    <target name="Math140HOGU3" source="Math140HOGU3.ptx" format="html" deploy-dir="Math140HOGU3" />
-    <target name="Math140HOGU4" source="Math140HOGU4.ptx" format="html" deploy-dir="Math140HOGU4" />
-    <target name="Math140HOGU5" source="Math140HOGU5.ptx" format="html" deploy-dir="Math140HOGU5" />
-    <target name="Math140HOGU6" source="Math140HOGU6.ptx" format="html" deploy-dir="Math140HOGU6" />
-    <target name="Math140HOGU7" source="Math140HOGU7.ptx" format="html" deploy-dir="Math140HOGU7" />
-    <target name="Math140HOGU8" source="Math140HOGU8.ptx" format="html" deploy-dir="Math140HOGU8" />
-    <target name="Math140HOGU9" source="Math140HOGU9.ptx" format="html" deploy-dir="Math140HOGU9" />
-    <target name="Math140HOGU10" source="Math140HOGU10.ptx" format="html" deploy-dir="Math140HOGU10" />
-    <target name="Math140HOGU11" source="Math140HOGU11.ptx" format="html" deploy-dir="Math140HOGU11" />
-    <target name="Math140HOGU12" source="Math140HOGU12.ptx" format="html" deploy-dir="Math140HOGU12" />
-    <target name="Math140HOGU13" source="Math140HOGU13.ptx" format="html" deploy-dir="Math140HOGU13" />
+     <target name="Math140HOGU1-ans" source="Math140HOGU1-ans.ptx" format="html"  />
+    <target name="Math140HOGU2" source="Math140HOGU2.ptx" format="html"  />
+    <target name="Math140HOGU3" source="Math140HOGU3.ptx" format="html"  />
+    <target name="Math140HOGU4" source="Math140HOGU4.ptx" format="html"  />
+    <target name="Math140HOGU5" source="Math140HOGU5.ptx" format="html"  />
+    <target name="Math140HOGU6" source="Math140HOGU6.ptx" format="html"  />
+    <target name="Math140HOGU7" source="Math140HOGU7.ptx" format="html"  />
+    <target name="Math140HOGU8" source="Math140HOGU8.ptx" format="html"  />
+    <target name="Math140HOGU9" source="Math140HOGU9.ptx" format="html"  />
+    <target name="Math140HOGU10" source="Math140HOGU10.ptx" format="html"  />
+    <target name="Math140HOGU11" source="Math140HOGU11.ptx" format="html"  />
+    <target name="Math140HOGU12" source="Math140HOGU12.ptx" format="html" />
+    <target name="Math140HOGU13" source="Math140HOGU13.ptx" format="html"  />
     <target name="print" format="pdf" />
+
   </targets>
 </project>
 

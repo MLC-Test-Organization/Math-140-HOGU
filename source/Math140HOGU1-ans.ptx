@@ -18,7 +18,7 @@
 <!--START TYPING CONTENT FOR SESSION BELOW HERE-->
   <worksheet>
     <title> Session #1 (Sections 1.1 &amp; 1.2)</title>
-    <p>ƒf
+    <p>
       Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
       The Math 140 textbook is free, and can be viewed at <url href="https://odp.library.tamu.edu/math-business-social-sciences/" visual="https://odp.library.tamu.edu/math-business-social-sciences/">Texas A&amp;M Open Digital Publishing</url>.
     </p>
@@ -36,6 +36,11 @@
               Matrix <m>C</m> has dimensions <m>3\times 2</m> because it has ____ rows and ____ columns.
             </p>
           </statement>
+          <answer>
+            <p>
+              Matrix <m>C</m> has dimensions <m>3\times 2</m> because it has <m>3</m> rows and <m>2</m> columns.
+            </p>
+          </answer>
         </exercise>
         <exercise><!-- #2 -->
           <statement>
@@ -43,6 +48,11 @@
               The dimensions of matrix <m>B</m> are ____ <m>\times</m> ____ because it has ____ rows and ____ columns.
             </p>
           </statement>
+          <answer>
+            <p>
+              The dimensions of matrix <m>B</m> are <m>4\times 2</m> because it has <m>4</m> rows and <m>2</m> columns.
+            </p>
+          </answer>
         </exercise>
         <exercise><!-- #3 -->
           <statement>
@@ -50,6 +60,11 @@
               Because the dimensions of matrix <m>A</m> are ____ <m>\times</m> ____, the dimensions of <m>A^T</m> are ____ <m>\times</m> ____.
             </p>
           </statement>
+          <answer>
+            <p>
+              Because the dimensions of matrix <m>A</m> are <m>2\times 4</m>, the dimensions of <m>A^T</m> are <m>4\times 2</m>.
+            </p>
+          </answer>
         </exercise>
         <exercise><!-- #4 -->
           <introduction>
@@ -116,7 +131,11 @@
             </statement>
           </task>
           </exercise>
-          
+          <answer>
+            <p>
+              <m>a_{23}=-3</m>, <m>c_{12}=2</m>
+            </p>
+          </answer>
         
     </paragraphs>
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
