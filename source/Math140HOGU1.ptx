@@ -24,15 +24,14 @@
     </p>
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
-      <exercise><!-- #1 -->
         <introduction>
           <p>
             Use the matrices, given below, to complete the following tasks.
             <md>A=\begin{bmatrix} 3 \amp -1 \amp 0 \amp 7\\ z \amp 4 \amp -3 \amp 10 \end{bmatrix},\ B=\begin{bmatrix} 1 \amp -1 \\ 0 \amp 3 \\ 2 \amp 8 \\ -4 \amp 5 \end{bmatrix},\ C=\begin{bmatrix} 1 \amp 2 \\ -1 \amp 0 \\ t \amp s \end{bmatrix}</md>
           </p>
         </introduction>
-        <task>
-          <statement workspace="0.75in">
+        <exercise><!-- #1 -->
+          <statement>
             <p>
               Matrix <m>C</m> has dimensions <m>3\times 2</m> because it has ____ rows and ____ columns.
             </p>
@@ -42,9 +41,9 @@
               Matrix <m>C</m> has dimensions <m>3\times 2</m> because it has <m>3</m> rows and <m>2</m> columns.
             </p>
           </answer>
-        </task>
-        <task>
-          <statement workspace="0.75in">
+        </exercise>
+        <exercise><!-- #2 -->
+          <statement>
             <p>
               The dimensions of matrix <m>B</m> are ____ <m>\times</m> ____ because it has ____ rows and ____ columns.
             </p>
@@ -54,9 +53,9 @@
               The dimensions of matrix <m>B</m> are <m>4\times 2</m> because it has <m>4</m> rows and <m>2</m> columns.
             </p>
           </answer>
-        </task>
-        <task>
-          <statement workspace="0.75in">
+        </exercise>
+        <exercise><!-- #3 -->
+          <statement>
             <p>
               Because the dimensions of matrix <m>A</m> are ____ <m>\times</m> ____, the dimensions of <m>A^T</m> are ____ <m>\times</m> ____.
             </p>
@@ -66,90 +65,92 @@
               Because the dimensions of matrix <m>A</m> are <m>2\times 4</m>, the dimensions of <m>A^T</m> are <m>4\times 2</m>.
             </p>
           </answer>
-        </task>
-        <task>
-          <statement workspace="0.75in">
+        </exercise>
+        <exercise><!-- #4 -->
+          <introduction>
             <p>
               Circle True or False for each of the following.
-              <ol>
-                <li>
-                  <p>
-                    <m>A+B</m> is a defined matrix.
-                  </p>
-                  <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
-                </li>
-                <li>
-                  <p>
-                    <m>AB</m> is a defined matrix.
-                  </p>
-                   <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
-                </li>
-                <li>
-                  <p>
-                    The dimensions of <m>BA</m> are <m>2\times 2</m>.
-                  </p>
-                   <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
-                </li>
-                <li>
-                  <p>
-                    <m>AB=BA</m>
-                  </p>
-                   <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
-                </li>
-                <li>
-                  <p>
-                    <m>A+B^T=B^T+A</m>
-                  </p>
-                   <p>True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False</p>
-                </li>
-              </ol>
             </p>
-          </statement>
+           </introduction> 
+           <task>
+            <statement>
+              <p>
+              <m>A+B</m> is a defined matrix. <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False
+              </p>
+            </statement>
+           </task>
+
+            <task>
+            <statement>
+              <p> 
+              The dimensions of <m>BA</m> are <m>2\times 2</m>. <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False
+              </p>
+            </statement>
+           </task>
+
+            <task>
+            <statement>
+              <p> 
+              <m>AB=BA</m> <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False
+              </p>
+            </statement>
+           </task>
+
+            <task>
+            <statement>
+              <p> 
+              <m>A+B^T=B^T+A</m> <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> True <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />    False
+              </p>
+            </statement>
+           </task>
           <answer>
             <p>
               False, True, False, False, True
             </p>
           </answer>
-        </task>
-        <task>
-          <statement>
+        </exercise>
+        
+        <exercise number="5"><!-- #5 -->
+          <introduction>
             <p>
-              State the value of each entry:
-              <ol>
-                <li>
-                  <p>
-                    <m>a_{23}=</m> ____
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <m>c_{12}=</m> ____
-                  </p>
-                </li>
-              </ol>
+              State the value of each matrix entry given below.
             </p>
-          </statement>
+          </introduction>
+          <task workspace=".025in">
+            <statement>
+              <p>
+              <m>a_{23}=</m> ____
+              </p>
+            </statement>
+          </task>
+          <task workspace=".025in">
+            <statement>
+              <p>
+                <m>c_{12}=</m> ____
+              </p>
+            </statement>
+          </task>
+          </exercise>
           <answer>
             <p>
               <m>a_{23}=-3</m>, <m>c_{12}=2</m>
             </p>
           </answer>
-        </task>
-      </exercise>
+        
     </paragraphs>
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Let Us Get Our Hands On</title>
       <exercise number="1"><!-- #1 -->
         <introduction>
           <p>
-            Given the matrices below, determine if the following computations are possible. 
+            Given the matrices below, determine if the following computations are possible. If the computations are possible, find the resulting matrix by hand (i.e., do the math without a calculator), then check your answer using a calculator. If the computation is not possible, then state why.
             <md>
               A=\begin{bmatrix} 2 \amp -1 \amp 4 \\ 0 \amp 3 \amp 5 \end{bmatrix},\ B=\begin{bmatrix} 1 \amp 2 \amp -3 \\ 4 \amp -1 \amp 0 \end{bmatrix},\ E=\begin{bmatrix} 1 \amp 2 \amp -3 \\ 6 \amp 0 \amp -4 \\ 7 \amp 18 \amp 12 \end{bmatrix},\ H=\begin{bmatrix} 1 \amp -2 \\ 0 \amp 4 \\ -2 \amp 3 \end{bmatrix}
             </md>
-            If the computations are possible, find the resulting matrix by hand (i.e., do the math without a calculator), then check your answer using a calculator. If the computation is not possible, then state why.
           </p>
         </introduction>
-        <task>
+
+        <task workspace="1in">
           <statement>
             <p>
               <m>A+2B</m>
@@ -161,7 +162,8 @@
             </p>
           </answer>
         </task>
-        <task>
+
+        <task workspace="1in">
           <statement>
             <p>
               <m>3A-H</m>
@@ -173,7 +175,8 @@
             </p>
           </answer>
         </task>
-        <task>
+
+        <task workspace="1in">
           <statement>
             <p>
               <m>4B-H^T</m>
@@ -185,7 +188,8 @@
             </p>
           </answer>
         </task>
-        <task>
+  
+        <task workspace="1in">
           <statement>
             <p>
               <m>2BH</m>
@@ -198,14 +202,14 @@
           </answer>
         </task>
       </exercise>
-      <exercise number="2"><!-- #2 -->
+
+      <exercise number="2" workspace="2.25in"><!-- #2 -->
           <statement>
             <p>
               Find a matrix <m>F</m> such that the following matrix equation is true.
               <md>
                 \begin{bmatrix} 1 \amp 2 \amp -3 \\ 6 \amp 0 \amp -4 \\ 7 \amp 18 \amp 12 \end{bmatrix} - F = \begin{bmatrix} 0 \amp -10 \amp 30 \\ 2 \amp 5 \amp -6 \\ 12 \amp -3 \amp 9 \end{bmatrix}
               </md>
-              
             </p>
           </statement>
           <answer>
@@ -214,7 +218,7 @@
             </p>
           </answer>
       </exercise>
-      <exercise number="3"><!-- #3 -->
+      <exercise number="3" workspace="2.25in"><!-- #3 -->
           <statement>
             <p>
               Find the values of <m>x</m> and <m>y</m> that make the matrix equation true.
@@ -232,13 +236,13 @@
       <exercise number="4"><!-- #4 -->
         <introduction>
           <p>
-            Given matrices <m>K = \begin{bmatrix} 1 \amp 2 \amp 3 \\ 4 \amp x \amp 6 \end{bmatrix}</m> and <m>L= \begin{bmatrix} y \amp 8 \amp 9 \\ 0 \amp 1 \amp 2 \end{bmatrix}</m>...
+            Given matrices <m>K = \begin{bmatrix} 1 \amp 2 \amp 3 \\ 4 \amp x \amp 6 \end{bmatrix}</m> and <m>L= \begin{bmatrix} y \amp 8 \amp 9 \\ 0 \amp 1 \amp 2 \end{bmatrix}</m> to answer the following.
           </p>
         </introduction>
-        <task>
+        <task workspace="1.75in">
           <statement>
             <p>
-              ...find <m>(K+L)^T</m>.
+              Find <m>(K+L)^T</m>.
             </p>
           </statement>
           <answer>
@@ -247,10 +251,10 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1.75in">
           <statement>
             <p>
-              ...find <m>K^T+L^T</m>.
+              Find <m>K^T+L^T</m>.
             </p>
           </statement>
           <answer>
@@ -259,10 +263,10 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1.75in">
           <statement>
             <p>
-              ...is <m>(K+L)^T=K^T+L^T</m>?
+              Determine whether <m>(K+L)^T=K^T+L^T</m>. Justify your answer.
             </p>
           </statement>
           <answer>
@@ -311,7 +315,7 @@
             </table>
           </p>
         </introduction>
-        <task>
+        <task workspace="1.75in">
           <statement>
             <p>
               Write a <m>3\times 4</m> matrix <m>A</m> to represent the prices of the four items in the three supermarkets.
@@ -323,7 +327,7 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1.75in">
           <statement>
             <p>
               For the first week, Laura plans to buy three <m>5</m>-lb bags of sugar, six <m>5</m>-lb bags of flour, four <m>1</m>-gal cartons of milk, and four <m>1</m>-dozen count cartons of eggs. Write a <m>4\times 1</m> matrix <m>B</m> to represent the quantities of each item that Laura plans to purchase for the first week.
@@ -335,7 +339,7 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1.25in">
           <statement>
             <p>
               For the second week, Laura plans to buy two <m>5</m>-lb bags of sugar, three <m>5</m>-lb bags of flour, five <m>1</m>-gal cartons of milk, and two <m>1</m>-dozen count cartons of eggs. Write a <m>4\times 1</m> matrix <m>C</m> to represent the quantities of each item that Laura plans to purchase for the second week.
@@ -347,7 +351,7 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1.25in">
           <statement>
             <p>
               Find <m>B+C</m> and interpret the meaning of the matrix.
@@ -359,7 +363,7 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1.25in">
           <statement>
             <p>
               If <m>T=A(B+C)</m>, what does matrix <m>T</m> mean?
@@ -371,7 +375,7 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1.25in">
           <statement>
             <p>
               Use your calculator to find matrix <m>T</m> and then determine which supermarket Laura should buy the items from to minimize the cost. (Assuming she only shops at one supermarket)
@@ -384,7 +388,7 @@
           </answer>
         </task>
         </exercise>
-      <exercise number="6"><!-- #6 -->
+      <exercise number="6" workspace="1.5in"><!-- #6 -->
           <statement>
             <p>
               Consider the matrices <m>G=\begin{bmatrix} x \amp 2 \\ 3 \amp y \end{bmatrix}</m> and <m>H=\begin{bmatrix} 1 \amp 0 \\ -1 \amp 4 \end{bmatrix}</m>.
@@ -414,7 +418,7 @@
             </md>
           </p>
         </introduction>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               If the prices of Products <m>A</m>, <m>B</m>, and <m>D</m> are <m>\$5</m>, <m>\$10</m>, and <m>\$8</m> respectively, create a <m>1\times 3</m> matrix <m>C</m> that represents the price of each product.
@@ -426,7 +430,7 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               Write an equation using matrices <m>S</m> and <m>C</m> that represents the revenue matrix <m>R</m>.
@@ -438,7 +442,7 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               Find the revenue matrix <m>R</m> and interpret the meaning of <m>r_{13}</m>.
@@ -455,12 +459,13 @@
           <statement>
             <p>
               Matrix 
-              <md>P = \begin{array}{r c}
+              <md> \begin{array}{r c}
                         \amp \begin{matrix} \text{Game } 1 \amp \text{Game } 2 \amp \text{Game } 3 \end{matrix} \\[3pt]
-                        \text{Price} \amp
+                        P = \text{ Price} \amp
                         \begin{bmatrix}
-                          \$20 \amp \$35 \amp \$50
+                        \$20  \ \ \  \amp  \ \ \   \$35  \ \ \  \amp  \ \ \   \$50  \ \ 
                         \end{bmatrix}
+                        
                       \end{array}</md>
               represents the prices for one faculty ticket to three different Aggie football games. Matrix 
               <md>F = \begin{array}{r c}
@@ -492,7 +497,7 @@
             Let <m>A</m>, <m>B</m>, and <m>C</m> be matrices such that <m>A</m> has dimensions <m>3\times 4</m> and <m>C</m> has dimensions <m>1\times 2</m>.
           </p>
         </introduction>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               Find the dimensions of the matrix <m>B</m> so that the product matrix <m>ABC</m> exists.
@@ -504,7 +509,7 @@
             </p>
           </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               What are the dimensions of the matrix <m>ABC</m>?
